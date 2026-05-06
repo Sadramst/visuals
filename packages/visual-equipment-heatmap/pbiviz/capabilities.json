@@ -1,0 +1,105 @@
+{
+  "dataRoles": [
+    {
+      "name": "equipmentId",
+      "kind": "Grouping",
+      "displayName": "Equipment ID",
+      "description": "Unique equipment identifier"
+    },
+    {
+      "name": "equipmentType",
+      "kind": "Grouping",
+      "displayName": "Equipment Type",
+      "description": "Equipment type category (optional)"
+    },
+    {
+      "name": "hour",
+      "kind": "Grouping",
+      "displayName": "Hour (0-23)",
+      "description": "Hour of day"
+    },
+    {
+      "name": "status",
+      "kind": "Grouping",
+      "displayName": "Status",
+      "description": "Equipment status"
+    },
+    {
+      "name": "duration",
+      "kind": "Measure",
+      "displayName": "Duration",
+      "description": "Duration in this status (0-1)",
+      "requiredTypes": [{ "numeric": true }]
+    },
+    {
+      "name": "oeePercent",
+      "kind": "Measure",
+      "displayName": "OEE %",
+      "description": "Overall Equipment Effectiveness percentage",
+      "requiredTypes": [{ "numeric": true }]
+    },
+    {
+      "name": "reasonCode",
+      "kind": "Grouping",
+      "displayName": "Reason Code",
+      "description": "Reason code for status (optional)"
+    }
+  ],
+  "dataViewMappings": [{
+    "categorical": {
+      "categories": {
+        "select": [
+          { "for": { "in": "equipmentId" } },
+          { "for": { "in": "equipmentType" } },
+          { "for": { "in": "hour" } },
+          { "for": { "in": "status" } },
+          { "for": { "in": "reasonCode" } }
+        ],
+        "dataReductionAlgorithm": { "top": { "count": 1000 } }
+      },
+      "values": {
+        "select": [
+          { "for": { "in": "duration" } },
+          { "for": { "in": "oeePercent" } }
+        ]
+      }
+    }
+  }],
+  "objects": {
+    "colours": {
+      "displayName": "Status Colours",
+      "properties": {
+        "operating": { "displayName": "Operating", "type": { "fill": { "solid": { "color": true } } } },
+        "standby": { "displayName": "Standby", "type": { "fill": { "solid": { "color": true } } } },
+        "unplannedDown": { "displayName": "Unplanned Down", "type": { "fill": { "solid": { "color": true } } } },
+        "maintenance": { "displayName": "Maintenance", "type": { "fill": { "solid": { "color": true } } } }
+      }
+    },
+    "cells": {
+      "displayName": "Cell Settings",
+      "properties": {
+        "size": { "displayName": "Cell Size", "type": { "numeric": true } },
+        "gap": { "displayName": "Cell Gap", "type": { "numeric": true } },
+        "radius": { "displayName": "Corner Radius", "type": { "numeric": true } }
+      }
+    },
+    "labels": {
+      "displayName": "Labels",
+      "properties": {
+        "showEquipmentLabels": { "displayName": "Show Equipment Labels", "type": { "bool": true } },
+        "showHourLabels": { "displayName": "Show Hour Labels", "type": { "bool": true } },
+        "showOEE": { "displayName": "Show OEE %", "type": { "bool": true } },
+        "fontSize": { "displayName": "Font Size", "type": { "numeric": true } }
+      }
+    },
+    "legend": {
+      "displayName": "Legend",
+      "properties": {
+        "show": { "displayName": "Show Legend", "type": { "bool": true } },
+        "position": { "displayName": "Position", "type": { "text": true } }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsHighlight": true
+}

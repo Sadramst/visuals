@@ -1,0 +1,193 @@
+EquipmentID,EquipmentType,Hour,Status,Duration,OEEPercent,ReasonCode
+D11-001,Dozer,0,Operating,1,85.5,
+D11-001,Dozer,1,Operating,1,85.5,
+D11-001,Dozer,2,Operating,1,85.5,
+D11-001,Dozer,3,Operating,1,85.5,
+D11-001,Dozer,4,Operating,1,85.5,
+D11-001,Dozer,5,Standby,1,85.5,CREW_CHANGE
+D11-001,Dozer,6,Operating,1,85.5,
+D11-001,Dozer,7,Operating,1,85.5,
+D11-001,Dozer,8,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,9,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,10,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,11,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,12,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,13,Breakdown,1,85.5,HYDRAULIC_FAULT
+D11-001,Dozer,14,Maintenance,1,85.5,REPAIR
+D11-001,Dozer,15,Maintenance,1,85.5,REPAIR
+D11-001,Dozer,16,Operating,1,85.5,
+D11-001,Dozer,17,Operating,1,85.5,
+D11-001,Dozer,18,Standby,1,85.5,SHIFT_END
+D11-001,Dozer,19,Operating,1,85.5,
+D11-001,Dozer,20,Operating,1,85.5,
+D11-001,Dozer,21,Operating,1,85.5,
+D11-001,Dozer,22,Operating,1,85.5,
+D11-001,Dozer,23,Operating,1,85.5,
+D11-002,Dozer,0,Operating,1,91.2,
+D11-002,Dozer,1,Operating,1,91.2,
+D11-002,Dozer,2,Operating,1,91.2,
+D11-002,Dozer,3,Operating,1,91.2,
+D11-002,Dozer,4,Operating,1,91.2,
+D11-002,Dozer,5,Operating,1,91.2,
+D11-002,Dozer,6,Maintenance,1,91.2,SCHEDULED_PM
+D11-002,Dozer,7,Maintenance,1,91.2,SCHEDULED_PM
+D11-002,Dozer,8,Operating,1,91.2,
+D11-002,Dozer,9,Operating,1,91.2,
+D11-002,Dozer,10,Operating,1,91.2,
+D11-002,Dozer,11,Operating,1,91.2,
+D11-002,Dozer,12,Standby,1,91.2,LUNCH
+D11-002,Dozer,13,Operating,1,91.2,
+D11-002,Dozer,14,Operating,1,91.2,
+D11-002,Dozer,15,Operating,1,91.2,
+D11-002,Dozer,16,Operating,1,91.2,
+D11-002,Dozer,17,Operating,1,91.2,
+D11-002,Dozer,18,Standby,1,91.2,SHIFT_END
+D11-002,Dozer,19,Operating,1,91.2,
+D11-002,Dozer,20,Operating,1,91.2,
+D11-002,Dozer,21,Operating,1,91.2,
+D11-002,Dozer,22,Operating,1,91.2,
+D11-002,Dozer,23,Operating,1,91.2,
+CAT793-001,Haul Truck,0,Operating,1,78.4,
+CAT793-001,Haul Truck,1,Operating,1,78.4,
+CAT793-001,Haul Truck,2,Operating,1,78.4,
+CAT793-001,Haul Truck,3,Standby,1,78.4,FUELING
+CAT793-001,Haul Truck,4,Operating,1,78.4,
+CAT793-001,Haul Truck,5,Operating,1,78.4,
+CAT793-001,Haul Truck,6,Operating,1,78.4,
+CAT793-001,Haul Truck,7,Operating,1,78.4,
+CAT793-001,Haul Truck,8,Operating,1,78.4,
+CAT793-001,Haul Truck,9,Operating,1,78.4,
+CAT793-001,Haul Truck,10,Breakdown,1,78.4,TYRE_FLAT
+CAT793-001,Haul Truck,11,Breakdown,1,78.4,TYRE_FLAT
+CAT793-001,Haul Truck,12,Maintenance,1,78.4,TYRE_CHANGE
+CAT793-001,Haul Truck,13,Maintenance,1,78.4,TYRE_CHANGE
+CAT793-001,Haul Truck,14,Operating,1,78.4,
+CAT793-001,Haul Truck,15,Operating,1,78.4,
+CAT793-001,Haul Truck,16,Operating,1,78.4,
+CAT793-001,Haul Truck,17,Operating,1,78.4,
+CAT793-001,Haul Truck,18,Standby,1,78.4,SHIFT_END
+CAT793-001,Haul Truck,19,Operating,1,78.4,
+CAT793-001,Haul Truck,20,Operating,1,78.4,
+CAT793-001,Haul Truck,21,Operating,1,78.4,
+CAT793-001,Haul Truck,22,Operating,1,78.4,
+CAT793-001,Haul Truck,23,Operating,1,78.4,
+CAT793-002,Haul Truck,0,Operating,1,82.1,
+CAT793-002,Haul Truck,1,Operating,1,82.1,
+CAT793-002,Haul Truck,2,Operating,1,82.1,
+CAT793-002,Haul Truck,3,Operating,1,82.1,
+CAT793-002,Haul Truck,4,Operating,1,82.1,
+CAT793-002,Haul Truck,5,Operating,1,82.1,
+CAT793-002,Haul Truck,6,Operating,1,82.1,
+CAT793-002,Haul Truck,7,Operating,1,82.1,
+CAT793-002,Haul Truck,8,Operating,1,82.1,
+CAT793-002,Haul Truck,9,Operating,1,82.1,
+CAT793-002,Haul Truck,10,Operating,1,82.1,
+CAT793-002,Haul Truck,11,Operating,1,82.1,
+CAT793-002,Haul Truck,12,Standby,1,82.1,LUNCH
+CAT793-002,Haul Truck,13,Operating,1,82.1,
+CAT793-002,Haul Truck,14,Operating,1,82.1,
+CAT793-002,Haul Truck,15,Operating,1,82.1,
+CAT793-002,Haul Truck,16,Operating,1,82.1,
+CAT793-002,Haul Truck,17,Operating,1,82.1,
+CAT793-002,Haul Truck,18,Standby,1,82.1,SHIFT_END
+CAT793-002,Haul Truck,19,Operating,1,82.1,
+CAT793-002,Haul Truck,20,Operating,1,82.1,
+CAT793-002,Haul Truck,21,Operating,1,82.1,
+CAT793-002,Haul Truck,22,Operating,1,82.1,
+CAT793-002,Haul Truck,23,Operating,1,82.1,
+EX5600-001,Excavator,0,Operating,1,88.7,
+EX5600-001,Excavator,1,Operating,1,88.7,
+EX5600-001,Excavator,2,Operating,1,88.7,
+EX5600-001,Excavator,3,Operating,1,88.7,
+EX5600-001,Excavator,4,Standby,1,88.7,NO_TRUCKS
+EX5600-001,Excavator,5,Operating,1,88.7,
+EX5600-001,Excavator,6,Operating,1,88.7,
+EX5600-001,Excavator,7,Operating,1,88.7,
+EX5600-001,Excavator,8,Operating,1,88.7,
+EX5600-001,Excavator,9,Operating,1,88.7,
+EX5600-001,Excavator,10,Operating,1,88.7,
+EX5600-001,Excavator,11,Operating,1,88.7,
+EX5600-001,Excavator,12,Standby,1,88.7,LUNCH
+EX5600-001,Excavator,13,Operating,1,88.7,
+EX5600-001,Excavator,14,Operating,1,88.7,
+EX5600-001,Excavator,15,Operating,1,88.7,
+EX5600-001,Excavator,16,Operating,1,88.7,
+EX5600-001,Excavator,17,Operating,1,88.7,
+EX5600-001,Excavator,18,Standby,1,88.7,SHIFT_END
+EX5600-001,Excavator,19,Operating,1,88.7,
+EX5600-001,Excavator,20,Operating,1,88.7,
+EX5600-001,Excavator,21,Operating,1,88.7,
+EX5600-001,Excavator,22,Operating,1,88.7,
+EX5600-001,Excavator,23,Operating,1,88.7,
+EX5600-002,Excavator,0,Operating,1,76.3,
+EX5600-002,Excavator,1,Operating,1,76.3,
+EX5600-002,Excavator,2,Breakdown,1,76.3,ENGINE_FAULT
+EX5600-002,Excavator,3,Breakdown,1,76.3,ENGINE_FAULT
+EX5600-002,Excavator,4,Breakdown,1,76.3,ENGINE_FAULT
+EX5600-002,Excavator,5,Maintenance,1,76.3,REPAIR
+EX5600-002,Excavator,6,Maintenance,1,76.3,REPAIR
+EX5600-002,Excavator,7,Operating,1,76.3,
+EX5600-002,Excavator,8,Operating,1,76.3,
+EX5600-002,Excavator,9,Operating,1,76.3,
+EX5600-002,Excavator,10,Operating,1,76.3,
+EX5600-002,Excavator,11,Operating,1,76.3,
+EX5600-002,Excavator,12,Standby,1,76.3,LUNCH
+EX5600-002,Excavator,13,Operating,1,76.3,
+EX5600-002,Excavator,14,Operating,1,76.3,
+EX5600-002,Excavator,15,Operating,1,76.3,
+EX5600-002,Excavator,16,Operating,1,76.3,
+EX5600-002,Excavator,17,Standby,1,76.3,NO_TRUCKS
+EX5600-002,Excavator,18,Standby,1,76.3,SHIFT_END
+EX5600-002,Excavator,19,Operating,1,76.3,
+EX5600-002,Excavator,20,Operating,1,76.3,
+EX5600-002,Excavator,21,Operating,1,76.3,
+EX5600-002,Excavator,22,Operating,1,76.3,
+EX5600-002,Excavator,23,Operating,1,76.3,
+DR24-001,Drill Rig,0,Operating,1,72.5,
+DR24-001,Drill Rig,1,Operating,1,72.5,
+DR24-001,Drill Rig,2,Operating,1,72.5,
+DR24-001,Drill Rig,3,Operating,1,72.5,
+DR24-001,Drill Rig,4,Operating,1,72.5,
+DR24-001,Drill Rig,5,Standby,1,72.5,RELOCATION
+DR24-001,Drill Rig,6,Standby,1,72.5,RELOCATION
+DR24-001,Drill Rig,7,Operating,1,72.5,
+DR24-001,Drill Rig,8,Operating,1,72.5,
+DR24-001,Drill Rig,9,Operating,1,72.5,
+DR24-001,Drill Rig,10,Operating,1,72.5,
+DR24-001,Drill Rig,11,Operating,1,72.5,
+DR24-001,Drill Rig,12,Standby,1,72.5,LUNCH
+DR24-001,Drill Rig,13,Operating,1,72.5,
+DR24-001,Drill Rig,14,Operating,1,72.5,
+DR24-001,Drill Rig,15,Operating,1,72.5,
+DR24-001,Drill Rig,16,Operating,1,72.5,
+DR24-001,Drill Rig,17,Operating,1,72.5,
+DR24-001,Drill Rig,18,Standby,1,72.5,SHIFT_END
+DR24-001,Drill Rig,19,Operating,1,72.5,
+DR24-001,Drill Rig,20,Operating,1,72.5,
+DR24-001,Drill Rig,21,Operating,1,72.5,
+DR24-001,Drill Rig,22,Operating,1,72.5,
+DR24-001,Drill Rig,23,Operating,1,72.5,
+GD16-001,Grader,0,Operating,1,89.2,
+GD16-001,Grader,1,Operating,1,89.2,
+GD16-001,Grader,2,Operating,1,89.2,
+GD16-001,Grader,3,Operating,1,89.2,
+GD16-001,Grader,4,Operating,1,89.2,
+GD16-001,Grader,5,Operating,1,89.2,
+GD16-001,Grader,6,Operating,1,89.2,
+GD16-001,Grader,7,Operating,1,89.2,
+GD16-001,Grader,8,Operating,1,89.2,
+GD16-001,Grader,9,Operating,1,89.2,
+GD16-001,Grader,10,Operating,1,89.2,
+GD16-001,Grader,11,Operating,1,89.2,
+GD16-001,Grader,12,Standby,1,89.2,LUNCH
+GD16-001,Grader,13,Operating,1,89.2,
+GD16-001,Grader,14,Operating,1,89.2,
+GD16-001,Grader,15,Operating,1,89.2,
+GD16-001,Grader,16,Operating,1,89.2,
+GD16-001,Grader,17,Operating,1,89.2,
+GD16-001,Grader,18,Standby,1,89.2,SHIFT_END
+GD16-001,Grader,19,Operating,1,89.2,
+GD16-001,Grader,20,Operating,1,89.2,
+GD16-001,Grader,21,Operating,1,89.2,
+GD16-001,Grader,22,Operating,1,89.2,
+GD16-001,Grader,23,Operating,1,89.2,

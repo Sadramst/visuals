@@ -1,0 +1,22 @@
+{
+  "name": "@appilico/visual-production-gantt",
+  "version": "1.0.0",
+  "description": "Mine Production Gantt Chart - Power BI Custom Visual & React Component",
+  "scripts": {
+    "build": "cd react && tsc",
+    "test": "echo 'No tests yet'",
+    "lint": "echo 'No lint yet'",
+    "build:pbiviz": "cd pbiviz && pbiviz package",
+    "build:react": "cd react && tsc"
+  },
+  "dependencies": {
+    "@appilico/shared-types": "*",
+    "@appilico/shared-ui": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

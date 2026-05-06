@@ -1,0 +1,85 @@
+{
+  "dataRoles": [
+    {
+      "name": "kpiName",
+      "displayName": "KPI Name",
+      "kind": "Grouping"
+    },
+    {
+      "name": "currentValue",
+      "displayName": "Current Value",
+      "kind": "Measure"
+    },
+    {
+      "name": "targetValue",
+      "displayName": "Target Value",
+      "kind": "Measure"
+    },
+    {
+      "name": "previousValue",
+      "displayName": "Previous Value",
+      "kind": "Measure"
+    },
+    {
+      "name": "isLeading",
+      "displayName": "Is Leading Indicator",
+      "kind": "Measure"
+    },
+    {
+      "name": "unit",
+      "displayName": "Unit",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": { "in": "kpiName" },
+          "dataReductionAlgorithm": { "top": { "count": 50 } }
+        },
+        "values": {
+          "select": [
+            { "bind": { "to": "currentValue" } },
+            { "bind": { "to": "targetValue" } },
+            { "bind": { "to": "previousValue" } },
+            { "bind": { "to": "isLeading" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "columns": {
+          "displayName": "Columns",
+          "type": { "numeric": true }
+        },
+        "showSparkline": {
+          "displayName": "Show Sparkline",
+          "type": { "bool": true }
+        }
+      }
+    },
+    "colors": {
+      "displayName": "Colors",
+      "properties": {
+        "good": {
+          "displayName": "Good",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "warning": {
+          "displayName": "Warning",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "bad": {
+          "displayName": "Bad",
+          "type": { "fill": { "solid": { "color": true } } }
+        }
+      }
+    }
+  },
+  "privileges": []
+}

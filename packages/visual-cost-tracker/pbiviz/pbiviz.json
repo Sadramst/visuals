@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "costTracker",
+    "displayName": "Cost Tracker",
+    "guid": "appilicoCostTracker",
+    "visualClassName": "CostTrackerVisual",
+    "version": "1.0.0.0",
+    "description": "Cost tracking dashboard with budget vs actual and anomaly detection",
+    "supportUrl": "https://www.appilico.com/support",
+    "gitHubUrl": "https://github.com/appilico/appilico-visuals"
+  },
+  "apiVersion": "5.8.0",
+  "author": {
+    "name": "Appilico",
+    "email": "support@appilico.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

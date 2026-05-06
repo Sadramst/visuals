@@ -1,0 +1,83 @@
+{
+  "dataRoles": [
+    {
+      "name": "month",
+      "displayName": "Month",
+      "kind": "Grouping"
+    },
+    {
+      "name": "actualAmount",
+      "displayName": "Actual Amount",
+      "kind": "Measure"
+    },
+    {
+      "name": "budgetAmount",
+      "displayName": "Budget Amount",
+      "kind": "Measure"
+    },
+    {
+      "name": "costPerTonne",
+      "displayName": "Cost per Tonne",
+      "kind": "Measure"
+    },
+    {
+      "name": "category",
+      "displayName": "Category",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": { "in": "month" },
+          "dataReductionAlgorithm": { "top": { "count": 100 } }
+        },
+        "values": {
+          "select": [
+            { "bind": { "to": "actualAmount" } },
+            { "bind": { "to": "budgetAmount" } },
+            { "bind": { "to": "costPerTonne" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "showCumulative": {
+          "displayName": "Show Cumulative",
+          "type": { "bool": true }
+        },
+        "showAnomalies": {
+          "displayName": "Show Anomalies",
+          "type": { "bool": true }
+        },
+        "anomalyThreshold": {
+          "displayName": "Anomaly Threshold (%)",
+          "type": { "numeric": true }
+        }
+      }
+    },
+    "colors": {
+      "displayName": "Colors",
+      "properties": {
+        "actual": {
+          "displayName": "Actual",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "budget": {
+          "displayName": "Budget",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "overBudget": {
+          "displayName": "Over Budget",
+          "type": { "fill": { "solid": { "color": true } } }
+        }
+      }
+    }
+  },
+  "privileges": []
+}

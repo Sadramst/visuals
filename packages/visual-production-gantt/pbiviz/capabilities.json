@@ -1,0 +1,174 @@
+{
+  "dataRoles": [
+    {
+      "name": "date",
+      "kind": "Grouping",
+      "displayName": "Shift Date",
+      "displayNameKey": "Visual_Date",
+      "description": "Date of the shift"
+    },
+    {
+      "name": "shift",
+      "kind": "Grouping",
+      "displayName": "Shift (AM/PM/Night)",
+      "displayNameKey": "Visual_Shift",
+      "description": "Shift type: AM, PM, or Night"
+    },
+    {
+      "name": "actualTonnes",
+      "kind": "Measure",
+      "displayName": "Actual Tonnes",
+      "displayNameKey": "Visual_ActualTonnes",
+      "description": "Actual tonnes moved during the shift",
+      "requiredTypes": [{ "numeric": true }]
+    },
+    {
+      "name": "targetTonnes",
+      "kind": "Measure",
+      "displayName": "Target Tonnes",
+      "displayNameKey": "Visual_TargetTonnes",
+      "description": "Target tonnes for the shift (optional)",
+      "requiredTypes": [{ "numeric": true }]
+    },
+    {
+      "name": "crewName",
+      "kind": "Grouping",
+      "displayName": "Crew Name",
+      "displayNameKey": "Visual_CrewName",
+      "description": "Name of the crew working the shift (optional)"
+    },
+    {
+      "name": "equipmentCount",
+      "kind": "Measure",
+      "displayName": "Equipment Count",
+      "displayNameKey": "Visual_EquipmentCount",
+      "description": "Number of equipment units deployed (optional)",
+      "requiredTypes": [{ "numeric": true }]
+    },
+    {
+      "name": "location",
+      "kind": "Grouping",
+      "displayName": "Location/Pit",
+      "displayNameKey": "Visual_Location",
+      "description": "Location or pit name (optional)"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "select": [
+            { "for": { "in": "date" } },
+            { "for": { "in": "shift" } },
+            { "for": { "in": "crewName" } },
+            { "for": { "in": "location" } }
+          ],
+          "dataReductionAlgorithm": { "top": { "count": 1000 } }
+        },
+        "values": {
+          "select": [
+            { "for": { "in": "actualTonnes" } },
+            { "for": { "in": "targetTonnes" } },
+            { "for": { "in": "equipmentCount" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "displayNameKey": "Visual_General",
+      "properties": {
+        "showTarget": {
+          "displayName": "Show Target Line",
+          "displayNameKey": "Visual_ShowTarget",
+          "type": { "bool": true }
+        },
+        "showLegend": {
+          "displayName": "Show Legend",
+          "displayNameKey": "Visual_ShowLegend",
+          "type": { "bool": true }
+        }
+      }
+    },
+    "colours": {
+      "displayName": "Colours",
+      "displayNameKey": "Visual_Colours",
+      "properties": {
+        "aboveTarget": {
+          "displayName": "Above Target",
+          "displayNameKey": "Visual_AboveTarget",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "nearTarget": {
+          "displayName": "Near Target",
+          "displayNameKey": "Visual_NearTarget",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "belowTarget": {
+          "displayName": "Below Target",
+          "displayNameKey": "Visual_BelowTarget",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "targetLine": {
+          "displayName": "Target Line",
+          "displayNameKey": "Visual_TargetLine",
+          "type": { "fill": { "solid": { "color": true } } }
+        }
+      }
+    },
+    "labels": {
+      "displayName": "Data Labels",
+      "displayNameKey": "Visual_Labels",
+      "properties": {
+        "showDataLabels": {
+          "displayName": "Show Data Labels",
+          "displayNameKey": "Visual_ShowDataLabels",
+          "type": { "bool": true }
+        },
+        "showVariance": {
+          "displayName": "Show Variance",
+          "displayNameKey": "Visual_ShowVariance",
+          "type": { "bool": true }
+        },
+        "fontSize": {
+          "displayName": "Font Size",
+          "displayNameKey": "Visual_FontSize",
+          "type": { "numeric": true }
+        }
+      }
+    },
+    "axis": {
+      "displayName": "Axis",
+      "displayNameKey": "Visual_Axis",
+      "properties": {
+        "showXAxis": {
+          "displayName": "Show X Axis",
+          "displayNameKey": "Visual_ShowXAxis",
+          "type": { "bool": true }
+        },
+        "showYAxis": {
+          "displayName": "Show Y Axis",
+          "displayNameKey": "Visual_ShowYAxis",
+          "type": { "bool": true }
+        },
+        "yLabel": {
+          "displayName": "Y Axis Label",
+          "displayNameKey": "Visual_YLabel",
+          "type": { "text": true }
+        },
+        "showGridLines": {
+          "displayName": "Show Grid Lines",
+          "displayNameKey": "Visual_ShowGridLines",
+          "type": { "bool": true }
+        }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsHighlight": true,
+  "sorting": {
+    "default": {}
+  }
+}

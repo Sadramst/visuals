@@ -1,0 +1,75 @@
+{
+  "dataRoles": [
+    {
+      "name": "stageName",
+      "displayName": "Stage Name",
+      "kind": "Grouping"
+    },
+    {
+      "name": "actualGrade",
+      "displayName": "Actual Grade",
+      "kind": "Measure"
+    },
+    {
+      "name": "targetGrade",
+      "displayName": "Target Grade",
+      "kind": "Measure"
+    },
+    {
+      "name": "stageOrder",
+      "displayName": "Stage Order",
+      "kind": "Measure"
+    },
+    {
+      "name": "material",
+      "displayName": "Material",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": { "in": "stageName" },
+          "dataReductionAlgorithm": { "top": { "count": 20 } }
+        },
+        "values": {
+          "select": [
+            { "bind": { "to": "actualGrade" } },
+            { "bind": { "to": "targetGrade" } },
+            { "bind": { "to": "stageOrder" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "general": {
+      "displayName": "General",
+      "properties": {
+        "showTarget": {
+          "displayName": "Show Target Line",
+          "type": { "bool": true }
+        },
+        "showVariance": {
+          "displayName": "Show Variance",
+          "type": { "bool": true }
+        }
+      }
+    },
+    "colors": {
+      "displayName": "Colors",
+      "properties": {
+        "positive": {
+          "displayName": "Above Target",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "negative": {
+          "displayName": "Below Target",
+          "type": { "fill": { "solid": { "color": true } } }
+        }
+      }
+    }
+  },
+  "privileges": []
+}

@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "safetyKPI",
+    "displayName": "Safety KPI Dashboard",
+    "guid": "appilicoSafetyKPI",
+    "visualClassName": "SafetyKPIVisual",
+    "version": "1.0.0.0",
+    "description": "Safety KPI dashboard with leading and lagging indicators",
+    "supportUrl": "https://www.appilico.com/support",
+    "gitHubUrl": "https://github.com/appilico/appilico-visuals"
+  },
+  "apiVersion": "5.8.0",
+  "author": {
+    "name": "Appilico",
+    "email": "support@appilico.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

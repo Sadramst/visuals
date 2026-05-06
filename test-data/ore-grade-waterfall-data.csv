@@ -1,0 +1,18 @@
+StageName,ActualGrade,TargetGrade,StageOrder,Material
+In-Situ Ore,58.5,60.0,1,Iron Ore
+ROM Stockpile,57.8,59.0,2,Iron Ore
+Primary Crushing,57.2,58.5,3,Iron Ore
+Secondary Crushing,56.8,58.0,4,Iron Ore
+Screening,56.4,57.5,5,Iron Ore
+Final Product,56.1,57.0,6,Iron Ore
+In-Situ Ore,1.45,1.50,1,Copper
+ROM Stockpile,1.42,1.48,2,Copper
+Primary Crushing,1.38,1.45,3,Copper
+Flotation,1.35,1.42,4,Copper
+Concentrate,25.5,26.0,5,Copper
+In-Situ Ore,2.8,3.0,1,Gold (g/t)
+ROM Stockpile,2.75,2.95,2,Gold (g/t)
+Crushing,2.68,2.90,3,Gold (g/t)
+Grinding,2.62,2.85,4,Gold (g/t)
+Leaching,2.55,2.80,5,Gold (g/t)
+Recovery,2.48,2.70,6,Gold (g/t)
