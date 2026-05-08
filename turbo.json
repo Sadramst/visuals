@@ -4,19 +4,23 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"],
-      "outputLogs": "errors-only"
+      "outputLogs": "errors-only",
+      "cache": true
     },
     "test": {
       "dependsOn": ["build"],
-      "outputs": ["coverage/**"]
+      "outputs": ["coverage/**"],
+      "cache": true
     },
     "lint": {
       "dependsOn": ["^build"],
-      "outputs": []
+      "outputs": [],
+      "cache": true
     },
     "typecheck": {
       "dependsOn": ["^build"],
-      "outputs": []
+      "outputs": [],
+      "cache": true
     },
     "dev": {
       "cache": false,
@@ -25,5 +29,6 @@
     "clean": {
       "cache": false
     }
-  }
+  },
+  "globalDependencies": ["**/package.json", "**/tsconfig.json"]
 }
