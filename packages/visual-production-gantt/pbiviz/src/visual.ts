@@ -378,27 +378,36 @@ export class MineProductionGanttVisual implements IVisual {
 
     const labelsGroup = this.mainGroup.append('g').classed('data-labels', true)
     const barWidth = xScale.bandwidth()
-    // Only show labels on reasonably wide bars to avoid overlap
-    const minBarWidthForLabels = 60
+    const minBarWidthForLabels = 50
 
+    // Group data by shift label to avoid duplicate labels
+    const labelMap = new Map<string, number>()
     this.data.points.forEach(d => {
-      const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
-      const y = yScale(d.actualTonnes) - 40  // Position well above bar
+      if (!labelMap.has(d.shiftLabel)) {
+        labelMap.set(d.shiftLabel, d.actualTonnes)
+      }
+    })
 
-      // Only show labels if bars are wide enough
+    // Render one label per unique shift
+    labelMap.forEach((value, label) => {
+      const idx = this.data!.points.findIndex(p => p.shiftLabel === label)
+      if (idx < 0) return
+
+      const d = this.data!.points[idx]
+      const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
+      const y = yScale(d.actualTonnes) - 35
+
       if (barWidth < minBarWidthForLabels) return
 
-      // Main value label - positioned cleanly above bar
       labelsGroup.append('text')
         .attr('x', x)
         .attr('y', y)
         .attr('text-anchor', 'middle')
-        .attr('dy', '-0.5em')
-        .attr('font-size', '13px')
+        .attr('font-size', '14px')
         .attr('font-weight', '700')
         .attr('fill', '#00B050')
         .attr('pointer-events', 'none')
-        .text(`${(d.actualTonnes / 1000).toFixed(1)}kt`)
+        .text(`${(value / 1000).toFixed(1)}kt`)
     })
   }
 

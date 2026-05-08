@@ -128,24 +128,25 @@ export class OreGradeWaterfallVisual implements IVisual {
     // Background
     header.append('rect')
       .attr('width', width)
-      .attr('height', 28)
-      .attr('fill', '#1F3864')
+      .attr('height', 32)
+      .attr('fill', '#0F2847')
 
-    // Appilico branding - larger and more prominent
+    // Logo - BOLD and PROMINENT
     header.append('text')
-      .attr('x', 12)
-      .attr('y', 18)
-      .attr('font-size', '15px')
+      .attr('x', 10)
+      .attr('y', 22)
+      .attr('font-size', '18px')
       .attr('font-weight', '900')
+      .attr('letter-spacing', '2')
       .attr('fill', '#00D4FF')
-      .text('◆ APPILICO')
+      .text('★ APPILICO')
 
-    // Title with divider
+    // Title
     header.append('text')
-      .attr('x', 125)
-      .attr('y', 18)
-      .attr('font-size', '13px')
-      .attr('font-weight', '600')
+      .attr('x', 160)
+      .attr('y', 22)
+      .attr('font-size', '15px')
+      .attr('font-weight', '700')
       .attr('fill', '#FFFFFF')
       .text('Ore Grade Evolution')
   }
