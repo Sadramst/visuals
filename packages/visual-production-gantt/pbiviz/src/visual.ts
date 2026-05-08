@@ -400,7 +400,6 @@ export class MineProductionGanttVisual implements IVisual {
         .text(`${(d.actualTonnes / 1000).toFixed(1)}kt`)
     })
   }
-  }
 
   private renderXAxis(
     xScale: d3.ScaleBand<string>,
