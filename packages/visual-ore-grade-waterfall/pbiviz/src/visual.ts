@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings'
-import { GradeStageData, VisualViewModel } from './types'
+import { VisualSettings } from './settings.js'
+import { GradeStageData, VisualViewModel } from './types.js'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -197,14 +197,15 @@ export class OreGradeWaterfallVisual implements IVisual {
       .enter()
       .append('rect')
       .classed('bar', true)
-      .attr('x', d => xScale(d.name)!)
-      .attr('y', d => yScale(d.actualGrade))
+      .attr('x', d => xScale((d as GradeStageData).name)!)
+      .attr('y', d => yScale((d as GradeStageData).actualGrade))
       .attr('width', xScale.bandwidth())
-      .attr('height', d => height - yScale(d.actualGrade))
+      .attr('height', d => height - yScale((d as GradeStageData).actualGrade))
       .attr('rx', 4)
       .attr('fill', d => {
-        if (d.targetGrade === undefined) return viewModel.settings.colors.neutral
-        return d.actualGrade >= d.targetGrade 
+        const stage = d as GradeStageData
+        if (stage.targetGrade === undefined) return viewModel.settings.colors.neutral
+        return stage.actualGrade >= stage.targetGrade 
           ? viewModel.settings.colors.positive 
           : viewModel.settings.colors.negative
       })
@@ -215,12 +216,12 @@ export class OreGradeWaterfallVisual implements IVisual {
       .enter()
       .append('text')
       .classed('value-label', true)
-      .attr('x', d => xScale(d.name)! + xScale.bandwidth() / 2)
-      .attr('y', d => yScale(d.actualGrade) - 5)
+      .attr('x', d => xScale((d as GradeStageData).name)! + xScale.bandwidth() / 2)
+      .attr('y', d => yScale((d as GradeStageData).actualGrade) - 5)
       .attr('text-anchor', 'middle')
       .style('font-size', '10px')
       .style('font-weight', '600')
-      .text(d => `${d.actualGrade.toFixed(2)}%`)
+      .text(d => `${(d as GradeStageData).actualGrade.toFixed(2)}%`)
 
     // Target line
     if (viewModel.settings.general.showTarget) {
@@ -245,12 +246,12 @@ export class OreGradeWaterfallVisual implements IVisual {
         .enter()
         .append('text')
         .classed('variance-label', true)
-        .attr('x', d => xScale(d.name)! + xScale.bandwidth() / 2)
-        .attr('y', d => yScale(d.actualGrade) - 18)
+        .attr('x', d => xScale((d as GradeStageData).name)! + xScale.bandwidth() / 2)
+        .attr('y', d => yScale((d as GradeStageData).actualGrade) - 18)
         .attr('text-anchor', 'middle')
         .style('font-size', '9px')
-        .style('fill', d => (d.variance ?? 0) >= 0 ? viewModel.settings.colors.positive : viewModel.settings.colors.negative)
-        .text(d => `${(d.variance ?? 0) >= 0 ? '+' : ''}${(d.variance ?? 0).toFixed(1)}%`)
+        .style('fill', d => ((d as GradeStageData).variance ?? 0) >= 0 ? viewModel.settings.colors.positive : viewModel.settings.colors.negative)
+        .text(d => `${((d as GradeStageData).variance ?? 0) >= 0 ? '+' : ''}${((d as GradeStageData).variance ?? 0).toFixed(1)}%`)
     }
   }
 

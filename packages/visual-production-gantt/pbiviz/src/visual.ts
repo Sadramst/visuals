@@ -15,8 +15,8 @@ import DataViewCategorical = powerbi.DataViewCategorical
 import VisualTooltipDataItem = powerbi.extensibility.VisualTooltipDataItem
 import ITooltipService = powerbi.extensibility.ITooltipService
 
-import { VisualSettings } from './settings'
-import { ParsedData, ParsedShiftDataPoint, Margins, BarColourType } from './types'
+import { VisualSettings } from './settings.js'
+import { ParsedData, ParsedShiftDataPoint, Margins, BarColourType } from './types.js'
 
 export class MineProductionGanttVisual implements IVisual {
   private host: IVisualHost
@@ -304,17 +304,17 @@ export class MineProductionGanttVisual implements IVisual {
       .enter()
       .append('rect')
       .attr('class', 'bar')
-      .attr('x', d => xScale(d.shiftLabel) || 0)
-      .attr('y', d => yScale(d.actualTonnes))
+      .attr('x', d => xScale((d as ParsedShiftDataPoint).shiftLabel) || 0)
+      .attr('y', d => yScale((d as ParsedShiftDataPoint).actualTonnes))
       .attr('width', barWidth)
-      .attr('height', d => height - yScale(d.actualTonnes))
-      .attr('fill', d => d.colour)
+      .attr('height', d => height - yScale((d as ParsedShiftDataPoint).actualTonnes))
+      .attr('fill', d => (d as ParsedShiftDataPoint).colour)
       .attr('rx', 3)
       .attr('ry', 3)
       .attr('cursor', 'pointer')
       .on('click', (event, d) => {
         const multiSelect = event.ctrlKey || event.metaKey
-        this.selectionManager.select(d.selectionId, multiSelect).then(ids => {
+        this.selectionManager.select((d as ParsedShiftDataPoint).selectionId, multiSelect).then(ids => {
           this.updateBarOpacity(ids as powerbi.visuals.ISelectionId[])
         })
       })

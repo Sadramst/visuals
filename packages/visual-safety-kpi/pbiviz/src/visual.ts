@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings'
-import { SafetyKPIData, KPIStatus, VisualViewModel } from './types'
+import { VisualSettings } from './settings.js'
+import { SafetyKPIData, KPIStatus, VisualViewModel } from './types.js'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions

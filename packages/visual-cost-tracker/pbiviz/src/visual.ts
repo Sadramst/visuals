@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings'
-import { CostDataPoint, VisualViewModel } from './types'
+import { VisualSettings } from './settings.js'
+import { CostDataPoint, VisualViewModel } from './types.js'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -239,16 +239,17 @@ export class CostTrackerVisual implements IVisual {
       .enter()
       .append('rect')
       .classed('bar', true)
-      .attr('x', d => xScale(d.month)!)
-      .attr('y', d => yScale(d.actualAmount))
+      .attr('x', d => xScale((d as CostDataPoint).month)!)
+      .attr('y', d => yScale((d as CostDataPoint).actualAmount))
       .attr('width', xScale.bandwidth())
-      .attr('height', d => height - yScale(d.actualAmount))
+      .attr('height', d => height - yScale((d as CostDataPoint).actualAmount))
       .attr('rx', 4)
       .attr('fill', d => {
-        if (d.isAnomaly && d.variancePercent && d.variancePercent > 0) {
+        const point = d as CostDataPoint
+        if (point.isAnomaly && point.variancePercent && point.variancePercent > 0) {
           return viewModel.settings.colors.overBudget
         }
-        if (d.variancePercent && d.variancePercent < -this.settings.general.anomalyThreshold) {
+        if (point.variancePercent && point.variancePercent < -this.settings.general.anomalyThreshold) {
           return viewModel.settings.colors.underBudget
         }
         return viewModel.settings.colors.actual
@@ -270,24 +271,24 @@ export class CostTrackerVisual implements IVisual {
 
     // Budget dots
     this.container.selectAll('.budget-dot')
-      .data(dataPoints.filter(d => d.budgetAmount !== undefined))
+      .data(dataPoints.filter(d => (d as CostDataPoint).budgetAmount !== undefined))
       .enter()
       .append('circle')
       .classed('budget-dot', true)
-      .attr('cx', d => xScale(d.month)! + xScale.bandwidth() / 2)
-      .attr('cy', d => yScale(d.budgetAmount!))
+      .attr('cx', d => xScale((d as CostDataPoint).month)! + xScale.bandwidth() / 2)
+      .attr('cy', d => yScale((d as CostDataPoint).budgetAmount!))
       .attr('r', 4)
       .attr('fill', viewModel.settings.colors.budget)
 
     // Anomaly markers
     if (viewModel.settings.general.showAnomalies) {
       this.container.selectAll('.anomaly-marker')
-        .data(dataPoints.filter(d => d.isAnomaly))
+        .data(dataPoints.filter(d => (d as CostDataPoint).isAnomaly))
         .enter()
         .append('text')
         .classed('anomaly-marker', true)
-        .attr('x', d => xScale(d.month)! + xScale.bandwidth() / 2)
-        .attr('y', d => yScale(d.actualAmount) - 8)
+        .attr('x', d => xScale((d as CostDataPoint).month)! + xScale.bandwidth() / 2)
+        .attr('y', d => yScale((d as CostDataPoint).actualAmount) - 8)
         .attr('text-anchor', 'middle')
         .style('font-size', '14px')
         .style('fill', viewModel.settings.colors.overBudget)

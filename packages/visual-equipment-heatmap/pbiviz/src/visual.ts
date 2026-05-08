@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings'
-import { EquipmentStatus, VisualViewModel, EquipmentRow, CellData } from './types'
+import { VisualSettings } from './settings.js'
+import { EquipmentStatus, VisualViewModel, EquipmentRow, CellData } from './types.js'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -182,7 +182,7 @@ export class EquipmentHeatmapVisual implements IVisual {
         .enter()
         .append('text')
         .classed('hour-label', true)
-        .attr('x', (d) => d * cellSize + cellSize / 2)
+        .attr('x', (d) => (d as number) * cellSize + cellSize / 2)
         .attr('y', -10)
         .attr('text-anchor', 'middle')
         .style('font-size', `${this.settings.labels.fontSize}px`)
@@ -208,21 +208,21 @@ export class EquipmentHeatmapVisual implements IVisual {
         .attr('dominant-baseline', 'middle')
         .style('font-size', `${this.settings.labels.fontSize}px`)
         .style('fill', this.settings.labels.fontColor)
-        .text(d => d.name)
+        .text(d => (d as EquipmentRow).name)
     }
 
     // Draw cells
     rows.selectAll('.cell')
-      .data(d => d.cells)
+      .data(d => (d as EquipmentRow).cells)
       .enter()
       .append('rect')
       .classed('cell', true)
-      .attr('x', d => d.hour * cellSize)
+      .attr('x', d => (d as CellData).hour * cellSize)
       .attr('y', 0)
       .attr('width', cellSize - 1)
       .attr('height', cellSize - 1)
       .attr('rx', 2)
-      .attr('fill', d => d.color)
+      .attr('fill', d => (d as CellData).color)
       .style('cursor', 'pointer')
       .on('mouseover', function() {
         d3.select(this).style('opacity', 0.8)
