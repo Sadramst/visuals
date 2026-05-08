@@ -1,0 +1,31 @@
+date,crewName,shiftType,siteName,headcount,hoursWorked,fatigueScore,absentPct,utilPct
+2026-04-27,Alpha,Day,Mount Whaleback,42,504,3.2,4.8,87.5
+2026-04-27,Bravo,Night,Mount Whaleback,38,456,5.1,7.9,82.3
+2026-04-27,Charlie,Day,Newman Hub,35,420,2.8,2.9,91.2
+2026-04-28,Alpha,Night,Mount Whaleback,42,504,4.5,4.8,84.1
+2026-04-28,Bravo,Day,Mount Whaleback,38,456,3.0,5.3,88.7
+2026-04-28,Charlie,Night,Newman Hub,35,420,4.9,5.7,83.5
+2026-04-29,Alpha,Day,Mount Whaleback,42,504,3.1,2.4,89.3
+2026-04-29,Bravo,Night,Mount Whaleback,38,456,5.8,7.9,79.6
+2026-04-29,Charlie,Day,Newman Hub,35,420,2.5,2.9,92.1
+2026-04-30,Alpha,Night,Mount Whaleback,42,504,6.2,7.1,78.4
+2026-04-30,Bravo,Day,Mount Whaleback,38,456,2.9,2.6,90.5
+2026-04-30,Charlie,Night,Newman Hub,35,420,5.3,8.6,80.2
+2026-05-01,Alpha,Day,Mount Whaleback,42,504,2.8,2.4,91.8
+2026-05-01,Bravo,Night,Mount Whaleback,38,456,4.7,5.3,83.9
+2026-05-01,Charlie,Day,Newman Hub,35,420,3.1,2.9,89.7
+2026-05-02,Alpha,Night,Mount Whaleback,42,504,5.9,9.5,76.8
+2026-05-02,Bravo,Day,Mount Whaleback,38,456,3.2,2.6,88.4
+2026-05-02,Charlie,Night,Newman Hub,35,420,5.6,8.6,79.1
+2026-05-03,Alpha,Day,Jimblebar,40,480,3.0,2.5,90.1
+2026-05-03,Bravo,Night,Jimblebar,36,432,5.4,8.3,80.8
+2026-05-03,Charlie,Day,Mount Whaleback,35,420,2.6,0.0,93.5
+2026-05-04,Alpha,Night,Jimblebar,40,480,6.5,10.0,75.2
+2026-05-04,Bravo,Day,Jimblebar,36,432,2.7,2.8,91.3
+2026-05-04,Charlie,Night,Mount Whaleback,35,420,5.1,5.7,82.4
+2026-05-05,Alpha,Day,Jimblebar,40,480,3.3,5.0,87.9
+2026-05-05,Bravo,Night,Jimblebar,36,432,4.8,5.6,84.2
+2026-05-05,Charlie,Day,Newman Hub,35,420,2.4,0.0,94.1
+2026-05-06,Alpha,Night,Jimblebar,40,480,5.7,7.5,78.9
+2026-05-06,Bravo,Day,Jimblebar,36,432,3.1,2.8,89.6
+2026-05-06,Charlie,Night,Newman Hub,35,420,5.2,5.7,81.7

@@ -363,7 +363,6 @@ export class CostTrackerVisual implements IVisual {
         .text(`${isOver ? '+' : ''}${d.variancePercent.toFixed(0)}%`)
     })
   }
-  }
 
   private renderSummary(viewModel: VisualViewModel, width: number): void {
     const summaryGroup = this.container.append('g')

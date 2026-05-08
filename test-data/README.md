@@ -8,11 +8,15 @@ All `.pbiviz` files are located in each visual's `dist` folder:
 
 | Visual | File Location |
 |--------|---------------|
+| Production Gantt | `packages/visual-production-gantt/pbiviz/dist/appilicoProductionGantt.1.0.0.0.pbiviz` |
 | Equipment Heatmap | `packages/visual-equipment-heatmap/pbiviz/dist/appilicoEquipmentHeatmap.1.0.0.0.pbiviz` |
-| Safety KPI | `packages/visual-safety-kpi/pbiviz/dist/appilicoSafetyKPI.1.0.0.0.pbiviz` |
 | Ore Grade Waterfall | `packages/visual-ore-grade-waterfall/pbiviz/dist/appilicoOreGradeWaterfall.1.0.0.0.pbiviz` |
 | Cost Tracker | `packages/visual-cost-tracker/pbiviz/dist/appilicoCostTracker.1.0.0.0.pbiviz` |
-| Production Gantt | `packages/visual-production-gantt/pbiviz/dist/appilicoProductionGantt.1.0.0.0.pbiviz` |
+| Safety KPI | `packages/visual-safety-kpi/pbiviz/dist/appilicoSafetyKPI.1.0.0.0.pbiviz` |
+| Executive Cockpit | `packages/visual-executive-cockpit/pbiviz/dist/appilicoExecutiveCockpit.1.0.0.0.pbiviz` |
+| Energy & Emissions | `packages/visual-energy-emissions/pbiviz/dist/appilicoEnergyEmissions.1.0.0.0.pbiviz` |
+| Workforce & Fatigue | `packages/visual-workforce-fatigue/pbiviz/dist/appilicoWorkforceFatigue.1.0.0.0.pbiviz` |
+| Supply Chain & Haulage | `packages/visual-supply-chain/pbiviz/dist/appilicoSupplyChain.1.0.0.0.pbiviz` |
 
 ---
 
@@ -152,6 +156,114 @@ Shows production shift performance with actual vs target tonnes.
 - 3 shifts per day (AM, PM, Night)
 - 3 crews (Alpha, Bravo, Charlie)
 - 3 pit locations (North, South, East)
+
+---
+
+### 6. Executive Cockpit (`executive-cockpit-data.csv`)
+
+C-suite overview with KPI scorecards and site-level metrics across all operations.
+
+**Import CSV:** Get Data → Text/CSV → Select `executive-cockpit-data.csv`
+
+**Field Mappings:**
+| Power BI Field | CSV Column |
+|----------------|------------|
+| KPI Name | `kpiName` |
+| Current Value | `currentValue` |
+| Target Value | `targetValue` |
+| Previous / LY Value | `previousValue` |
+| Unit | `unit` |
+| Site Name | `siteName` |
+| Latitude | `siteLatitude` |
+| Longitude | `siteLongitude` |
+| Site Production Value | `siteValue` |
+
+**Sites Included:**
+- Mount Whaleback, Newman Hub, Jimblebar, Yandi
+- 6 KPIs per site: TRIFR, LTIFR, Production Tonnes, OEE, Cost per Tonne, Recovery Rate
+
+---
+
+### 7. Energy & Emissions (`energy-emissions-data.csv`)
+
+Tracks emissions by scope (1/2/3) and energy consumption with NGER compliance targets.
+
+**Import CSV:** Get Data → Text/CSV → Select `energy-emissions-data.csv`
+
+**Field Mappings:**
+| Power BI Field | CSV Column |
+|----------------|------------|
+| Period | `period` |
+| Emission Source | `source` |
+| Scope (1/2/3) | `scope` |
+| Site | `siteName` |
+| Emissions (tCO₂e) | `emissionsTCO2` |
+| Energy (GJ) | `energyGJ` |
+| Intensity (kgCO₂/t) | `intensityRate` |
+| NGER Target | `ngerTarget` |
+| Renewable % | `renewablePct` |
+
+**Data Coverage:**
+- 3 months (Jan–Mar 2026)
+- 3 sites (Mount Whaleback, Newman Hub, Jimblebar)
+- 4 emission sources per site per month (Diesel Fleet, Natural Gas, Grid Electricity, Purchased Goods)
+
+---
+
+### 8. Workforce & Fatigue (`workforce-fatigue-data.csv`)
+
+Monitors crew fatigue risk scores, absenteeism, and utilisation across shifts.
+
+**Import CSV:** Get Data → Text/CSV → Select `workforce-fatigue-data.csv`
+
+**Field Mappings:**
+| Power BI Field | CSV Column |
+|----------------|------------|
+| Date | `date` |
+| Crew | `crewName` |
+| Shift Type | `shiftType` |
+| Site | `siteName` |
+| Headcount | `headcount` |
+| Hours Worked | `hoursWorked` |
+| Fatigue Risk Score | `fatigueScore` |
+| Absent % | `absentPct` |
+| Utilisation % | `utilPct` |
+
+**Data Coverage:**
+- 10 days (Apr 27 – May 6, 2026)
+- 3 crews (Alpha, Bravo, Charlie)
+- Day/Night shifts across Mount Whaleback, Newman Hub, Jimblebar
+- Fatigue scores 1–10 (>5 = elevated risk)
+
+---
+
+### 9. Supply Chain & Haulage (`supply-chain-data.csv`)
+
+Tracks truck haulage cycle times, payloads, and route performance.
+
+**Import CSV:** Get Data → Text/CSV → Select `supply-chain-data.csv`
+
+**Field Mappings:**
+| Power BI Field | CSV Column |
+|----------------|------------|
+| Date | `date` |
+| Route | `routeName` |
+| Truck ID | `truckId` |
+| Site | `siteName` |
+| Cycle Time (min) | `cycleTimeMin` |
+| Payload (tonnes) | `payloadT` |
+| Target Payload | `targetPayload` |
+| Queue Time (min) | `queueTimeMin` |
+| Load Time (min) | `loadTimeMin` |
+| Haul Time (min) | `haulTimeMin` |
+| Dump Time (min) | `dumpTimeMin` |
+| Return Time (min) | `returnTimeMin` |
+| Trip Count | `trips` |
+
+**Data Coverage:**
+- 8 days across 3 sites (Mount Whaleback, Newman Hub, Jimblebar)
+- Multiple routes and truck types (CAT-789D, CAT-793F, HD785)
+- Full cycle time breakdown: queue → load → haul → dump → return
 
 ---
 

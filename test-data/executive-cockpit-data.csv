@@ -1,0 +1,25 @@
+kpiName,currentValue,targetValue,previousValue,unit,siteName,siteLatitude,siteLongitude,siteValue
+TRIFR,2.1,2.0,2.3,Per 1M Hours,Mount Whaleback,-23.3653,119.6753,125000
+LTIFR,0.8,0.7,0.9,Per 1M Hours,Mount Whaleback,-23.3653,119.6753,125000
+Production Tonnes,1250000,1300000,1180000,Tonnes,Mount Whaleback,-23.3653,119.6753,125000
+OEE,87.3,90.0,85.1,%,Mount Whaleback,-23.3653,119.6753,125000
+Cost per Tonne,14.20,13.50,15.10,AUD/t,Mount Whaleback,-23.3653,119.6753,125000
+Recovery Rate,93.5,95.0,92.1,%,Mount Whaleback,-23.3653,119.6753,125000
+TRIFR,1.9,2.0,2.1,Per 1M Hours,Newman Hub,-23.3217,119.7313,98000
+LTIFR,0.6,0.7,0.7,Per 1M Hours,Newman Hub,-23.3217,119.7313,98000
+Production Tonnes,980000,1000000,950000,Tonnes,Newman Hub,-23.3217,119.7313,98000
+OEE,89.1,90.0,87.5,%,Newman Hub,-23.3217,119.7313,98000
+Cost per Tonne,13.80,13.50,14.20,AUD/t,Newman Hub,-23.3217,119.7313,98000
+Recovery Rate,94.2,95.0,93.8,%,Newman Hub,-23.3217,119.7313,98000
+TRIFR,2.5,2.0,2.8,Per 1M Hours,Jimblebar,-22.7933,119.5278,76000
+LTIFR,1.0,0.7,1.2,Per 1M Hours,Jimblebar,-22.7933,119.5278,76000
+Production Tonnes,760000,800000,720000,Tonnes,Jimblebar,-22.7933,119.5278,76000
+OEE,84.7,90.0,82.3,%,Jimblebar,-22.7933,119.5278,76000
+Cost per Tonne,15.40,13.50,16.00,AUD/t,Jimblebar,-22.7933,119.5278,76000
+Recovery Rate,91.8,95.0,90.5,%,Jimblebar,-22.7933,119.5278,76000
+TRIFR,1.5,2.0,1.7,Per 1M Hours,Yandi,-22.7167,119.0333,110000
+LTIFR,0.4,0.7,0.5,Per 1M Hours,Yandi,-22.7167,119.0333,110000
+Production Tonnes,1100000,1100000,1050000,Tonnes,Yandi,-22.7167,119.0333,110000
+OEE,91.2,90.0,89.8,%,Yandi,-22.7167,119.0333,110000
+Cost per Tonne,12.90,13.50,13.20,AUD/t,Yandi,-22.7167,119.0333,110000
+Recovery Rate,95.8,95.0,94.9,%,Yandi,-22.7167,119.0333,110000
