@@ -29,10 +29,10 @@ export class SafetyKPIVisual implements IVisual {
       .style('padding', '8px 12px')
       .style('background-color', '#1F3864')
       .style('color', '#FFFFFF')
-      .style('font-weight', '600')
+      .style('font-weight', '900')
       .style('font-size', '13px')
-      .style('gap', '10px')
-      .html('<span style="color: #00D4FF; font-size: 14px; font-weight: 700;">♦ Appilico</span><span>Safety Performance Dashboard</span>')
+      .style('gap', '15px')
+      .html('<span style="color: #00D4FF; font-size: 15px; font-weight: 900; letter-spacing: 1px;">◆ APPILICO</span><span>Safety Performance Dashboard</span>')
 
     this.container = d3.select(options.element)
       .append('div')

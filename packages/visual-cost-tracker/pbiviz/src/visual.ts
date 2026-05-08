@@ -178,18 +178,18 @@ export class CostTrackerVisual implements IVisual {
       .attr('height', 28)
       .attr('fill', '#1F3864')
 
-    // Appilico branding
+    // Appilico branding - larger and more prominent
     header.append('text')
       .attr('x', 12)
       .attr('y', 18)
-      .attr('font-size', '14px')
-      .attr('font-weight', '700')
+      .attr('font-size', '15px')
+      .attr('font-weight', '900')
       .attr('fill', '#00D4FF')
-      .text('♦ Appilico')
+      .text('◆ APPILICO')
 
-    // Title
+    // Title with divider
     header.append('text')
-      .attr('x', 120)
+      .attr('x', 125)
       .attr('y', 18)
       .attr('font-size', '13px')
       .attr('font-weight', '600')

@@ -378,26 +378,28 @@ export class MineProductionGanttVisual implements IVisual {
 
     const labelsGroup = this.mainGroup.append('g').classed('data-labels', true)
     const barWidth = xScale.bandwidth()
-    const minBarWidthForLabels = 50  // Increased threshold to reduce clutter
+    // Only show labels on reasonably wide bars to avoid overlap
+    const minBarWidthForLabels = 60
 
     this.data.points.forEach(d => {
       const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
-      const y = yScale(d.actualTonnes)
+      const y = yScale(d.actualTonnes) - 18  // Fixed distance above bar
 
       // Only show labels if bars are wide enough
       if (barWidth < minBarWidthForLabels) return
 
-      // Main value label - show above bar
-      const labelFontSize = Math.min(11, barWidth / 5)
+      // Main value label - positioned cleanly above bar
       labelsGroup.append('text')
         .attr('x', x)
-        .attr('y', y - 12)  // Increased spacing from bar
+        .attr('y', y)
         .attr('text-anchor', 'middle')
-        .attr('font-size', `${labelFontSize}px`)
-        .attr('font-weight', '600')
-        .attr('fill', '#1F3864')
+        .attr('font-size', '12px')
+        .attr('font-weight', '700')
+        .attr('fill', '#00B050')
+        .attr('pointer-events', 'none')
         .text(`${(d.actualTonnes / 1000).toFixed(1)}kt`)
     })
+  }
   }
 
   private renderXAxis(
