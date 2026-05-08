@@ -1,31 +1,22 @@
 Date,Shift,ActualTonnes,TargetTonnes,CrewName,EquipmentCount,Location
-2026-04-27,AM,12500,12000,Alpha Crew,8,North Pit
-2026-04-27,PM,11800,12000,Bravo Crew,7,North Pit
-2026-04-27,Night,10200,11000,Charlie Crew,6,North Pit
-2026-04-28,AM,13100,12000,Alpha Crew,8,North Pit
-2026-04-28,PM,12400,12000,Bravo Crew,8,South Pit
-2026-04-28,Night,10800,11000,Charlie Crew,6,South Pit
-2026-04-29,AM,8500,12000,Alpha Crew,5,South Pit
-2026-04-29,PM,9200,12000,Bravo Crew,6,South Pit
-2026-04-29,Night,10500,11000,Charlie Crew,7,South Pit
-2026-04-30,AM,12800,12000,Alpha Crew,8,North Pit
-2026-04-30,PM,11500,12000,Bravo Crew,7,North Pit
-2026-04-30,Night,11200,11000,Charlie Crew,7,East Pit
-2026-05-01,AM,13500,12000,Alpha Crew,9,East Pit
-2026-05-01,PM,12200,12000,Bravo Crew,8,East Pit
-2026-05-01,Night,10900,11000,Charlie Crew,6,East Pit
-2026-05-02,AM,12600,12000,Alpha Crew,8,North Pit
-2026-05-02,PM,11900,12000,Bravo Crew,7,North Pit
-2026-05-02,Night,10400,11000,Charlie Crew,6,North Pit
-2026-05-03,AM,14200,12000,Alpha Crew,9,South Pit
-2026-05-03,PM,13100,12000,Bravo Crew,8,South Pit
-2026-05-03,Night,11800,11000,Charlie Crew,7,South Pit
-2026-05-04,AM,12100,12000,Alpha Crew,8,East Pit
-2026-05-04,PM,11400,12000,Bravo Crew,7,East Pit
-2026-05-04,Night,10100,11000,Charlie Crew,6,East Pit
-2026-05-05,AM,12900,12000,Alpha Crew,8,North Pit
-2026-05-05,PM,12500,12000,Bravo Crew,8,North Pit
-2026-05-05,Night,11500,11000,Charlie Crew,7,North Pit
-2026-05-06,AM,13200,12000,Alpha Crew,8,South Pit
-2026-05-06,PM,12000,12000,Bravo Crew,7,South Pit
-2026-05-06,Night,10600,11000,Charlie Crew,6,South Pit
+2026-04-27,AM,12500,12000,Alpha,8,North Pit
+2026-04-27,PM,11800,12000,Bravo,7,North Pit
+2026-04-27,Night,10200,11000,Charlie,6,North Pit
+2026-04-28,AM,13100,12000,Alpha,8,North Pit
+2026-04-28,PM,12400,12000,Bravo,8,South Pit
+2026-04-28,Night,10800,11000,Charlie,6,South Pit
+2026-04-29,AM,8500,12000,Alpha,5,South Pit
+2026-04-29,PM,9200,12000,Bravo,6,South Pit
+2026-04-29,Night,10500,11000,Charlie,7,South Pit
+2026-04-30,AM,12800,12000,Alpha,8,North Pit
+2026-04-30,PM,11500,12000,Bravo,7,North Pit
+2026-04-30,Night,11200,11000,Charlie,7,East Pit
+2026-05-01,AM,13500,12000,Alpha,9,East Pit
+2026-05-01,PM,12200,12000,Bravo,8,East Pit
+2026-05-01,Night,10900,11000,Charlie,6,East Pit
+2026-05-02,AM,12600,12000,Alpha,8,North Pit
+2026-05-02,PM,11900,12000,Bravo,7,North Pit
+2026-05-02,Night,10400,11000,Charlie,6,North Pit
+2026-05-03,AM,14200,12000,Alpha,9,South Pit
+2026-05-03,PM,13100,12000,Bravo,8,South Pit
+2026-05-03,Night,11800,11000,Charlie,7,South Pit

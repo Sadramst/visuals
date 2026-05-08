@@ -62,6 +62,7 @@ export class SafetyKPIVisual implements IVisual {
     if (!categorical?.categories?.[0]) return defaultModel
 
     const kpiCategory = categorical.categories[0]
+    const unitCategory = categorical.categories?.find(c => c.source.roles?.['unit'])
     const currentValues = categorical.values?.find(v => v.source.roles?.['currentValue'])
     const targetValues = categorical.values?.find(v => v.source.roles?.['targetValue'])
     const previousValues = categorical.values?.find(v => v.source.roles?.['previousValue'])
@@ -76,7 +77,9 @@ export class SafetyKPIVisual implements IVisual {
       const currentValue = Number(currentValues.values[i]) || 0
       const targetValue = targetValues ? Number(targetValues.values[i]) : undefined
       const previousValue = previousValues ? Number(previousValues.values[i]) : undefined
-      const isLeading = isLeadingValues ? Boolean(isLeadingValues.values[i]) : false
+      const isLeadingRaw = isLeadingValues ? isLeadingValues.values[i] : false
+      const isLeading = isLeadingRaw === 1 || isLeadingRaw === true || isLeadingRaw === '1' || isLeadingRaw === 'true'
+      const unit = unitCategory ? String(unitCategory.values[i] || '') : ''
 
       // Calculate status based on target
       let status: KPIStatus = 'good'

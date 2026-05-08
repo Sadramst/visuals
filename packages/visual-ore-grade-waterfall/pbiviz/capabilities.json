@@ -30,8 +30,11 @@
     {
       "categorical": {
         "categories": {
-          "for": { "in": "stageName" },
-          "dataReductionAlgorithm": { "top": { "count": 20 } }
+          "select": [
+            { "for": { "in": "stageName" } },
+            { "for": { "in": "material" } }
+          ],
+          "dataReductionAlgorithm": { "top": { "count": 50 } }
         },
         "values": {
           "select": [

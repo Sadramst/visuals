@@ -347,30 +347,34 @@ export class MineProductionGanttVisual implements IVisual {
 
     const labelsGroup = this.mainGroup.append('g').classed('data-labels', true)
     const barWidth = xScale.bandwidth()
+    const minBarWidthForLabels = 35
 
     this.data.points.forEach(d => {
       const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
-      const y = yScale(d.actualTonnes) - 5
+      const y = yScale(d.actualTonnes)
+
+      // Only show labels if bars are wide enough
+      if (barWidth < minBarWidthForLabels) return
 
       // Main value label
       labelsGroup.append('text')
         .attr('x', x)
-        .attr('y', y)
+        .attr('y', y - 5)
         .attr('text-anchor', 'middle')
-        .attr('font-size', `${this.settings.labels.fontSize}px`)
+        .attr('font-size', `${Math.min(this.settings.labels.fontSize, barWidth / 5)}px`)
         .attr('fill', '#333')
-        .text(`${d.actualTonnes.toLocaleString()}t`)
+        .text(`${(d.actualTonnes / 1000).toFixed(1)}kt`)
 
-      // Variance label
-      if (this.settings.labels.showVariance && d.variance !== undefined && this.data?.hasTarget) {
+      // Variance label — only if enough space
+      if (this.settings.labels.showVariance && d.variance !== undefined && this.data?.hasTarget && barWidth >= 50) {
         const varianceColour = d.variance >= 0 ? '#00B050' : '#C00000'
         const varianceText = `${d.variance >= 0 ? '+' : ''}${d.variance.toFixed(1)}%`
 
         labelsGroup.append('text')
           .attr('x', x)
-          .attr('y', y - 14)
+          .attr('y', y - 18)
           .attr('text-anchor', 'middle')
-          .attr('font-size', `${this.settings.labels.fontSize - 1}px`)
+          .attr('font-size', `${Math.min(this.settings.labels.fontSize - 1, barWidth / 6)}px`)
           .attr('fill', varianceColour)
           .text(varianceText)
       }
@@ -396,12 +400,15 @@ export class MineProductionGanttVisual implements IVisual {
       .attr('stroke', '#E5E5E5')
 
     // Rotate labels if many data points
-    if (this.data && this.data.points.length > 10) {
+    if (this.data && this.data.points.length > 5) {
       xAxisGroup.selectAll('.tick text')
         .attr('transform', 'rotate(-45)')
         .attr('text-anchor', 'end')
         .attr('dx', '-0.5em')
         .attr('dy', '0.5em')
+        .attr('font-size', '9px')
+    } else {
+      xAxisGroup.selectAll('.tick text')
         .attr('font-size', '10px')
     }
   }

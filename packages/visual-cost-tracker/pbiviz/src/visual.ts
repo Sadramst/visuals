@@ -78,32 +78,54 @@ export class CostTrackerVisual implements IVisual {
     }
 
     const monthCategory = categorical.categories[0]
+    const categoryColumn = categorical.categories.length > 1 ? categorical.categories[1] : null
     const actualValues = categorical.values.find(v => v.source.roles?.['actualAmount'])
     const budgetValues = categorical.values.find(v => v.source.roles?.['budgetAmount'])
     const costPerTonneValues = categorical.values.find(v => v.source.roles?.['costPerTonne'])
 
     if (!actualValues) return defaultModel
 
+    // Aggregate by month
+    const monthMap = new Map<string, { actual: number; budget: number; costPerTonne: number; count: number }>()
+    const monthOrder: string[] = []
+    
+    for (let i = 0; i < monthCategory.values.length; i++) {
+      const month = String(monthCategory.values[i])
+      const actualAmount = Number(actualValues.values[i]) || 0
+      const budgetAmount = budgetValues ? Number(budgetValues.values[i]) || 0 : 0
+      const costPerTonne = costPerTonneValues ? Number(costPerTonneValues.values[i]) || 0 : 0
+
+      if (!monthMap.has(month)) {
+        monthMap.set(month, { actual: 0, budget: 0, costPerTonne: 0, count: 0 })
+        monthOrder.push(month)
+      }
+      const entry = monthMap.get(month)!
+      entry.actual += actualAmount
+      entry.budget += budgetAmount
+      entry.costPerTonne += costPerTonne
+      entry.count++
+    }
+
     const dataPoints: CostDataPoint[] = []
     let actualTotal = 0
     let budgetTotal = 0
     let costPerTonneSum = 0
     
-    for (let i = 0; i < monthCategory.values.length; i++) {
-      const month = String(monthCategory.values[i])
-      const actualAmount = Number(actualValues.values[i]) || 0
-      const budgetAmount = budgetValues ? Number(budgetValues.values[i]) : undefined
-      const costPerTonne = costPerTonneValues ? Number(costPerTonneValues.values[i]) : undefined
+    for (const month of monthOrder) {
+      const entry = monthMap.get(month)!
+      const actualAmount = entry.actual
+      const budgetAmount = entry.budget
+      const costPerTonne = entry.count > 0 ? entry.costPerTonne / entry.count : 0
 
       actualTotal += actualAmount
-      if (budgetAmount) budgetTotal += budgetAmount
-      if (costPerTonne) costPerTonneSum += costPerTonne
+      budgetTotal += budgetAmount
+      costPerTonneSum += costPerTonne
 
       let variance: number | undefined
       let variancePercent: number | undefined
       let isAnomaly = false
 
-      if (budgetAmount !== undefined && budgetAmount !== 0) {
+      if (budgetAmount > 0) {
         variance = actualAmount - budgetAmount
         variancePercent = (variance / budgetAmount) * 100
         isAnomaly = Math.abs(variancePercent) > this.settings.general.anomalyThreshold

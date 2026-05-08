@@ -72,17 +72,31 @@ export class EquipmentHeatmapVisual implements IVisual {
       isValid: false
     }
 
-    const categorical = dataView.categorical
-    if (!categorical?.categories?.[0] || !categorical?.values) {
+    // Validate data structure
+    if (!dataView?.categorical?.categories) {
       return defaultModel
     }
 
-    const equipmentCategory = categorical.categories[0]
-    const hourValues = categorical.values.find(v => v.source.roles?.['hour'])
-    const statusValues = categorical.values.find(v => v.source.roles?.['status'])
-    const oeeValues = categorical.values.find(v => v.source.roles?.['oee'])
+    const categories = dataView.categorical.categories
+    if (categories.length < 4) {
+      // Need at least: equipmentId, equipmentType, hour, status
+      return defaultModel
+    }
 
-    if (!hourValues || !statusValues) {
+    // Extract required categories by index
+    const equipmentCategory = categories[0]
+    const equipmentTypeCategory = categories[1]
+    const hourCategory = categories[2]
+    const statusCategory = categories[3]
+    const reasonCodeCategory = categories[4]
+
+    // Extract measure values
+    const values = dataView.categorical.values
+    const durationValues = values?.find(v => v.source.roles?.['duration'])
+    const oeeValues = values?.find(v => v.source.roles?.['oeePercent'])
+
+    // Validate that we have all required data
+    if (!equipmentCategory?.values || !hourCategory?.values || !statusCategory?.values) {
       return defaultModel
     }
 
@@ -90,38 +104,53 @@ export class EquipmentHeatmapVisual implements IVisual {
     const equipmentMap = new Map<string, CellData[]>()
     
     for (let i = 0; i < equipmentCategory.values.length; i++) {
-      const equipmentId = String(equipmentCategory.values[i])
-      const hour = Number(hourValues.values[i]) || 0
-      const status = String(statusValues.values[i]) as EquipmentStatus
-      const oee = Number(oeeValues?.values[i]) || 0
-
-      if (!equipmentMap.has(equipmentId)) {
-        equipmentMap.set(equipmentId, [])
+      const equipmentId = String(equipmentCategory.values[i] || `Equip-${i}`)
+      const hour = Math.floor(Number(hourCategory.values[i]) || 0)
+      const rawStatus = String(statusCategory.values[i] || 'idle').toLowerCase()
+      const status = rawStatus as EquipmentStatus
+      const oee = Math.round(Number(oeeValues?.values[i]) || 75)
+      
+      // Validate hour is in valid range
+      if (hour < 0 || hour > 23) {
+        continue
       }
 
-      equipmentMap.get(equipmentId)!.push({
-        hour,
-        status,
-        oee,
-        color: this.getStatusColor(status)
-      })
+      if (!equipmentMap.has(equipmentId)) {
+        equipmentMap.set(equipmentId, Array(24).fill(null).map((_, idx) => ({
+          hour: idx,
+          status: 'idle' as EquipmentStatus,
+          oee: 0,
+          color: this.getStatusColor('idle')
+        })))
+      }
+
+      const cells = equipmentMap.get(equipmentId)!
+      if (cells[hour]) {
+        cells[hour] = {
+          hour,
+          status,
+          oee,
+          color: this.getStatusColor(status)
+        }
+      }
     }
 
     const equipment: EquipmentRow[] = Array.from(equipmentMap.entries()).map(([id, cells]) => ({
       id,
       name: id,
-      cells: cells.sort((a, b) => a.hour - b.hour)
+      cells: cells
     }))
 
     return {
       ...defaultModel,
       equipment,
-      isValid: equipment.length > 0
+      isValid: equipment.length > 0 && equipment.some(e => e.cells.length > 0)
     }
   }
 
   private getStatusColor(status: EquipmentStatus): string {
-    switch (status) {
+    const s = String(status).toLowerCase()
+    switch (s) {
       case 'operating': return this.settings.colors.operating
       case 'idle': return this.settings.colors.idle
       case 'maintenance': return this.settings.colors.maintenance

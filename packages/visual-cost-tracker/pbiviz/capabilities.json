@@ -30,7 +30,10 @@
     {
       "categorical": {
         "categories": {
-          "for": { "in": "month" },
+          "select": [
+            { "for": { "in": "month" } },
+            { "for": { "in": "category" } }
+          ],
           "dataReductionAlgorithm": { "top": { "count": 100 } }
         },
         "values": {

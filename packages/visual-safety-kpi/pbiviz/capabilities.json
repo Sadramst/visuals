@@ -35,7 +35,10 @@
     {
       "categorical": {
         "categories": {
-          "for": { "in": "kpiName" },
+          "select": [
+            { "for": { "in": "kpiName" } },
+            { "for": { "in": "unit" } }
+          ],
           "dataReductionAlgorithm": { "top": { "count": 50 } }
         },
         "values": {
