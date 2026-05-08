@@ -1,0 +1,20 @@
+{
+  "name": "@appilico/visual-executive-cockpit",
+  "version": "1.0.0",
+  "description": "Executive Cockpit — Single-pane CEO/COO operational intelligence view",
+  "scripts": {
+    "build": "cd react && tsc",
+    "test": "exit 0",
+    "lint": "exit 0",
+    "build:pbiviz": "cd pbiviz && pbiviz package",
+    "build:react": "cd react && tsc"
+  },
+  "dependencies": {
+    "@appilico/shared-types": "*",
+    "@appilico/shared-ui": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": { "access": "public" }
+}

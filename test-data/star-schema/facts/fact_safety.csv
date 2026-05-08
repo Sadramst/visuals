@@ -1,0 +1,1381 @@
+date_key,site_id,kpi_id,kpi_name,is_leading,unit,current_value,target_value,previous_value,trend
+2024-06-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.79,3.0,6.1,declining
+2024-06-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.77,1.0,2.75,declining
+2024-06-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,79.99,365.0,68.86,improving
+2024-06-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,16.7,15.0,14.82,improving
+2024-06-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,83.84,95.0,78.19,improving
+2024-06-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.24,0.0,0.21,declining
+2024-06-01,PIL-01,KPI-TRAIN,Training Completion,True,%,83.32,100.0,80.36,improving
+2024-06-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,92.37,90.0,88.01,improving
+2024-06-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.1,5.0,11.43,improving
+2024-06-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.0,100.0,78.02,declining
+2024-06-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,95.82,100.0,83.54,improving
+2024-06-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,62.25,85.0,60.82,improving
+2024-07-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.56,3.0,3.61,improving
+2024-07-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.99,1.0,2.86,declining
+2024-07-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,229.57,365.0,232.11,declining
+2024-07-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,22.66,15.0,23.75,declining
+2024-07-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,96.2,95.0,95.8,improving
+2024-07-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,2.03,0.0,2.25,improving
+2024-07-01,PIL-01,KPI-TRAIN,Training Completion,True,%,99.83,100.0,86.75,improving
+2024-07-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,65.16,90.0,65.0,improving
+2024-07-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.02,5.0,11.13,improving
+2024-07-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,94.14,100.0,82.43,improving
+2024-07-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,93.66,100.0,94.29,declining
+2024-07-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,82.47,85.0,94.48,declining
+2024-08-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.24,3.0,5.93,declining
+2024-08-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.99,1.0,3.0,improving
+2024-08-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,478.12,365.0,473.51,improving
+2024-08-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,23.68,15.0,24.19,declining
+2024-08-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,92.1,95.0,81.6,improving
+2024-08-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.56,0.0,1.38,declining
+2024-08-01,PIL-01,KPI-TRAIN,Training Completion,True,%,81.49,100.0,80.0,improving
+2024-08-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,86.89,90.0,81.03,improving
+2024-08-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,7.34,5.0,8.12,improving
+2024-08-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,94.23,100.0,94.91,declining
+2024-08-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,91.67,100.0,96.29,declining
+2024-08-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,62.94,85.0,60.0,improving
+2024-09-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.04,3.0,7.61,improving
+2024-09-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.0,1.0,0.0,declining
+2024-09-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,211.8,365.0,227.4,declining
+2024-09-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,7.96,15.0,6.9,improving
+2024-09-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,92.54,95.0,99.13,declining
+2024-09-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.24,0.0,0.27,improving
+2024-09-01,PIL-01,KPI-TRAIN,Training Completion,True,%,99.96,100.0,100.0,declining
+2024-09-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,82.18,90.0,87.19,declining
+2024-09-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.03,5.0,8.84,declining
+2024-09-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.97,100.0,71.54,improving
+2024-09-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,98.79,100.0,91.98,improving
+2024-09-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,94.87,85.0,95.0,declining
+2024-10-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.65,3.0,2.83,improving
+2024-10-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.27,1.0,0.29,improving
+2024-10-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,485.41,365.0,454.46,improving
+2024-10-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,9.97,15.0,8.84,improving
+2024-10-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,92.49,95.0,82.53,improving
+2024-10-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.11,0.0,1.18,improving
+2024-10-01,PIL-01,KPI-TRAIN,Training Completion,True,%,93.14,100.0,84.43,improving
+2024-10-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,69.09,90.0,69.65,declining
+2024-10-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,11.18,5.0,9.56,declining
+2024-10-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,96.06,100.0,99.28,declining
+2024-10-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,82.83,100.0,80.0,improving
+2024-10-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,79.47,85.0,68.24,improving
+2024-11-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.95,3.0,7.17,improving
+2024-11-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.56,1.0,0.57,improving
+2024-11-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,299.8,365.0,303.84,declining
+2024-11-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,21.05,15.0,20.44,improving
+2024-11-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,96.7,95.0,95.36,improving
+2024-11-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.86,0.0,0.91,improving
+2024-11-01,PIL-01,KPI-TRAIN,Training Completion,True,%,82.99,100.0,91.14,declining
+2024-11-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,65.19,90.0,65.0,improving
+2024-11-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,6.91,5.0,7.14,improving
+2024-11-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,79.08,100.0,79.78,declining
+2024-11-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,98.42,100.0,90.35,improving
+2024-11-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,62.08,85.0,60.0,improving
+2024-12-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.96,3.0,1.88,declining
+2024-12-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.37,1.0,2.41,improving
+2024-12-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,129.65,365.0,117.37,improving
+2024-12-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,18.12,15.0,17.38,improving
+2024-12-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,97.97,95.0,99.79,declining
+2024-12-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.87,0.0,0.95,improving
+2024-12-01,PIL-01,KPI-TRAIN,Training Completion,True,%,96.95,100.0,85.52,improving
+2024-12-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.05,90.0,73.44,improving
+2024-12-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,7.69,5.0,8.74,improving
+2024-12-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,72.91,100.0,76.33,declining
+2024-12-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,90.23,100.0,96.71,declining
+2024-12-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,70.64,85.0,69.66,improving
+2025-01-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.63,3.0,6.73,improving
+2025-01-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.73,1.0,1.49,declining
+2025-01-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,176.49,365.0,186.8,declining
+2025-01-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,12.86,15.0,14.63,declining
+2025-01-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,97.35,95.0,100.0,declining
+2025-01-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,2.09,0.0,1.82,declining
+2025-01-01,PIL-01,KPI-TRAIN,Training Completion,True,%,83.37,100.0,95.14,declining
+2025-01-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,79.95,90.0,77.41,improving
+2025-01-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,6.22,5.0,6.7,improving
+2025-01-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,73.06,100.0,71.55,improving
+2025-01-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,91.52,100.0,96.23,declining
+2025-01-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,85.46,85.0,94.18,declining
+2025-02-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.51,3.0,1.72,improving
+2025-02-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.43,1.0,0.4,declining
+2025-02-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,440.53,365.0,465.29,declining
+2025-02-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,20.57,15.0,21.17,declining
+2025-02-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,91.48,95.0,90.59,improving
+2025-02-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.05,0.0,0.94,declining
+2025-02-01,PIL-01,KPI-TRAIN,Training Completion,True,%,93.42,100.0,95.36,declining
+2025-02-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,73.25,90.0,72.03,improving
+2025-02-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,6.98,5.0,6.69,declining
+2025-02-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.61,100.0,93.52,declining
+2025-02-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,99.07,100.0,96.15,improving
+2025-02-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,88.6,85.0,78.61,improving
+2025-03-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.84,3.0,6.04,improving
+2025-03-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.82,1.0,0.77,declining
+2025-03-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,137.2,365.0,138.51,declining
+2025-03-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,9.51,15.0,9.84,declining
+2025-03-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,83.74,95.0,81.04,improving
+2025-03-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,2.19,0.0,2.18,declining
+2025-03-01,PIL-01,KPI-TRAIN,Training Completion,True,%,92.61,100.0,88.18,improving
+2025-03-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,98.87,90.0,100.0,declining
+2025-03-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,6.22,5.0,6.55,improving
+2025-03-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,88.8,100.0,94.71,declining
+2025-03-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,84.06,100.0,91.28,declining
+2025-03-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,85.75,85.0,90.55,declining
+2025-04-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.59,3.0,8.0,improving
+2025-04-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.46,1.0,1.51,improving
+2025-04-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,112.82,365.0,98.44,improving
+2025-04-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,20.84,15.0,18.99,improving
+2025-04-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,99.72,95.0,100.0,declining
+2025-04-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,2.4,0.0,2.46,improving
+2025-04-01,PIL-01,KPI-TRAIN,Training Completion,True,%,82.15,100.0,80.0,improving
+2025-04-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,66.33,90.0,65.0,improving
+2025-04-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,4.39,5.0,4.91,improving
+2025-04-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.24,100.0,84.62,improving
+2025-04-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,95.55,100.0,99.66,declining
+2025-04-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,85.47,85.0,75.53,improving
+2025-05-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.37,3.0,6.22,declining
+2025-05-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.12,1.0,1.0,declining
+2025-05-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,227.63,365.0,213.07,improving
+2025-05-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,7.25,15.0,6.33,improving
+2025-05-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,79.4,95.0,79.88,declining
+2025-05-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.6,0.0,1.65,improving
+2025-05-01,PIL-01,KPI-TRAIN,Training Completion,True,%,90.88,100.0,100.0,declining
+2025-05-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,83.9,90.0,80.02,improving
+2025-05-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,11.47,5.0,10.04,declining
+2025-05-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,98.51,100.0,100.0,declining
+2025-05-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,95.92,100.0,92.57,improving
+2025-05-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,61.8,85.0,64.19,declining
+2025-06-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.1,3.0,4.76,declining
+2025-06-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.97,1.0,3.0,improving
+2025-06-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,446.76,365.0,500.0,declining
+2025-06-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,19.26,15.0,16.65,improving
+2025-06-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,81.14,95.0,75.12,improving
+2025-06-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.12,0.0,1.17,improving
+2025-06-01,PIL-01,KPI-TRAIN,Training Completion,True,%,85.78,100.0,80.0,improving
+2025-06-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,67.41,90.0,68.3,declining
+2025-06-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.04,5.0,9.6,declining
+2025-06-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,82.46,100.0,74.98,improving
+2025-06-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,96.63,100.0,91.94,improving
+2025-06-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,70.57,85.0,77.25,declining
+2025-07-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.94,3.0,5.19,declining
+2025-07-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.86,1.0,2.03,improving
+2025-07-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,367.69,365.0,365.75,improving
+2025-07-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,13.02,15.0,13.12,declining
+2025-07-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,82.32,95.0,92.31,declining
+2025-07-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.58,0.0,1.71,improving
+2025-07-01,PIL-01,KPI-TRAIN,Training Completion,True,%,94.3,100.0,100.0,declining
+2025-07-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.55,90.0,81.02,improving
+2025-07-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,11.89,5.0,11.15,declining
+2025-07-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.31,100.0,99.37,declining
+2025-07-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,82.45,100.0,89.47,declining
+2025-07-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,91.37,85.0,95.0,declining
+2025-08-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.41,3.0,3.22,declining
+2025-08-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.2,1.0,2.22,improving
+2025-08-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,354.95,365.0,325.38,improving
+2025-08-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,7.14,15.0,6.21,improving
+2025-08-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,95.35,95.0,100.0,declining
+2025-08-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,3.0,0.0,2.99,declining
+2025-08-01,PIL-01,KPI-TRAIN,Training Completion,True,%,97.62,100.0,100.0,declining
+2025-08-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.94,90.0,79.22,improving
+2025-08-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,11.5,5.0,12.0,improving
+2025-08-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,77.81,100.0,75.66,improving
+2025-08-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,87.35,100.0,93.01,declining
+2025-08-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,81.06,85.0,89.36,declining
+2025-09-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.96,3.0,6.49,declining
+2025-09-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.61,1.0,0.6,declining
+2025-09-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,74.47,365.0,80.76,declining
+2025-09-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,24.12,15.0,22.94,improving
+2025-09-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,80.64,95.0,75.0,improving
+2025-09-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.01,0.0,0.96,declining
+2025-09-01,PIL-01,KPI-TRAIN,Training Completion,True,%,97.48,100.0,100.0,declining
+2025-09-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,67.38,90.0,77.36,declining
+2025-09-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,11.62,5.0,11.28,declining
+2025-09-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,73.53,100.0,70.0,improving
+2025-09-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,83.22,100.0,80.0,improving
+2025-09-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,77.25,85.0,69.18,improving
+2025-10-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.38,3.0,3.32,declining
+2025-10-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.11,1.0,0.11,improving
+2025-10-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,490.57,365.0,459.53,improving
+2025-10-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,23.94,15.0,25.0,declining
+2025-10-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,93.14,95.0,100.0,declining
+2025-10-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.19,0.0,1.32,improving
+2025-10-01,PIL-01,KPI-TRAIN,Training Completion,True,%,86.68,100.0,91.8,declining
+2025-10-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,89.38,90.0,97.02,declining
+2025-10-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,5.53,5.0,6.13,improving
+2025-10-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.95,100.0,75.95,improving
+2025-10-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,99.65,100.0,100.0,declining
+2025-10-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,67.33,85.0,62.51,improving
+2025-11-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.08,3.0,5.83,improving
+2025-11-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.15,1.0,0.16,improving
+2025-11-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,331.49,365.0,368.96,declining
+2025-11-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,22.55,15.0,23.92,declining
+2025-11-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,83.72,95.0,82.71,improving
+2025-11-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.5,0.0,0.57,improving
+2025-11-01,PIL-01,KPI-TRAIN,Training Completion,True,%,88.17,100.0,80.0,improving
+2025-11-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,89.0,90.0,100.0,declining
+2025-11-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,4.1,5.0,4.7,improving
+2025-11-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.27,100.0,100.0,declining
+2025-11-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,87.23,100.0,84.7,improving
+2025-11-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,69.7,85.0,75.5,declining
+2025-12-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.16,3.0,4.83,declining
+2025-12-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.36,1.0,1.23,declining
+2025-12-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,99.15,365.0,102.89,declining
+2025-12-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,13.37,15.0,14.97,declining
+2025-12-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,76.05,95.0,75.0,improving
+2025-12-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.82,0.0,1.87,improving
+2025-12-01,PIL-01,KPI-TRAIN,Training Completion,True,%,95.92,100.0,97.24,declining
+2025-12-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,69.94,90.0,71.44,declining
+2025-12-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.53,5.0,11.86,improving
+2025-12-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,76.74,100.0,78.72,declining
+2025-12-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,82.81,100.0,90.29,declining
+2025-12-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,94.19,85.0,88.34,improving
+2026-01-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.88,3.0,1.75,declining
+2026-01-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.38,1.0,1.28,declining
+2026-01-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,261.34,365.0,245.2,improving
+2026-01-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,15.81,15.0,14.38,improving
+2026-01-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,80.44,95.0,91.52,declining
+2026-01-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,2.32,0.0,2.14,declining
+2026-01-01,PIL-01,KPI-TRAIN,Training Completion,True,%,91.57,100.0,96.69,declining
+2026-01-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,74.61,90.0,75.88,declining
+2026-01-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,10.28,5.0,11.06,improving
+2026-01-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.64,100.0,94.6,improving
+2026-01-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,85.24,100.0,90.77,declining
+2026-01-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,71.12,85.0,79.53,declining
+2026-02-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.08,3.0,6.85,improving
+2026-02-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.03,1.0,0.03,declining
+2026-02-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,488.05,365.0,491.02,declining
+2026-02-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,17.6,15.0,15.78,improving
+2026-02-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,77.1,95.0,75.0,improving
+2026-02-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,1.08,0.0,1.12,improving
+2026-02-01,PIL-01,KPI-TRAIN,Training Completion,True,%,95.68,100.0,100.0,declining
+2026-02-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,67.03,90.0,65.0,improving
+2026-02-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,6.45,5.0,6.99,improving
+2026-02-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,81.82,100.0,87.78,declining
+2026-02-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,83.0,100.0,80.0,improving
+2026-02-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,63.07,85.0,60.0,improving
+2026-03-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.94,3.0,3.11,improving
+2026-03-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.53,1.0,0.6,improving
+2026-03-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,58.15,365.0,57.99,improving
+2026-03-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,9.67,15.0,10.55,declining
+2026-03-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,79.13,95.0,79.26,declining
+2026-03-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.53,0.0,0.57,improving
+2026-03-01,PIL-01,KPI-TRAIN,Training Completion,True,%,92.12,100.0,100.0,declining
+2026-03-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,89.14,90.0,100.0,declining
+2026-03-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,4.75,5.0,4.35,declining
+2026-03-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.64,100.0,99.62,declining
+2026-03-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,80.78,100.0,91.12,declining
+2026-03-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,63.38,85.0,60.36,improving
+2026-04-01,PIL-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.45,3.0,8.0,improving
+2026-04-01,PIL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.06,1.0,0.06,improving
+2026-04-01,PIL-01,KPI-DSLTI,Days Since Last LTI,False,days,333.0,365.0,374.94,declining
+2026-04-01,PIL-01,KPI-NMREP,Near Miss Reports,True,count,15.51,15.0,15.65,declining
+2026-04-01,PIL-01,KPI-SAOBS,Safety Observations,True,%,84.14,95.0,76.08,improving
+2026-04-01,PIL-01,KPI-HPINC,High Potential Incidents,False,count,0.94,0.0,0.83,declining
+2026-04-01,PIL-01,KPI-TRAIN,Training Completion,True,%,80.57,100.0,80.0,improving
+2026-04-01,PIL-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.6,90.0,81.3,declining
+2026-04-01,PIL-01,KPI-EMRTM,Emergency Response Time,True,min,8.4,5.0,8.21,declining
+2026-04-01,PIL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,94.48,100.0,99.25,declining
+2026-04-01,PIL-01,KPI-INVRR,Incident Investigation Rate,False,%,96.35,100.0,85.08,improving
+2026-04-01,PIL-01,KPI-FATSC,Fatigue Score Average,True,score,94.68,85.0,95.0,declining
+2024-06-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.62,3.0,6.99,improving
+2024-06-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.62,1.0,2.25,declining
+2024-06-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,483.26,365.0,500.0,declining
+2024-06-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,10.72,15.0,10.41,improving
+2024-06-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,94.05,95.0,100.0,declining
+2024-06-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.41,0.0,0.43,improving
+2024-06-01,BOW-01,KPI-TRAIN,Training Completion,True,%,93.28,100.0,91.26,improving
+2024-06-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,99.69,90.0,85.18,improving
+2024-06-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,3.71,5.0,3.52,declining
+2024-06-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.42,100.0,71.34,improving
+2024-06-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,98.33,100.0,94.6,improving
+2024-06-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,94.77,85.0,90.68,improving
+2024-07-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.65,3.0,4.87,declining
+2024-07-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.97,1.0,2.71,declining
+2024-07-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,258.16,365.0,261.51,declining
+2024-07-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,8.72,15.0,8.84,declining
+2024-07-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,76.11,95.0,81.72,declining
+2024-07-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.37,0.0,2.44,improving
+2024-07-01,BOW-01,KPI-TRAIN,Training Completion,True,%,97.07,100.0,88.72,improving
+2024-07-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,76.46,90.0,68.04,improving
+2024-07-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,11.8,5.0,12.0,improving
+2024-07-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.24,100.0,87.82,declining
+2024-07-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,84.98,100.0,85.88,declining
+2024-07-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,61.97,85.0,66.88,declining
+2024-08-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.81,3.0,5.16,improving
+2024-08-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.73,1.0,1.72,declining
+2024-08-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,251.14,365.0,263.53,declining
+2024-08-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,12.06,15.0,10.9,improving
+2024-08-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,83.51,95.0,89.56,declining
+2024-08-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.26,0.0,2.59,improving
+2024-08-01,BOW-01,KPI-TRAIN,Training Completion,True,%,99.4,100.0,100.0,declining
+2024-08-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,83.88,90.0,79.2,improving
+2024-08-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,4.71,5.0,4.08,declining
+2024-08-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,90.97,100.0,86.29,improving
+2024-08-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,84.22,100.0,87.51,declining
+2024-08-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,84.2,85.0,83.75,improving
+2024-09-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.37,3.0,3.17,declining
+2024-09-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.17,1.0,1.91,declining
+2024-09-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,247.17,365.0,252.49,declining
+2024-09-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,17.27,15.0,15.67,improving
+2024-09-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,83.72,95.0,92.92,declining
+2024-09-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.68,0.0,1.44,declining
+2024-09-01,BOW-01,KPI-TRAIN,Training Completion,True,%,89.05,100.0,93.62,declining
+2024-09-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,95.88,90.0,87.71,improving
+2024-09-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,6.94,5.0,6.9,declining
+2024-09-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.78,100.0,82.25,improving
+2024-09-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,94.52,100.0,100.0,declining
+2024-09-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,68.85,85.0,73.53,declining
+2024-10-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.52,3.0,3.33,declining
+2024-10-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.91,1.0,1.78,declining
+2024-10-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,258.31,365.0,252.79,improving
+2024-10-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,9.43,15.0,8.57,improving
+2024-10-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,97.53,95.0,90.88,improving
+2024-10-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.17,0.0,2.07,declining
+2024-10-01,BOW-01,KPI-TRAIN,Training Completion,True,%,87.1,100.0,85.74,improving
+2024-10-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,79.1,90.0,74.99,improving
+2024-10-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,7.82,5.0,6.9,declining
+2024-10-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,89.39,100.0,90.94,declining
+2024-10-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,82.37,100.0,80.0,improving
+2024-10-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,83.96,85.0,79.48,improving
+2024-11-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.84,3.0,1.98,improving
+2024-11-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.13,1.0,0.12,declining
+2024-11-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,131.27,365.0,140.67,declining
+2024-11-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,10.63,15.0,12.19,declining
+2024-11-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,87.14,95.0,94.3,declining
+2024-11-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.97,0.0,0.99,improving
+2024-11-01,BOW-01,KPI-TRAIN,Training Completion,True,%,84.4,100.0,96.58,declining
+2024-11-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.82,90.0,94.35,declining
+2024-11-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,6.17,5.0,5.78,declining
+2024-11-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,87.35,100.0,78.4,improving
+2024-11-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,92.28,100.0,91.38,improving
+2024-11-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,91.24,85.0,95.0,declining
+2024-12-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.24,3.0,2.57,improving
+2024-12-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.55,1.0,2.26,declining
+2024-12-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,303.8,365.0,321.9,declining
+2024-12-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,5.02,15.0,5.0,improving
+2024-12-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,81.31,95.0,92.66,declining
+2024-12-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.35,0.0,1.36,improving
+2024-12-01,BOW-01,KPI-TRAIN,Training Completion,True,%,89.19,100.0,80.0,improving
+2024-12-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,91.52,90.0,79.34,improving
+2024-12-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,4.16,5.0,4.39,improving
+2024-12-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.08,100.0,92.73,improving
+2024-12-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,87.7,100.0,94.86,declining
+2024-12-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,71.95,85.0,64.9,improving
+2025-01-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.7,3.0,6.71,improving
+2025-01-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.67,1.0,3.0,improving
+2025-01-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,248.01,365.0,213.71,improving
+2025-01-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,9.72,15.0,8.94,improving
+2025-01-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,78.95,95.0,90.12,declining
+2025-01-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.37,0.0,0.4,improving
+2025-01-01,BOW-01,KPI-TRAIN,Training Completion,True,%,81.81,100.0,80.0,improving
+2025-01-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,95.02,90.0,90.52,improving
+2025-01-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,6.66,5.0,7.06,improving
+2025-01-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.76,100.0,70.0,improving
+2025-01-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,93.9,100.0,87.14,improving
+2025-01-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,74.07,85.0,83.25,declining
+2025-02-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.95,3.0,7.26,improving
+2025-02-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.75,1.0,1.98,improving
+2025-02-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,326.66,365.0,302.83,improving
+2025-02-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,21.66,15.0,18.82,improving
+2025-02-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,78.3,95.0,80.52,declining
+2025-02-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.09,0.0,2.3,improving
+2025-02-01,BOW-01,KPI-TRAIN,Training Completion,True,%,86.65,100.0,96.97,declining
+2025-02-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.97,90.0,67.09,improving
+2025-02-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,3.08,5.0,3.42,improving
+2025-02-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,95.33,100.0,100.0,declining
+2025-02-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,80.14,100.0,80.0,improving
+2025-02-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,91.47,85.0,93.98,declining
+2025-03-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.55,3.0,4.49,declining
+2025-03-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.54,1.0,0.48,declining
+2025-03-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,315.82,365.0,316.5,declining
+2025-03-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,23.25,15.0,23.13,improving
+2025-03-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,80.3,95.0,78.31,improving
+2025-03-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.44,0.0,2.54,improving
+2025-03-01,BOW-01,KPI-TRAIN,Training Completion,True,%,96.17,100.0,87.78,improving
+2025-03-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,74.37,90.0,65.38,improving
+2025-03-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,8.56,5.0,8.28,declining
+2025-03-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,91.69,100.0,82.8,improving
+2025-03-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,97.83,100.0,83.59,improving
+2025-03-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,90.32,85.0,83.35,improving
+2025-04-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.62,3.0,2.44,declining
+2025-04-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.8,1.0,1.7,declining
+2025-04-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,288.64,365.0,269.49,improving
+2025-04-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,18.77,15.0,19.3,declining
+2025-04-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,97.34,95.0,87.06,improving
+2025-04-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.77,0.0,1.72,declining
+2025-04-01,BOW-01,KPI-TRAIN,Training Completion,True,%,81.97,100.0,94.22,declining
+2025-04-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.95,90.0,100.0,declining
+2025-04-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,9.52,5.0,10.11,improving
+2025-04-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,92.4,100.0,100.0,declining
+2025-04-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,90.55,100.0,100.0,declining
+2025-04-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,91.56,85.0,81.68,improving
+2025-05-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.36,3.0,7.78,improving
+2025-05-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.13,1.0,0.14,improving
+2025-05-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,66.49,365.0,72.34,declining
+2025-05-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,12.55,15.0,12.46,improving
+2025-05-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,86.0,95.0,91.43,declining
+2025-05-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.21,0.0,0.21,improving
+2025-05-01,BOW-01,KPI-TRAIN,Training Completion,True,%,96.6,100.0,100.0,declining
+2025-05-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,79.35,90.0,74.96,improving
+2025-05-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,8.18,5.0,8.9,improving
+2025-05-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,72.0,100.0,76.25,declining
+2025-05-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,80.94,100.0,89.17,declining
+2025-05-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,93.13,85.0,95.0,declining
+2025-06-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.75,3.0,4.23,declining
+2025-06-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.88,1.0,2.87,declining
+2025-06-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,213.16,365.0,211.0,improving
+2025-06-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,7.93,15.0,9.08,declining
+2025-06-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,78.97,95.0,76.3,improving
+2025-06-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.57,0.0,1.39,declining
+2025-06-01,BOW-01,KPI-TRAIN,Training Completion,True,%,93.28,100.0,93.81,declining
+2025-06-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,79.91,90.0,70.25,improving
+2025-06-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,6.74,5.0,6.74,declining
+2025-06-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,75.94,100.0,75.08,improving
+2025-06-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,91.3,100.0,80.89,improving
+2025-06-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,91.85,85.0,95.0,declining
+2025-07-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.88,3.0,6.75,improving
+2025-07-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.56,1.0,2.35,declining
+2025-07-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,195.23,365.0,196.61,declining
+2025-07-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,19.07,15.0,21.82,declining
+2025-07-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,85.83,95.0,90.53,declining
+2025-07-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.71,0.0,1.94,improving
+2025-07-01,BOW-01,KPI-TRAIN,Training Completion,True,%,94.9,100.0,100.0,declining
+2025-07-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,91.57,90.0,90.59,improving
+2025-07-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,4.6,5.0,5.24,improving
+2025-07-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,95.52,100.0,100.0,declining
+2025-07-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,94.26,100.0,100.0,declining
+2025-07-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,68.52,85.0,76.91,declining
+2025-08-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.37,3.0,3.55,improving
+2025-08-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.94,1.0,2.71,declining
+2025-08-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,329.41,365.0,371.22,declining
+2025-08-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,22.11,15.0,22.89,declining
+2025-08-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,99.18,95.0,100.0,declining
+2025-08-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.06,0.0,2.12,improving
+2025-08-01,BOW-01,KPI-TRAIN,Training Completion,True,%,80.27,100.0,84.1,declining
+2025-08-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,92.26,90.0,99.87,declining
+2025-08-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,9.35,5.0,9.5,improving
+2025-08-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,76.56,100.0,75.65,improving
+2025-08-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,94.64,100.0,100.0,declining
+2025-08-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,63.07,85.0,67.63,declining
+2025-09-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.68,3.0,5.04,improving
+2025-09-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.7,1.0,2.51,declining
+2025-09-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,74.05,365.0,75.06,declining
+2025-09-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,9.66,15.0,9.83,declining
+2025-09-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,98.94,95.0,100.0,declining
+2025-09-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.79,0.0,1.94,improving
+2025-09-01,BOW-01,KPI-TRAIN,Training Completion,True,%,86.82,100.0,90.9,declining
+2025-09-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,77.36,90.0,79.02,declining
+2025-09-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,11.58,5.0,12.0,improving
+2025-09-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.26,100.0,87.14,declining
+2025-09-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,82.8,100.0,90.34,declining
+2025-09-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,64.54,85.0,60.0,improving
+2025-10-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.0,3.0,4.9,declining
+2025-10-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.35,1.0,2.12,declining
+2025-10-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,220.01,365.0,223.09,declining
+2025-10-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,23.58,15.0,20.39,improving
+2025-10-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,88.55,95.0,88.42,improving
+2025-10-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.95,0.0,3.0,improving
+2025-10-01,BOW-01,KPI-TRAIN,Training Completion,True,%,91.78,100.0,100.0,declining
+2025-10-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.59,90.0,85.76,declining
+2025-10-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,11.35,5.0,12.0,improving
+2025-10-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,75.0,100.0,70.0,improving
+2025-10-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,90.13,100.0,86.32,improving
+2025-10-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,73.13,85.0,63.17,improving
+2025-11-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.06,3.0,4.8,declining
+2025-11-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.69,1.0,1.67,declining
+2025-11-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,414.21,365.0,416.05,declining
+2025-11-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,22.27,15.0,21.78,improving
+2025-11-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,96.89,95.0,84.67,improving
+2025-11-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.14,0.0,0.14,improving
+2025-11-01,BOW-01,KPI-TRAIN,Training Completion,True,%,98.27,100.0,100.0,declining
+2025-11-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,78.72,90.0,88.17,declining
+2025-11-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,10.4,5.0,9.91,declining
+2025-11-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.17,100.0,96.65,improving
+2025-11-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,91.93,100.0,90.02,improving
+2025-11-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,78.32,85.0,71.67,improving
+2025-12-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.75,3.0,5.39,improving
+2025-12-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.0,1.0,1.05,improving
+2025-12-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,482.51,365.0,492.41,declining
+2025-12-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,23.87,15.0,24.75,declining
+2025-12-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,88.9,95.0,92.61,declining
+2025-12-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.83,0.0,0.72,declining
+2025-12-01,BOW-01,KPI-TRAIN,Training Completion,True,%,88.05,100.0,87.93,improving
+2025-12-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.72,90.0,86.95,declining
+2025-12-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,10.29,5.0,10.01,declining
+2025-12-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,70.92,100.0,74.71,declining
+2025-12-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,99.98,100.0,100.0,declining
+2025-12-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,71.55,85.0,72.46,declining
+2026-01-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.43,3.0,2.36,declining
+2026-01-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.39,1.0,1.44,improving
+2026-01-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,96.92,365.0,110.96,declining
+2026-01-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,10.26,15.0,10.69,declining
+2026-01-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,97.4,95.0,87.84,improving
+2026-01-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.93,0.0,2.04,improving
+2026-01-01,BOW-01,KPI-TRAIN,Training Completion,True,%,96.88,100.0,88.79,improving
+2026-01-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.4,90.0,100.0,declining
+2026-01-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,9.86,5.0,8.78,declining
+2026-01-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.52,100.0,85.6,declining
+2026-01-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,98.88,100.0,92.57,improving
+2026-01-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,91.75,85.0,95.0,declining
+2026-02-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.71,3.0,7.71,declining
+2026-02-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.83,1.0,2.86,improving
+2026-02-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,182.49,365.0,208.52,declining
+2026-02-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,9.56,15.0,8.8,improving
+2026-02-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,78.23,95.0,75.0,improving
+2026-02-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,2.82,0.0,2.89,improving
+2026-02-01,BOW-01,KPI-TRAIN,Training Completion,True,%,82.72,100.0,91.89,declining
+2026-02-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,74.66,90.0,73.65,improving
+2026-02-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,8.08,5.0,8.7,improving
+2026-02-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,82.88,100.0,79.88,improving
+2026-02-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,99.84,100.0,97.23,improving
+2026-02-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,84.82,85.0,89.07,declining
+2026-03-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.14,3.0,3.95,declining
+2026-03-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.05,1.0,0.92,declining
+2026-03-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,496.95,365.0,500.0,declining
+2026-03-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,23.24,15.0,21.98,improving
+2026-03-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,98.47,95.0,99.17,declining
+2026-03-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,0.69,0.0,0.77,improving
+2026-03-01,BOW-01,KPI-TRAIN,Training Completion,True,%,85.91,100.0,96.94,declining
+2026-03-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,99.13,90.0,90.46,improving
+2026-03-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,5.93,5.0,5.14,declining
+2026-03-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,91.93,100.0,81.23,improving
+2026-03-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,82.55,100.0,80.0,improving
+2026-03-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,64.15,85.0,61.88,improving
+2026-04-01,BOW-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.57,3.0,4.41,declining
+2026-04-01,BOW-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.29,1.0,0.29,improving
+2026-04-01,BOW-01,KPI-DSLTI,Days Since Last LTI,False,days,174.12,365.0,170.56,improving
+2026-04-01,BOW-01,KPI-NMREP,Near Miss Reports,True,count,10.89,15.0,10.29,improving
+2026-04-01,BOW-01,KPI-SAOBS,Safety Observations,True,%,83.23,95.0,75.0,improving
+2026-04-01,BOW-01,KPI-HPINC,High Potential Incidents,False,count,1.67,0.0,1.66,declining
+2026-04-01,BOW-01,KPI-TRAIN,Training Completion,True,%,87.48,100.0,96.68,declining
+2026-04-01,BOW-01,KPI-HZARD,Hazard Close-out Rate,True,%,98.9,90.0,86.43,improving
+2026-04-01,BOW-01,KPI-EMRTM,Emergency Response Time,True,min,11.16,5.0,9.66,declining
+2026-04-01,BOW-01,KPI-RSKSC,Risk Assessment Compliance,True,%,79.33,100.0,76.48,improving
+2026-04-01,BOW-01,KPI-INVRR,Incident Investigation Rate,False,%,90.97,100.0,80.0,improving
+2026-04-01,BOW-01,KPI-FATSC,Fatigue Score Average,True,score,93.52,85.0,95.0,declining
+2024-06-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.53,3.0,3.93,improving
+2024-06-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.11,1.0,1.85,declining
+2024-06-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,212.24,365.0,187.53,improving
+2024-06-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,21.44,15.0,23.73,declining
+2024-06-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,82.91,95.0,86.27,declining
+2024-06-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.47,0.0,1.28,declining
+2024-06-01,KAL-01,KPI-TRAIN,Training Completion,True,%,90.02,100.0,82.1,improving
+2024-06-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,83.8,90.0,93.88,declining
+2024-06-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,6.81,5.0,6.38,declining
+2024-06-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.12,100.0,99.2,declining
+2024-06-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,93.29,100.0,88.09,improving
+2024-06-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,88.12,85.0,79.38,improving
+2024-07-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.15,3.0,5.36,declining
+2024-07-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.99,1.0,1.78,declining
+2024-07-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,489.47,365.0,471.79,improving
+2024-07-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,10.35,15.0,10.28,improving
+2024-07-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,95.09,95.0,83.06,improving
+2024-07-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.14,0.0,2.43,improving
+2024-07-01,KAL-01,KPI-TRAIN,Training Completion,True,%,80.05,100.0,80.0,improving
+2024-07-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.2,90.0,82.03,improving
+2024-07-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,3.22,5.0,3.59,improving
+2024-07-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,70.33,100.0,70.0,improving
+2024-07-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,90.2,100.0,92.58,declining
+2024-07-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,88.45,85.0,79.99,improving
+2024-08-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.03,3.0,5.78,improving
+2024-08-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.72,1.0,1.91,improving
+2024-08-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,303.52,365.0,314.39,declining
+2024-08-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,23.18,15.0,23.05,improving
+2024-08-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,75.83,95.0,75.0,improving
+2024-08-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.77,0.0,3.0,improving
+2024-08-01,KAL-01,KPI-TRAIN,Training Completion,True,%,80.75,100.0,83.58,declining
+2024-08-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,99.43,90.0,100.0,declining
+2024-08-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,11.83,5.0,11.28,declining
+2024-08-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.92,100.0,86.97,declining
+2024-08-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,98.43,100.0,100.0,declining
+2024-08-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,91.91,85.0,79.67,improving
+2024-09-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.94,3.0,5.97,declining
+2024-09-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.85,1.0,1.94,improving
+2024-09-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,81.98,365.0,90.94,declining
+2024-09-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,22.19,15.0,19.7,improving
+2024-09-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,83.31,95.0,75.0,improving
+2024-09-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.38,0.0,1.55,improving
+2024-09-01,KAL-01,KPI-TRAIN,Training Completion,True,%,98.97,100.0,100.0,declining
+2024-09-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,70.97,90.0,72.69,declining
+2024-09-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,10.56,5.0,11.4,improving
+2024-09-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,85.88,100.0,81.01,improving
+2024-09-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,93.24,100.0,93.74,declining
+2024-09-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,83.71,85.0,89.28,declining
+2024-10-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.47,3.0,2.45,declining
+2024-10-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.94,1.0,2.21,improving
+2024-10-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,360.78,365.0,356.84,improving
+2024-10-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,20.17,15.0,19.2,improving
+2024-10-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,78.07,95.0,83.78,declining
+2024-10-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.8,0.0,1.94,improving
+2024-10-01,KAL-01,KPI-TRAIN,Training Completion,True,%,86.74,100.0,86.54,improving
+2024-10-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,96.63,90.0,82.14,improving
+2024-10-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,9.43,5.0,8.72,declining
+2024-10-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,70.86,100.0,70.94,declining
+2024-10-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,83.48,100.0,80.0,improving
+2024-10-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,73.27,85.0,63.96,improving
+2024-11-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.25,3.0,4.07,declining
+2024-11-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.23,1.0,0.21,declining
+2024-11-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,462.7,365.0,439.25,improving
+2024-11-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,12.37,15.0,11.54,improving
+2024-11-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,98.37,95.0,100.0,declining
+2024-11-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.02,0.0,2.26,improving
+2024-11-01,KAL-01,KPI-TRAIN,Training Completion,True,%,85.19,100.0,86.63,declining
+2024-11-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,73.24,90.0,81.48,declining
+2024-11-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,10.37,5.0,10.37,improving
+2024-11-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.79,100.0,97.41,improving
+2024-11-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,90.02,100.0,87.03,improving
+2024-11-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,86.83,85.0,74.17,improving
+2024-12-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.85,3.0,8.0,improving
+2024-12-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.54,1.0,1.34,declining
+2024-12-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,336.62,365.0,316.64,improving
+2024-12-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,20.44,15.0,18.9,improving
+2024-12-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,85.05,95.0,96.88,declining
+2024-12-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.99,0.0,0.89,declining
+2024-12-01,KAL-01,KPI-TRAIN,Training Completion,True,%,92.26,100.0,87.73,improving
+2024-12-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.82,90.0,73.28,improving
+2024-12-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,9.66,5.0,9.74,improving
+2024-12-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.18,100.0,94.14,declining
+2024-12-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,96.74,100.0,98.17,declining
+2024-12-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,64.93,85.0,70.63,declining
+2025-01-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.43,3.0,6.14,improving
+2025-01-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.27,1.0,0.26,declining
+2025-01-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,434.94,365.0,462.3,declining
+2025-01-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,15.48,15.0,14.67,improving
+2025-01-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,76.39,95.0,81.03,declining
+2025-01-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.13,0.0,2.2,improving
+2025-01-01,KAL-01,KPI-TRAIN,Training Completion,True,%,94.75,100.0,100.0,declining
+2025-01-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,88.7,90.0,89.28,declining
+2025-01-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,4.92,5.0,5.56,improving
+2025-01-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.2,100.0,79.24,declining
+2025-01-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,82.25,100.0,91.9,declining
+2025-01-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,70.78,85.0,80.69,declining
+2025-02-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.45,3.0,2.24,declining
+2025-02-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.78,1.0,2.03,improving
+2025-02-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,255.75,365.0,247.81,improving
+2025-02-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,19.27,15.0,20.34,declining
+2025-02-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,80.93,95.0,79.24,improving
+2025-02-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.48,0.0,0.48,declining
+2025-02-01,KAL-01,KPI-TRAIN,Training Completion,True,%,94.11,100.0,92.61,improving
+2025-02-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,71.87,90.0,73.92,declining
+2025-02-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,3.69,5.0,4.19,improving
+2025-02-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,96.67,100.0,99.74,declining
+2025-02-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,97.21,100.0,95.67,improving
+2025-02-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,60.44,85.0,68.26,declining
+2025-03-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.26,3.0,3.55,improving
+2025-03-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.87,1.0,1.81,declining
+2025-03-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,443.63,365.0,453.22,declining
+2025-03-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,18.07,15.0,18.36,declining
+2025-03-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,84.71,95.0,86.74,declining
+2025-03-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.54,0.0,2.29,declining
+2025-03-01,KAL-01,KPI-TRAIN,Training Completion,True,%,93.49,100.0,88.38,improving
+2025-03-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.19,90.0,100.0,declining
+2025-03-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,5.83,5.0,5.72,declining
+2025-03-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,77.18,100.0,78.04,declining
+2025-03-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,94.75,100.0,100.0,declining
+2025-03-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,85.17,85.0,75.42,improving
+2025-04-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.74,3.0,6.07,improving
+2025-04-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.78,1.0,1.73,declining
+2025-04-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,426.18,365.0,454.59,declining
+2025-04-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,24.47,15.0,25.0,declining
+2025-04-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,94.85,95.0,86.31,improving
+2025-04-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.15,0.0,0.15,declining
+2025-04-01,KAL-01,KPI-TRAIN,Training Completion,True,%,90.0,100.0,80.54,improving
+2025-04-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,98.46,90.0,96.7,improving
+2025-04-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,3.86,5.0,4.08,improving
+2025-04-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,88.52,100.0,88.94,declining
+2025-04-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,80.25,100.0,82.13,declining
+2025-04-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,71.11,85.0,72.19,declining
+2025-05-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.99,3.0,7.37,improving
+2025-05-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.17,1.0,2.42,improving
+2025-05-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,82.0,365.0,79.21,improving
+2025-05-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,16.85,15.0,16.93,declining
+2025-05-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,79.65,95.0,75.0,improving
+2025-05-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.24,0.0,2.09,declining
+2025-05-01,KAL-01,KPI-TRAIN,Training Completion,True,%,96.89,100.0,87.84,improving
+2025-05-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,74.75,90.0,66.4,improving
+2025-05-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,5.45,5.0,6.0,improving
+2025-05-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,70.67,100.0,70.0,improving
+2025-05-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,84.1,100.0,95.23,declining
+2025-05-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,60.58,85.0,60.0,improving
+2025-06-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.41,3.0,6.76,improving
+2025-06-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.01,1.0,0.02,improving
+2025-06-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,166.59,365.0,184.06,declining
+2025-06-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,6.22,15.0,6.96,declining
+2025-06-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,93.9,95.0,84.04,improving
+2025-06-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.18,0.0,1.29,improving
+2025-06-01,KAL-01,KPI-TRAIN,Training Completion,True,%,91.04,100.0,100.0,declining
+2025-06-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.11,90.0,83.39,improving
+2025-06-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,6.71,5.0,7.65,improving
+2025-06-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,81.85,100.0,78.8,improving
+2025-06-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,80.02,100.0,80.07,declining
+2025-06-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,80.79,85.0,73.09,improving
+2025-07-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.93,3.0,2.97,improving
+2025-07-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.15,1.0,2.16,improving
+2025-07-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,334.18,365.0,341.26,declining
+2025-07-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,7.46,15.0,7.5,declining
+2025-07-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,99.3,95.0,100.0,declining
+2025-07-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.4,0.0,0.35,declining
+2025-07-01,KAL-01,KPI-TRAIN,Training Completion,True,%,90.14,100.0,80.07,improving
+2025-07-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,95.72,90.0,86.99,improving
+2025-07-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,5.28,5.0,5.54,improving
+2025-07-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.35,100.0,100.0,declining
+2025-07-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,96.96,100.0,100.0,declining
+2025-07-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,81.63,85.0,82.56,declining
+2025-08-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.06,3.0,2.01,declining
+2025-08-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.85,1.0,1.96,improving
+2025-08-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,390.05,365.0,363.73,improving
+2025-08-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,21.09,15.0,22.61,declining
+2025-08-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,79.77,95.0,91.24,declining
+2025-08-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.78,0.0,2.77,declining
+2025-08-01,KAL-01,KPI-TRAIN,Training Completion,True,%,86.51,100.0,80.0,improving
+2025-08-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,86.24,90.0,96.24,declining
+2025-08-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,11.04,5.0,9.67,declining
+2025-08-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,73.75,100.0,71.51,improving
+2025-08-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,89.1,100.0,94.17,declining
+2025-08-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,67.22,85.0,72.97,declining
+2025-09-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.29,3.0,3.79,declining
+2025-09-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.31,1.0,0.31,improving
+2025-09-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,101.77,365.0,93.5,improving
+2025-09-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,8.58,15.0,9.55,declining
+2025-09-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,89.78,95.0,91.58,declining
+2025-09-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.17,0.0,1.13,declining
+2025-09-01,KAL-01,KPI-TRAIN,Training Completion,True,%,80.47,100.0,82.26,declining
+2025-09-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,83.97,90.0,75.2,improving
+2025-09-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,5.56,5.0,5.13,declining
+2025-09-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,98.67,100.0,100.0,declining
+2025-09-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,87.96,100.0,80.0,improving
+2025-09-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,78.28,85.0,72.47,improving
+2025-10-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.52,3.0,8.0,improving
+2025-10-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.75,1.0,1.58,declining
+2025-10-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,305.25,365.0,261.44,improving
+2025-10-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,5.86,15.0,5.44,improving
+2025-10-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,83.39,95.0,86.51,declining
+2025-10-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.64,0.0,2.5,declining
+2025-10-01,KAL-01,KPI-TRAIN,Training Completion,True,%,87.03,100.0,80.0,improving
+2025-10-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.51,90.0,72.78,improving
+2025-10-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,5.36,5.0,5.45,improving
+2025-10-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,72.34,100.0,78.44,declining
+2025-10-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,93.14,100.0,81.35,improving
+2025-10-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,73.48,85.0,69.42,improving
+2025-11-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.17,3.0,4.05,declining
+2025-11-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.81,1.0,0.8,declining
+2025-11-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,351.92,365.0,365.33,declining
+2025-11-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,16.83,15.0,18.31,declining
+2025-11-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,97.51,95.0,87.36,improving
+2025-11-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,1.46,0.0,1.51,improving
+2025-11-01,KAL-01,KPI-TRAIN,Training Completion,True,%,96.93,100.0,93.03,improving
+2025-11-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,82.95,90.0,88.65,declining
+2025-11-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,7.47,5.0,7.47,improving
+2025-11-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,94.45,100.0,100.0,declining
+2025-11-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,92.38,100.0,86.36,improving
+2025-11-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,62.82,85.0,64.79,declining
+2025-12-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.48,3.0,4.85,improving
+2025-12-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.98,1.0,2.22,improving
+2025-12-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,315.06,365.0,289.57,improving
+2025-12-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,6.92,15.0,6.64,improving
+2025-12-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,95.49,95.0,100.0,declining
+2025-12-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.48,0.0,2.65,improving
+2025-12-01,KAL-01,KPI-TRAIN,Training Completion,True,%,97.94,100.0,100.0,declining
+2025-12-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,78.29,90.0,77.52,improving
+2025-12-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,10.73,5.0,11.13,improving
+2025-12-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.56,100.0,72.92,improving
+2025-12-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,94.42,100.0,93.0,improving
+2025-12-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,63.03,85.0,60.0,improving
+2026-01-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.62,3.0,5.17,improving
+2026-01-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.53,1.0,0.45,declining
+2026-01-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,212.08,365.0,226.79,declining
+2026-01-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,19.4,15.0,22.01,declining
+2026-01-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,75.19,95.0,81.05,declining
+2026-01-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.11,0.0,2.2,improving
+2026-01-01,KAL-01,KPI-TRAIN,Training Completion,True,%,82.47,100.0,89.1,declining
+2026-01-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,92.3,90.0,93.82,declining
+2026-01-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,7.92,5.0,7.54,declining
+2026-01-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,81.1,100.0,92.04,declining
+2026-01-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,97.64,100.0,100.0,declining
+2026-01-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,83.45,85.0,77.38,improving
+2026-02-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.69,3.0,1.55,declining
+2026-02-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.48,1.0,1.3,declining
+2026-02-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,151.84,365.0,160.12,declining
+2026-02-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,13.35,15.0,14.96,declining
+2026-02-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,84.96,95.0,75.0,improving
+2026-02-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.68,0.0,0.65,declining
+2026-02-01,KAL-01,KPI-TRAIN,Training Completion,True,%,80.76,100.0,86.25,declining
+2026-02-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,71.89,90.0,65.0,improving
+2026-02-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,4.57,5.0,4.31,declining
+2026-02-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.15,100.0,80.06,improving
+2026-02-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,97.83,100.0,91.9,improving
+2026-02-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,89.83,85.0,84.19,improving
+2026-03-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.47,3.0,4.05,declining
+2026-03-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.82,1.0,0.71,declining
+2026-03-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,135.66,365.0,119.16,improving
+2026-03-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,13.92,15.0,15.66,declining
+2026-03-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,81.14,95.0,83.34,declining
+2026-03-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,0.98,0.0,0.87,declining
+2026-03-01,KAL-01,KPI-TRAIN,Training Completion,True,%,81.15,100.0,90.84,declining
+2026-03-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.55,90.0,81.3,improving
+2026-03-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,7.4,5.0,7.46,improving
+2026-03-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,90.53,100.0,100.0,declining
+2026-03-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,89.18,100.0,93.4,declining
+2026-03-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,87.38,85.0,90.71,declining
+2026-04-01,KAL-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.04,3.0,4.48,declining
+2026-04-01,KAL-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.88,1.0,0.77,declining
+2026-04-01,KAL-01,KPI-DSLTI,Days Since Last LTI,False,days,208.45,365.0,184.75,improving
+2026-04-01,KAL-01,KPI-NMREP,Near Miss Reports,True,count,18.42,15.0,16.41,improving
+2026-04-01,KAL-01,KPI-SAOBS,Safety Observations,True,%,87.85,95.0,90.32,declining
+2026-04-01,KAL-01,KPI-HPINC,High Potential Incidents,False,count,2.42,0.0,2.33,declining
+2026-04-01,KAL-01,KPI-TRAIN,Training Completion,True,%,93.08,100.0,94.87,declining
+2026-04-01,KAL-01,KPI-HZARD,Hazard Close-out Rate,True,%,99.31,90.0,100.0,declining
+2026-04-01,KAL-01,KPI-EMRTM,Emergency Response Time,True,min,8.43,5.0,7.68,declining
+2026-04-01,KAL-01,KPI-RSKSC,Risk Assessment Compliance,True,%,96.68,100.0,82.75,improving
+2026-04-01,KAL-01,KPI-INVRR,Incident Investigation Rate,False,%,90.34,100.0,86.38,improving
+2026-04-01,KAL-01,KPI-FATSC,Fatigue Score Average,True,score,90.85,85.0,88.04,improving
+2024-06-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.1,3.0,4.55,improving
+2024-06-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.52,1.0,0.56,improving
+2024-06-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,75.05,365.0,66.25,improving
+2024-06-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,9.31,15.0,9.25,improving
+2024-06-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,97.16,95.0,95.01,improving
+2024-06-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.75,0.0,3.0,improving
+2024-06-01,MIS-01,KPI-TRAIN,Training Completion,True,%,92.08,100.0,85.37,improving
+2024-06-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,71.56,90.0,65.0,improving
+2024-06-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,8.59,5.0,8.76,improving
+2024-06-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,85.47,100.0,77.91,improving
+2024-06-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,85.5,100.0,88.5,declining
+2024-06-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,71.28,85.0,64.54,improving
+2024-07-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.56,3.0,5.12,improving
+2024-07-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.02,1.0,0.02,improving
+2024-07-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,264.97,365.0,225.92,improving
+2024-07-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,8.05,15.0,7.81,improving
+2024-07-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,93.32,95.0,100.0,declining
+2024-07-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,3.0,0.0,3.0,improving
+2024-07-01,MIS-01,KPI-TRAIN,Training Completion,True,%,82.69,100.0,85.42,declining
+2024-07-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,88.29,90.0,77.42,improving
+2024-07-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,6.5,5.0,6.62,improving
+2024-07-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,75.33,100.0,73.21,improving
+2024-07-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,99.41,100.0,91.58,improving
+2024-07-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,76.55,85.0,85.63,declining
+2024-08-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.99,3.0,7.92,improving
+2024-08-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.72,1.0,1.85,improving
+2024-08-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,496.69,365.0,431.12,improving
+2024-08-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,17.74,15.0,20.13,declining
+2024-08-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,81.11,95.0,92.5,declining
+2024-08-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.19,0.0,0.2,improving
+2024-08-01,MIS-01,KPI-TRAIN,Training Completion,True,%,93.2,100.0,87.2,improving
+2024-08-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.79,90.0,78.56,improving
+2024-08-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,6.86,5.0,6.88,improving
+2024-08-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.51,100.0,72.69,improving
+2024-08-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,81.69,100.0,81.94,declining
+2024-08-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,61.41,85.0,62.18,declining
+2024-09-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.43,3.0,3.55,improving
+2024-09-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.99,1.0,2.73,declining
+2024-09-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,230.38,365.0,229.64,improving
+2024-09-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,20.99,15.0,19.03,improving
+2024-09-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,90.8,95.0,94.86,declining
+2024-09-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.52,0.0,2.18,declining
+2024-09-01,MIS-01,KPI-TRAIN,Training Completion,True,%,96.99,100.0,96.5,improving
+2024-09-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,74.04,90.0,71.04,improving
+2024-09-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,11.39,5.0,12.0,improving
+2024-09-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,85.15,100.0,94.32,declining
+2024-09-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,92.21,100.0,80.0,improving
+2024-09-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,60.56,85.0,61.38,declining
+2024-10-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.58,3.0,4.99,improving
+2024-10-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.82,1.0,1.61,declining
+2024-10-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,55.83,365.0,53.31,improving
+2024-10-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,5.25,15.0,5.0,improving
+2024-10-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,87.43,95.0,84.66,improving
+2024-10-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.93,0.0,3.0,improving
+2024-10-01,MIS-01,KPI-TRAIN,Training Completion,True,%,83.47,100.0,91.94,declining
+2024-10-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,65.87,90.0,65.0,improving
+2024-10-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,6.98,5.0,6.49,declining
+2024-10-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,70.15,100.0,78.94,declining
+2024-10-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,87.36,100.0,98.49,declining
+2024-10-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,89.85,85.0,87.35,improving
+2024-11-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.75,3.0,5.74,declining
+2024-11-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.63,1.0,0.59,declining
+2024-11-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,117.66,365.0,103.12,improving
+2024-11-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,19.17,15.0,17.59,improving
+2024-11-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,96.35,95.0,100.0,declining
+2024-11-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.8,0.0,0.72,declining
+2024-11-01,MIS-01,KPI-TRAIN,Training Completion,True,%,88.44,100.0,85.62,improving
+2024-11-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.94,90.0,66.72,improving
+2024-11-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,8.32,5.0,8.81,improving
+2024-11-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,92.93,100.0,99.21,declining
+2024-11-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,84.18,100.0,80.0,improving
+2024-11-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,64.12,85.0,69.15,declining
+2024-12-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.39,3.0,2.95,declining
+2024-12-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.77,1.0,2.83,improving
+2024-12-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,79.58,365.0,83.81,declining
+2024-12-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,22.36,15.0,22.02,improving
+2024-12-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,86.81,95.0,97.94,declining
+2024-12-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.02,0.0,0.02,declining
+2024-12-01,MIS-01,KPI-TRAIN,Training Completion,True,%,87.78,100.0,80.0,improving
+2024-12-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.93,90.0,92.86,improving
+2024-12-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,7.17,5.0,7.72,improving
+2024-12-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.63,100.0,70.0,improving
+2024-12-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,80.44,100.0,80.0,improving
+2024-12-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,77.94,85.0,84.95,declining
+2025-01-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.2,3.0,2.46,improving
+2025-01-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.68,1.0,1.91,improving
+2025-01-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,298.43,365.0,330.18,declining
+2025-01-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,22.92,15.0,23.73,declining
+2025-01-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,85.64,95.0,88.04,declining
+2025-01-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.51,0.0,0.51,improving
+2025-01-01,MIS-01,KPI-TRAIN,Training Completion,True,%,93.91,100.0,83.35,improving
+2025-01-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,92.3,90.0,95.54,declining
+2025-01-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,4.0,5.0,3.68,declining
+2025-01-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,86.51,100.0,83.3,improving
+2025-01-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,92.69,100.0,82.74,improving
+2025-01-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,74.45,85.0,80.25,declining
+2025-02-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.93,3.0,3.5,declining
+2025-02-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.82,1.0,2.6,declining
+2025-02-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,482.5,365.0,488.41,declining
+2025-02-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,15.73,15.0,15.46,improving
+2025-02-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,80.77,95.0,91.36,declining
+2025-02-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.81,0.0,2.41,declining
+2025-02-01,MIS-01,KPI-TRAIN,Training Completion,True,%,96.13,100.0,100.0,declining
+2025-02-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,90.77,90.0,97.48,declining
+2025-02-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,6.21,5.0,6.75,improving
+2025-02-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,76.38,100.0,82.45,declining
+2025-02-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,88.05,100.0,92.25,declining
+2025-02-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,82.9,85.0,74.47,improving
+2025-03-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.22,3.0,4.62,declining
+2025-03-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.87,1.0,0.76,declining
+2025-03-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,234.62,365.0,228.73,improving
+2025-03-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,11.98,15.0,11.67,improving
+2025-03-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,99.26,95.0,89.38,improving
+2025-03-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.32,0.0,2.47,improving
+2025-03-01,MIS-01,KPI-TRAIN,Training Completion,True,%,92.44,100.0,86.69,improving
+2025-03-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.55,90.0,100.0,declining
+2025-03-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,3.26,5.0,3.57,improving
+2025-03-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.21,100.0,97.38,declining
+2025-03-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,99.56,100.0,98.01,improving
+2025-03-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,69.59,85.0,60.81,improving
+2025-04-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.83,3.0,4.97,declining
+2025-04-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.64,1.0,0.7,improving
+2025-04-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,45.8,365.0,44.39,improving
+2025-04-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,8.34,15.0,8.16,improving
+2025-04-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,85.91,95.0,85.99,declining
+2025-04-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,1.87,0.0,1.85,declining
+2025-04-01,MIS-01,KPI-TRAIN,Training Completion,True,%,81.75,100.0,80.0,improving
+2025-04-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,81.39,90.0,86.03,declining
+2025-04-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,4.02,5.0,3.74,declining
+2025-04-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,98.21,100.0,86.84,improving
+2025-04-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,97.99,100.0,100.0,declining
+2025-04-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,82.44,85.0,91.01,declining
+2025-05-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.91,3.0,3.63,declining
+2025-05-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.61,1.0,1.45,declining
+2025-05-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,49.49,365.0,49.57,declining
+2025-05-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,10.91,15.0,9.54,improving
+2025-05-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,81.14,95.0,75.0,improving
+2025-05-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.26,0.0,2.41,improving
+2025-05-01,MIS-01,KPI-TRAIN,Training Completion,True,%,95.61,100.0,92.25,improving
+2025-05-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,91.21,90.0,94.76,declining
+2025-05-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,4.61,5.0,4.45,declining
+2025-05-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,77.24,100.0,82.04,declining
+2025-05-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,83.82,100.0,86.9,declining
+2025-05-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,83.43,85.0,91.55,declining
+2025-06-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.52,3.0,5.56,improving
+2025-06-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.97,1.0,1.78,declining
+2025-06-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,141.09,365.0,159.73,declining
+2025-06-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,6.4,15.0,5.89,improving
+2025-06-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,78.23,95.0,81.99,declining
+2025-06-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.05,0.0,2.1,improving
+2025-06-01,MIS-01,KPI-TRAIN,Training Completion,True,%,89.36,100.0,82.51,improving
+2025-06-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.58,90.0,69.0,improving
+2025-06-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,3.68,5.0,3.67,declining
+2025-06-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,85.49,100.0,73.63,improving
+2025-06-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,86.52,100.0,99.41,declining
+2025-06-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,75.07,85.0,65.53,improving
+2025-07-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.58,3.0,7.18,declining
+2025-07-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.17,1.0,2.06,declining
+2025-07-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,496.14,365.0,493.1,improving
+2025-07-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,16.71,15.0,18.92,declining
+2025-07-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,81.12,95.0,80.13,improving
+2025-07-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.16,0.0,0.16,improving
+2025-07-01,MIS-01,KPI-TRAIN,Training Completion,True,%,95.9,100.0,90.87,improving
+2025-07-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.42,90.0,75.71,improving
+2025-07-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,6.84,5.0,6.86,improving
+2025-07-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,75.36,100.0,70.0,improving
+2025-07-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,81.1,100.0,89.64,declining
+2025-07-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,87.66,85.0,95.0,declining
+2025-08-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.43,3.0,3.87,improving
+2025-08-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.4,1.0,0.4,declining
+2025-08-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,159.58,365.0,175.33,declining
+2025-08-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,16.72,15.0,17.6,declining
+2025-08-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,99.12,95.0,100.0,declining
+2025-08-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.7,0.0,2.94,improving
+2025-08-01,MIS-01,KPI-TRAIN,Training Completion,True,%,90.66,100.0,80.46,improving
+2025-08-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,90.8,90.0,92.83,declining
+2025-08-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,3.7,5.0,4.1,improving
+2025-08-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,91.75,100.0,91.23,improving
+2025-08-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,97.09,100.0,100.0,declining
+2025-08-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,81.28,85.0,90.24,declining
+2025-09-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.92,3.0,3.19,improving
+2025-09-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.14,1.0,2.29,improving
+2025-09-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,278.35,365.0,237.94,improving
+2025-09-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,20.86,15.0,21.71,declining
+2025-09-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,97.72,95.0,100.0,declining
+2025-09-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.33,0.0,2.08,declining
+2025-09-01,MIS-01,KPI-TRAIN,Training Completion,True,%,86.26,100.0,99.03,declining
+2025-09-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,95.03,90.0,100.0,declining
+2025-09-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,8.98,5.0,9.66,improving
+2025-09-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.78,100.0,78.67,declining
+2025-09-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,90.51,100.0,89.04,improving
+2025-09-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,77.76,85.0,78.54,declining
+2025-10-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.54,3.0,4.77,declining
+2025-10-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.57,1.0,2.39,declining
+2025-10-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,363.5,365.0,401.21,declining
+2025-10-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,11.44,15.0,11.15,improving
+2025-10-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,98.84,95.0,100.0,declining
+2025-10-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.23,0.0,0.2,declining
+2025-10-01,MIS-01,KPI-TRAIN,Training Completion,True,%,80.9,100.0,80.0,improving
+2025-10-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,84.5,90.0,76.08,improving
+2025-10-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,10.17,5.0,10.27,improving
+2025-10-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,72.01,100.0,76.16,declining
+2025-10-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,83.67,100.0,91.69,declining
+2025-10-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,75.91,85.0,72.06,improving
+2025-11-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.54,3.0,3.88,declining
+2025-11-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.32,1.0,2.64,improving
+2025-11-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,382.2,365.0,395.22,declining
+2025-11-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,9.47,15.0,8.96,improving
+2025-11-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,81.97,95.0,87.05,declining
+2025-11-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.96,0.0,2.91,declining
+2025-11-01,MIS-01,KPI-TRAIN,Training Completion,True,%,85.77,100.0,96.14,declining
+2025-11-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,95.0,90.0,81.68,improving
+2025-11-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,8.99,5.0,9.28,improving
+2025-11-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,99.59,100.0,100.0,declining
+2025-11-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,99.65,100.0,91.52,improving
+2025-11-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,83.04,85.0,86.38,declining
+2025-12-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.18,3.0,5.75,declining
+2025-12-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.24,1.0,2.55,improving
+2025-12-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,188.59,365.0,216.2,declining
+2025-12-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,21.82,15.0,22.18,declining
+2025-12-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,91.31,95.0,99.13,declining
+2025-12-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,1.87,0.0,2.12,improving
+2025-12-01,MIS-01,KPI-TRAIN,Training Completion,True,%,84.2,100.0,80.0,improving
+2025-12-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,88.48,90.0,86.9,improving
+2025-12-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,9.27,5.0,9.71,improving
+2025-12-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,97.57,100.0,100.0,declining
+2025-12-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,86.97,100.0,85.86,improving
+2025-12-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,72.97,85.0,67.96,improving
+2026-01-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.8,3.0,5.86,improving
+2026-01-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.29,1.0,1.38,improving
+2026-01-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,355.84,365.0,404.69,declining
+2026-01-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,8.09,15.0,8.93,declining
+2026-01-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,92.34,95.0,100.0,declining
+2026-01-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,2.56,0.0,2.92,improving
+2026-01-01,MIS-01,KPI-TRAIN,Training Completion,True,%,91.26,100.0,85.44,improving
+2026-01-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,87.38,90.0,84.8,improving
+2026-01-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,11.1,5.0,12.0,improving
+2026-01-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,89.13,100.0,94.56,declining
+2026-01-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,87.21,100.0,97.27,declining
+2026-01-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,72.17,85.0,78.29,declining
+2026-02-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.13,3.0,7.98,improving
+2026-02-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.68,1.0,1.9,improving
+2026-02-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,283.95,365.0,281.89,improving
+2026-02-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,11.88,15.0,12.12,declining
+2026-02-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,87.57,95.0,97.19,declining
+2026-02-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,1.05,0.0,0.9,declining
+2026-02-01,MIS-01,KPI-TRAIN,Training Completion,True,%,95.0,100.0,85.91,improving
+2026-02-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.29,90.0,100.0,declining
+2026-02-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,9.99,5.0,8.73,declining
+2026-02-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.66,100.0,93.79,declining
+2026-02-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,82.65,100.0,87.72,declining
+2026-02-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,74.54,85.0,85.52,declining
+2026-03-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.63,3.0,2.48,declining
+2026-03-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.18,1.0,2.16,declining
+2026-03-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,389.8,365.0,371.39,improving
+2026-03-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,5.05,15.0,5.0,improving
+2026-03-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,97.65,95.0,100.0,declining
+2026-03-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.76,0.0,0.76,improving
+2026-03-01,MIS-01,KPI-TRAIN,Training Completion,True,%,98.3,100.0,98.4,declining
+2026-03-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.59,90.0,74.64,improving
+2026-03-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,7.17,5.0,7.35,improving
+2026-03-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,91.97,100.0,100.0,declining
+2026-03-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,96.43,100.0,100.0,declining
+2026-03-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,72.88,85.0,79.82,declining
+2026-04-01,MIS-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.8,3.0,4.32,improving
+2026-04-01,MIS-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.47,1.0,0.48,improving
+2026-04-01,MIS-01,KPI-DSLTI,Days Since Last LTI,False,days,423.24,365.0,440.81,declining
+2026-04-01,MIS-01,KPI-NMREP,Near Miss Reports,True,count,23.15,15.0,25.0,declining
+2026-04-01,MIS-01,KPI-SAOBS,Safety Observations,True,%,75.09,95.0,75.0,improving
+2026-04-01,MIS-01,KPI-HPINC,High Potential Incidents,False,count,0.19,0.0,0.16,declining
+2026-04-01,MIS-01,KPI-TRAIN,Training Completion,True,%,82.67,100.0,92.51,declining
+2026-04-01,MIS-01,KPI-HZARD,Hazard Close-out Rate,True,%,98.2,90.0,100.0,declining
+2026-04-01,MIS-01,KPI-EMRTM,Emergency Response Time,True,min,3.27,5.0,3.07,declining
+2026-04-01,MIS-01,KPI-RSKSC,Risk Assessment Compliance,True,%,78.47,100.0,72.63,improving
+2026-04-01,MIS-01,KPI-INVRR,Incident Investigation Rate,False,%,80.3,100.0,80.0,improving
+2026-04-01,MIS-01,KPI-FATSC,Fatigue Score Average,True,score,91.58,85.0,83.24,improving
+2024-06-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.16,3.0,5.81,improving
+2024-06-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.52,1.0,0.45,declining
+2024-06-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,140.37,365.0,132.73,improving
+2024-06-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,11.19,15.0,11.38,declining
+2024-06-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,79.58,95.0,87.53,declining
+2024-06-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.64,0.0,2.25,declining
+2024-06-01,HUN-01,KPI-TRAIN,Training Completion,True,%,99.25,100.0,91.49,improving
+2024-06-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,81.51,90.0,75.47,improving
+2024-06-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,11.29,5.0,10.61,declining
+2024-06-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.52,100.0,80.49,improving
+2024-06-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,92.26,100.0,89.9,improving
+2024-06-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,84.84,85.0,90.44,declining
+2024-07-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.38,3.0,3.74,declining
+2024-07-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.81,1.0,2.47,declining
+2024-07-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,37.03,365.0,42.58,declining
+2024-07-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,7.03,15.0,8.05,declining
+2024-07-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,88.2,95.0,80.66,improving
+2024-07-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.26,0.0,2.16,declining
+2024-07-01,HUN-01,KPI-TRAIN,Training Completion,True,%,91.11,100.0,80.0,improving
+2024-07-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,93.87,90.0,88.37,improving
+2024-07-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,7.47,5.0,8.48,improving
+2024-07-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,91.12,100.0,97.27,declining
+2024-07-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,94.5,100.0,81.63,improving
+2024-07-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,68.38,85.0,67.77,improving
+2024-08-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.92,3.0,6.82,declining
+2024-08-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.61,1.0,2.93,improving
+2024-08-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,386.0,365.0,442.47,declining
+2024-08-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,14.43,15.0,12.81,improving
+2024-08-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,76.62,95.0,78.07,declining
+2024-08-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.69,0.0,0.71,improving
+2024-08-01,HUN-01,KPI-TRAIN,Training Completion,True,%,92.95,100.0,83.33,improving
+2024-08-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,97.22,90.0,85.12,improving
+2024-08-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,7.13,5.0,7.36,improving
+2024-08-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.76,100.0,96.77,declining
+2024-08-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,93.73,100.0,89.82,improving
+2024-08-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,85.99,85.0,90.72,declining
+2024-09-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,1.55,3.0,1.76,improving
+2024-09-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.1,1.0,0.09,declining
+2024-09-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,377.06,365.0,338.52,improving
+2024-09-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,12.87,15.0,12.21,improving
+2024-09-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,81.44,95.0,81.52,declining
+2024-09-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.76,0.0,1.84,improving
+2024-09-01,HUN-01,KPI-TRAIN,Training Completion,True,%,90.47,100.0,80.58,improving
+2024-09-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.25,90.0,77.29,improving
+2024-09-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,5.75,5.0,5.24,declining
+2024-09-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,74.58,100.0,81.23,declining
+2024-09-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,91.04,100.0,86.07,improving
+2024-09-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,81.59,85.0,85.98,declining
+2024-10-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.26,3.0,3.85,declining
+2024-10-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.56,1.0,0.61,improving
+2024-10-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,319.62,365.0,302.68,improving
+2024-10-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,5.65,15.0,5.62,improving
+2024-10-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,97.66,95.0,100.0,declining
+2024-10-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.95,0.0,2.57,declining
+2024-10-01,HUN-01,KPI-TRAIN,Training Completion,True,%,85.23,100.0,94.9,declining
+2024-10-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.19,90.0,90.44,improving
+2024-10-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,7.9,5.0,8.09,improving
+2024-10-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,93.11,100.0,100.0,declining
+2024-10-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,84.54,100.0,94.09,declining
+2024-10-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,72.38,85.0,62.0,improving
+2024-11-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.43,3.0,3.46,improving
+2024-11-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.36,1.0,2.28,declining
+2024-11-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,359.71,365.0,363.1,declining
+2024-11-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,14.23,15.0,12.52,improving
+2024-11-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,77.32,95.0,75.0,improving
+2024-11-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.29,0.0,1.31,improving
+2024-11-01,HUN-01,KPI-TRAIN,Training Completion,True,%,93.73,100.0,85.24,improving
+2024-11-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,79.98,90.0,87.48,declining
+2024-11-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,4.02,5.0,4.2,improving
+2024-11-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,76.53,100.0,75.86,improving
+2024-11-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,82.44,100.0,80.0,improving
+2024-11-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,61.46,85.0,68.39,declining
+2024-12-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.61,3.0,8.0,improving
+2024-12-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.6,1.0,2.47,declining
+2024-12-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,159.22,365.0,159.58,declining
+2024-12-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,21.03,15.0,22.67,declining
+2024-12-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,99.99,95.0,100.0,declining
+2024-12-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.8,0.0,2.86,improving
+2024-12-01,HUN-01,KPI-TRAIN,Training Completion,True,%,99.22,100.0,100.0,declining
+2024-12-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.42,90.0,73.39,improving
+2024-12-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,3.29,5.0,3.45,improving
+2024-12-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,73.21,100.0,70.0,improving
+2024-12-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,93.91,100.0,87.09,improving
+2024-12-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,93.48,85.0,94.09,declining
+2025-01-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.05,3.0,6.9,improving
+2025-01-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.97,1.0,0.96,declining
+2025-01-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,127.23,365.0,121.01,improving
+2025-01-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,7.51,15.0,7.76,declining
+2025-01-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,79.68,95.0,75.0,improving
+2025-01-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.44,0.0,2.46,improving
+2025-01-01,HUN-01,KPI-TRAIN,Training Completion,True,%,80.23,100.0,86.62,declining
+2025-01-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,70.99,90.0,65.0,improving
+2025-01-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,4.85,5.0,4.91,improving
+2025-01-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,94.35,100.0,90.2,improving
+2025-01-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,80.94,100.0,81.74,declining
+2025-01-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,77.63,85.0,66.28,improving
+2025-02-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.56,3.0,2.62,improving
+2025-02-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.56,1.0,1.74,improving
+2025-02-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,257.95,365.0,274.01,declining
+2025-02-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,15.63,15.0,13.99,improving
+2025-02-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,79.28,95.0,75.27,improving
+2025-02-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.41,0.0,2.48,improving
+2025-02-01,HUN-01,KPI-TRAIN,Training Completion,True,%,82.08,100.0,86.52,declining
+2025-02-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,69.71,90.0,65.0,improving
+2025-02-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,8.57,5.0,7.76,declining
+2025-02-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.0,100.0,93.36,declining
+2025-02-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,90.67,100.0,95.38,declining
+2025-02-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,81.74,85.0,86.1,declining
+2025-03-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.92,3.0,4.11,improving
+2025-03-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.23,1.0,1.33,improving
+2025-03-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,214.29,365.0,187.44,improving
+2025-03-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,10.95,15.0,11.99,declining
+2025-03-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,85.13,95.0,75.45,improving
+2025-03-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.57,0.0,0.59,improving
+2025-03-01,HUN-01,KPI-TRAIN,Training Completion,True,%,85.69,100.0,87.6,declining
+2025-03-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,67.81,90.0,68.88,declining
+2025-03-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,9.93,5.0,9.84,declining
+2025-03-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,87.87,100.0,94.03,declining
+2025-03-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,90.88,100.0,89.53,improving
+2025-03-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,78.72,85.0,75.13,improving
+2025-04-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.14,3.0,2.93,declining
+2025-04-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.49,1.0,1.44,declining
+2025-04-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,218.49,365.0,227.21,declining
+2025-04-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,13.37,15.0,12.43,improving
+2025-04-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,75.23,95.0,85.54,declining
+2025-04-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.54,0.0,0.62,improving
+2025-04-01,HUN-01,KPI-TRAIN,Training Completion,True,%,87.39,100.0,84.18,improving
+2025-04-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,75.0,90.0,66.82,improving
+2025-04-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,11.33,5.0,12.0,improving
+2025-04-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,95.79,100.0,86.25,improving
+2025-04-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,85.11,100.0,89.35,declining
+2025-04-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,75.37,85.0,70.7,improving
+2025-05-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,2.18,3.0,1.99,declining
+2025-05-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.8,1.0,0.84,improving
+2025-05-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,236.15,365.0,224.06,improving
+2025-05-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,16.58,15.0,15.81,improving
+2025-05-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,88.28,95.0,97.27,declining
+2025-05-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.3,0.0,2.61,improving
+2025-05-01,HUN-01,KPI-TRAIN,Training Completion,True,%,92.61,100.0,90.78,improving
+2025-05-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,71.87,90.0,65.0,improving
+2025-05-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,8.42,5.0,9.46,improving
+2025-05-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,86.29,100.0,81.1,improving
+2025-05-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,87.58,100.0,91.42,declining
+2025-05-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,79.96,85.0,79.75,improving
+2025-06-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.64,3.0,3.68,improving
+2025-06-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.92,1.0,2.08,improving
+2025-06-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,135.58,365.0,118.81,improving
+2025-06-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,22.85,15.0,21.01,improving
+2025-06-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,95.64,95.0,86.61,improving
+2025-06-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.3,0.0,0.34,improving
+2025-06-01,HUN-01,KPI-TRAIN,Training Completion,True,%,81.37,100.0,80.0,improving
+2025-06-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,77.0,90.0,74.89,improving
+2025-06-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,11.58,5.0,11.31,declining
+2025-06-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,88.23,100.0,89.14,declining
+2025-06-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,87.55,100.0,84.33,improving
+2025-06-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,81.22,85.0,90.2,declining
+2025-07-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.05,3.0,5.39,declining
+2025-07-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.63,1.0,2.28,declining
+2025-07-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,199.77,365.0,192.78,improving
+2025-07-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,20.01,15.0,22.99,declining
+2025-07-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,88.48,95.0,87.71,improving
+2025-07-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.22,0.0,0.21,declining
+2025-07-01,HUN-01,KPI-TRAIN,Training Completion,True,%,86.5,100.0,81.32,improving
+2025-07-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,72.5,90.0,72.55,declining
+2025-07-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,7.12,5.0,7.3,improving
+2025-07-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,99.03,100.0,100.0,declining
+2025-07-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,97.18,100.0,89.98,improving
+2025-07-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,81.23,85.0,72.12,improving
+2025-08-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.66,3.0,4.7,improving
+2025-08-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.79,1.0,1.85,improving
+2025-08-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,338.9,365.0,300.6,improving
+2025-08-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,7.76,15.0,8.16,declining
+2025-08-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,92.1,95.0,94.96,declining
+2025-08-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.96,0.0,0.87,declining
+2025-08-01,HUN-01,KPI-TRAIN,Training Completion,True,%,95.3,100.0,100.0,declining
+2025-08-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,86.09,90.0,82.63,improving
+2025-08-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,6.34,5.0,5.62,declining
+2025-08-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,86.4,100.0,96.0,declining
+2025-08-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,94.16,100.0,96.04,declining
+2025-08-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,62.16,85.0,61.47,improving
+2025-09-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.99,3.0,4.08,improving
+2025-09-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.41,1.0,1.51,improving
+2025-09-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,38.26,365.0,37.07,improving
+2025-09-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,12.49,15.0,13.16,declining
+2025-09-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,94.64,95.0,81.89,improving
+2025-09-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.17,0.0,1.04,declining
+2025-09-01,HUN-01,KPI-TRAIN,Training Completion,True,%,86.11,100.0,83.34,improving
+2025-09-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,86.93,90.0,93.16,declining
+2025-09-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,4.67,5.0,4.91,improving
+2025-09-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,79.99,100.0,79.43,improving
+2025-09-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,90.17,100.0,100.0,declining
+2025-09-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,70.29,85.0,68.35,improving
+2025-10-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.06,3.0,4.4,improving
+2025-10-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.3,1.0,2.34,improving
+2025-10-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,47.24,365.0,41.51,improving
+2025-10-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,21.34,15.0,18.52,improving
+2025-10-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,88.03,95.0,88.86,declining
+2025-10-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.69,0.0,1.76,improving
+2025-10-01,HUN-01,KPI-TRAIN,Training Completion,True,%,98.38,100.0,89.31,improving
+2025-10-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,77.19,90.0,72.69,improving
+2025-10-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,9.21,5.0,7.91,declining
+2025-10-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,95.55,100.0,94.4,improving
+2025-10-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,95.36,100.0,84.88,improving
+2025-10-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,63.35,85.0,70.62,declining
+2025-11-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.7,3.0,5.23,improving
+2025-11-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.96,1.0,2.6,declining
+2025-11-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,357.32,365.0,352.16,improving
+2025-11-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,19.04,15.0,16.74,improving
+2025-11-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,86.92,95.0,80.17,improving
+2025-11-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.5,0.0,1.44,declining
+2025-11-01,HUN-01,KPI-TRAIN,Training Completion,True,%,94.13,100.0,93.24,improving
+2025-11-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,97.97,90.0,94.25,improving
+2025-11-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,9.59,5.0,8.71,declining
+2025-11-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,76.2,100.0,70.0,improving
+2025-11-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,88.48,100.0,82.53,improving
+2025-11-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,66.26,85.0,63.07,improving
+2025-12-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,3.68,3.0,3.34,declining
+2025-12-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,2.15,1.0,2.19,improving
+2025-12-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,266.43,365.0,243.66,improving
+2025-12-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,20.22,15.0,19.11,improving
+2025-12-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,84.04,95.0,78.9,improving
+2025-12-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.53,0.0,0.47,declining
+2025-12-01,HUN-01,KPI-TRAIN,Training Completion,True,%,93.06,100.0,90.81,improving
+2025-12-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.01,90.0,85.77,declining
+2025-12-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,8.86,5.0,8.76,declining
+2025-12-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,87.34,100.0,80.03,improving
+2025-12-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,97.49,100.0,100.0,declining
+2025-12-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,81.25,85.0,81.09,improving
+2026-01-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,6.1,3.0,5.42,declining
+2026-01-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,1.99,1.0,1.73,declining
+2026-01-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,334.44,365.0,366.56,declining
+2026-01-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,7.85,15.0,8.26,declining
+2026-01-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,94.3,95.0,82.14,improving
+2026-01-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,2.8,0.0,3.0,improving
+2026-01-01,HUN-01,KPI-TRAIN,Training Completion,True,%,97.04,100.0,91.78,improving
+2026-01-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,96.08,90.0,100.0,declining
+2026-01-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,6.97,5.0,7.18,improving
+2026-01-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,95.39,100.0,82.74,improving
+2026-01-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,94.83,100.0,91.95,improving
+2026-01-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,94.91,85.0,95.0,declining
+2026-02-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,4.38,3.0,4.26,declining
+2026-02-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.87,1.0,0.96,improving
+2026-02-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,72.72,365.0,72.47,improving
+2026-02-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,16.93,15.0,15.19,improving
+2026-02-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,79.91,95.0,78.92,improving
+2026-02-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,0.52,0.0,0.58,improving
+2026-02-01,HUN-01,KPI-TRAIN,Training Completion,True,%,86.69,100.0,82.61,improving
+2026-02-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,80.36,90.0,91.55,declining
+2026-02-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,11.09,5.0,9.57,declining
+2026-02-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,85.28,100.0,83.22,improving
+2026-02-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,80.46,100.0,80.0,improving
+2026-02-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,90.97,85.0,77.57,improving
+2026-03-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,5.09,3.0,4.37,declining
+2026-03-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.53,1.0,0.53,declining
+2026-03-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,373.97,365.0,416.28,declining
+2026-03-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,17.04,15.0,18.5,declining
+2026-03-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,96.62,95.0,100.0,declining
+2026-03-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.59,0.0,1.53,declining
+2026-03-01,HUN-01,KPI-TRAIN,Training Completion,True,%,89.42,100.0,82.53,improving
+2026-03-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,94.95,90.0,96.96,declining
+2026-03-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,4.34,5.0,4.47,improving
+2026-03-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,83.2,100.0,86.87,declining
+2026-03-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,92.04,100.0,100.0,declining
+2026-03-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,76.05,85.0,69.9,improving
+2026-04-01,HUN-01,KPI-TRIFR,TRIFR,False,per Mhrs,7.38,3.0,8.0,improving
+2026-04-01,HUN-01,KPI-LTIFR,LTIFR,False,per Mhrs,0.57,1.0,0.51,declining
+2026-04-01,HUN-01,KPI-DSLTI,Days Since Last LTI,False,days,137.82,365.0,145.09,declining
+2026-04-01,HUN-01,KPI-NMREP,Near Miss Reports,True,count,15.64,15.0,17.16,declining
+2026-04-01,HUN-01,KPI-SAOBS,Safety Observations,True,%,93.38,95.0,100.0,declining
+2026-04-01,HUN-01,KPI-HPINC,High Potential Incidents,False,count,1.43,0.0,1.62,improving
+2026-04-01,HUN-01,KPI-TRAIN,Training Completion,True,%,94.12,100.0,88.83,improving
+2026-04-01,HUN-01,KPI-HZARD,Hazard Close-out Rate,True,%,70.69,90.0,76.87,declining
+2026-04-01,HUN-01,KPI-EMRTM,Emergency Response Time,True,min,4.39,5.0,3.97,declining
+2026-04-01,HUN-01,KPI-RSKSC,Risk Assessment Compliance,True,%,87.06,100.0,75.35,improving
+2026-04-01,HUN-01,KPI-INVRR,Incident Investigation Rate,False,%,85.26,100.0,88.58,declining
+2026-04-01,HUN-01,KPI-FATSC,Fatigue Score Average,True,score,79.63,85.0,69.57,improving

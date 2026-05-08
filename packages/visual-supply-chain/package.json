@@ -1,0 +1,22 @@
+{
+  "name": "@appilico/visual-supply-chain",
+  "version": "1.0.0",
+  "description": "Supply Chain & Haulage Dashboard - Cycle times, payload, queue analysis, route optimisation",
+  "scripts": {
+    "build": "cd react && tsc",
+    "test": "exit 0",
+    "lint": "exit 0",
+    "build:pbiviz": "cd pbiviz && pbiviz package",
+    "build:react": "cd react && tsc"
+  },
+  "dependencies": {
+    "@appilico/shared-types": "*",
+    "@appilico/shared-ui": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

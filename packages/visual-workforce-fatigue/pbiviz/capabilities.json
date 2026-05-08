@@ -1,0 +1,132 @@
+{
+    "dataRoles":  [
+                      {
+                          "name":  "date",
+                          "kind":  "Grouping",
+                          "displayName":  "Date"
+                      },
+                      {
+                          "name":  "crewName",
+                          "kind":  "Grouping",
+                          "displayName":  "Crew"
+                      },
+                      {
+                          "name":  "shiftType",
+                          "kind":  "Grouping",
+                          "displayName":  "Shift Type"
+                      },
+                      {
+                          "name":  "siteName",
+                          "kind":  "Grouping",
+                          "displayName":  "Site"
+                      },
+                      {
+                          "name":  "headcount",
+                          "kind":  "Measure",
+                          "displayName":  "Headcount"
+                      },
+                      {
+                          "name":  "hoursWorked",
+                          "kind":  "Measure",
+                          "displayName":  "Hours Worked"
+                      },
+                      {
+                          "name":  "fatigueScore",
+                          "kind":  "Measure",
+                          "displayName":  "Fatigue Risk Score"
+                      },
+                      {
+                          "name":  "absentPct",
+                          "kind":  "Measure",
+                          "displayName":  "Absent %"
+                      },
+                      {
+                          "name":  "utilPct",
+                          "kind":  "Measure",
+                          "displayName":  "Utilisation %"
+                      }
+                  ],
+    "dataViewMappings":  [
+                             {
+                                 "categorical":  {
+                                                     "categories":  {
+                                                                        "select":  [
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "date"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "crewName"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "shiftType"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "siteName"
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                        "dataReductionAlgorithm":  {
+                                                                                                       "top":  {
+                                                                                                                   "count":  5000
+                                                                                                               }
+                                                                                                   }
+                                                                    },
+                                                     "values":  {
+                                                                    "select":  [
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "headcount"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "hoursWorked"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "fatigueScore"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "absentPct"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "utilPct"
+                                                                                               }
+                                                                                   }
+                                                                               ]
+                                                                }
+                                                 }
+                             }
+                         ],
+    "objects":  {
+                    "general":  {
+                                    "properties":  {
+                                                       "showFatigueHeatmap":  {
+                                                                                  "type":  {
+                                                                                               "bool":  true
+                                                                                           }
+                                                                              },
+                                                       "fatigueThreshold":  {
+                                                                                "type":  {
+                                                                                             "numeric":  true
+                                                                                         }
+                                                                            }
+                                                   }
+                                }
+                },
+    "privileges":  [
+
+                   ]
+}

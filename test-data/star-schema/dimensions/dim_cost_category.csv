@@ -1,0 +1,10 @@
+id,name,gl_prefix
+CC-OPS,Mining Operations,5100
+CC-MAINT,Maintenance,5200
+CC-FUEL,Diesel & Fuel,5300
+CC-LAB,Labour & Wages,5400
+CC-CONS,Consumables,5500
+CC-DRILL,Drill & Blast,5600
+CC-HAUL,Haulage & Transport,5700
+CC-PROC,Processing,5800
+CC-OVER,Overhead & Admin,6100

@@ -1,0 +1,132 @@
+{
+    "dataRoles":  [
+                      {
+                          "name":  "period",
+                          "kind":  "Grouping",
+                          "displayName":  "Period"
+                      },
+                      {
+                          "name":  "source",
+                          "kind":  "Grouping",
+                          "displayName":  "Emission Source"
+                      },
+                      {
+                          "name":  "scope",
+                          "kind":  "Grouping",
+                          "displayName":  "Scope (1/2/3)"
+                      },
+                      {
+                          "name":  "siteName",
+                          "kind":  "Grouping",
+                          "displayName":  "Site"
+                      },
+                      {
+                          "name":  "emissionsTCO2",
+                          "kind":  "Measure",
+                          "displayName":  "Emissions (tCO₂e)"
+                      },
+                      {
+                          "name":  "energyGJ",
+                          "kind":  "Measure",
+                          "displayName":  "Energy (GJ)"
+                      },
+                      {
+                          "name":  "intensityRate",
+                          "kind":  "Measure",
+                          "displayName":  "Intensity (kgCO₂/t)"
+                      },
+                      {
+                          "name":  "ngerTarget",
+                          "kind":  "Measure",
+                          "displayName":  "NGER Target"
+                      },
+                      {
+                          "name":  "renewablePct",
+                          "kind":  "Measure",
+                          "displayName":  "Renewable %"
+                      }
+                  ],
+    "dataViewMappings":  [
+                             {
+                                 "categorical":  {
+                                                     "categories":  {
+                                                                        "select":  [
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "period"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "source"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "scope"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "siteName"
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                        "dataReductionAlgorithm":  {
+                                                                                                       "top":  {
+                                                                                                                   "count":  2000
+                                                                                                               }
+                                                                                                   }
+                                                                    },
+                                                     "values":  {
+                                                                    "select":  [
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "emissionsTCO2"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "energyGJ"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "intensityRate"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "ngerTarget"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "renewablePct"
+                                                                                               }
+                                                                                   }
+                                                                               ]
+                                                                }
+                                                 }
+                             }
+                         ],
+    "objects":  {
+                    "general":  {
+                                    "properties":  {
+                                                       "showIntensity":  {
+                                                                             "type":  {
+                                                                                          "bool":  true
+                                                                                      }
+                                                                         },
+                                                       "showNGER":  {
+                                                                        "type":  {
+                                                                                     "bool":  true
+                                                                                 }
+                                                                    }
+                                                   }
+                                }
+                },
+    "privileges":  [
+
+                   ]
+}

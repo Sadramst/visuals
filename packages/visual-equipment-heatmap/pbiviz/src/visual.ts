@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings.js'
-import { EquipmentStatus, VisualViewModel, EquipmentRow, CellData } from './types.js'
+import { VisualSettings } from './settings'
+import { EquipmentStatus, VisualViewModel, EquipmentRow, CellData } from './types'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -166,7 +166,7 @@ export class EquipmentHeatmapVisual implements IVisual {
     const cellSize = Math.min(
       viewModel.settings.general.cellSize,
       width / 24,
-      height / viewModel.equipment.length
+      (height - 60) / viewModel.equipment.length  // reserve space for OEE cards
     )
 
     // Set container position
@@ -174,6 +174,9 @@ export class EquipmentHeatmapVisual implements IVisual {
 
     // Clear existing content
     this.container.selectAll('*').remove()
+
+    // Render OEE summary cards
+    this.renderOEECards(viewModel, width)
 
     // Draw hour labels
     if (viewModel.settings.general.showLabels) {
@@ -183,20 +186,20 @@ export class EquipmentHeatmapVisual implements IVisual {
         .append('text')
         .classed('hour-label', true)
         .attr('x', (d) => (d as number) * cellSize + cellSize / 2)
-        .attr('y', -10)
+        .attr('y', 50)  // shifted down for OEE cards
         .attr('text-anchor', 'middle')
         .style('font-size', `${this.settings.labels.fontSize}px`)
         .style('fill', this.settings.labels.fontColor)
         .text(d => `${d}:00`)
     }
 
-    // Draw equipment rows
+    // Draw equipment rows (shifted down for OEE cards)
     const rows = this.container.selectAll('.equipment-row')
       .data(viewModel.equipment)
       .enter()
       .append('g')
       .classed('equipment-row', true)
-      .attr('transform', (_, i) => `translate(0, ${i * cellSize})`)
+      .attr('transform', (_, i) => `translate(0, ${60 + i * cellSize})`)
 
     // Equipment labels
     if (viewModel.settings.general.showLabels) {
@@ -209,6 +212,27 @@ export class EquipmentHeatmapVisual implements IVisual {
         .style('font-size', `${this.settings.labels.fontSize}px`)
         .style('fill', this.settings.labels.fontColor)
         .text(d => (d as EquipmentRow).name)
+
+      // Per-row utilisation percentage
+      rows.append('text')
+        .classed('util-label', true)
+        .attr('x', 24 * cellSize + 8)
+        .attr('y', cellSize / 2)
+        .attr('dominant-baseline', 'middle')
+        .style('font-size', '9px')
+        .style('font-weight', '700')
+        .text(d => {
+          const row = d as EquipmentRow
+          const opCells = row.cells.filter(c => c.status === 'operating').length
+          const pct = (opCells / 24 * 100)
+          return `${pct.toFixed(0)}%`
+        })
+        .style('fill', d => {
+          const row = d as EquipmentRow
+          const opCells = row.cells.filter(c => c.status === 'operating').length
+          const pct = opCells / 24 * 100
+          return pct >= 80 ? '#00B050' : pct >= 60 ? '#E07A1F' : '#C00000'
+        })
     }
 
     // Draw cells
@@ -238,35 +262,55 @@ export class EquipmentHeatmapVisual implements IVisual {
   }
 
   private renderHeader(width: number): void {
-    // Remove old header if exists
     this.svg.selectAll('.header').remove()
-
     const header = this.svg.append('g').classed('header', true)
 
-    // Background
-    header.append('rect')
-      .attr('width', width)
-      .attr('height', 32)
-      .attr('fill', '#0F2847')
+    // Gradient bg
+    const defs = this.svg.selectAll('defs').data([0]).join('defs')
+    const grad = defs.selectAll('#heatmapHeaderGrad').data([0]).join('linearGradient').attr('id', 'heatmapHeaderGrad').attr('x1', '0%').attr('x2', '100%')
+    grad.selectAll('stop').data([{ o: '0%', c: '#0A2540' }, { o: '100%', c: '#1a3a5c' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
 
-    // Logo - BOLD and PROMINENT
-    header.append('text')
-      .attr('x', 10)
-      .attr('y', 22)
-      .attr('font-size', '20px')
-      .attr('font-weight', '900')
-      .attr('letter-spacing', '2')
-      .attr('fill', '#00D4FF')
-      .text('⚙ APPILICO')
+    header.append('rect').attr('width', width).attr('height', 48).attr('fill', 'url(#heatmapHeaderGrad)')
 
-    // Title
-    header.append('text')
-      .attr('x', 160)
-      .attr('y', 22)
-      .attr('font-size', '15px')
-      .attr('font-weight', '700')
-      .attr('fill', '#FFFFFF')
-      .text('Equipment Status Monitor')
+    const iconGrad = defs.selectAll('#heatmapIconGrad').data([0]).join('linearGradient').attr('id', 'heatmapIconGrad').attr('x1', '0%').attr('y1', '0%').attr('x2', '100%').attr('y2', '100%')
+    iconGrad.selectAll('stop').data([{ o: '0%', c: '#00D4FF' }, { o: '100%', c: '#7B61FF' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
+
+    header.append('rect').attr('x', 12).attr('y', 8).attr('width', 32).attr('height', 32).attr('rx', 8).attr('fill', 'url(#heatmapIconGrad)')
+    header.append('text').attr('x', 28).attr('y', 30).attr('text-anchor', 'middle').attr('font-size', '16px').attr('fill', '#fff').text('⚙')
+
+    header.append('text').attr('x', 52).attr('y', 22).attr('font-size', '14px').attr('font-weight', '800').attr('fill', '#FFFFFF').attr('letter-spacing', '0.5').text('APPILICO')
+    header.append('text').attr('x', 52).attr('y', 38).attr('font-size', '10px').attr('fill', '#00D4FF').attr('letter-spacing', '2').text('EQUIPMENT OEE')
+  }
+
+  private renderOEECards(viewModel: VisualViewModel, width: number): void {
+    const allCells = viewModel.equipment.flatMap(e => e.cells)
+    const totalCells = allCells.length || 1
+    const operating = allCells.filter(c => c.status === 'operating').length
+    const idle = allCells.filter(c => c.status === 'idle').length
+    const maint = allCells.filter(c => c.status === 'maintenance').length
+    const breakdown = allCells.filter(c => c.status === 'breakdown').length
+
+    const availability = ((totalCells - breakdown - maint) / totalCells * 100)
+    const utilisation = (operating / totalCells * 100)
+    const avgOEE = allCells.reduce((s, c) => s + c.oee, 0) / totalCells
+
+    const cards = [
+      { label: 'OEE', value: `${avgOEE.toFixed(0)}%`, colour: avgOEE >= 75 ? '#00B050' : avgOEE >= 55 ? '#E07A1F' : '#C00000' },
+      { label: 'AVAILABILITY', value: `${availability.toFixed(0)}%`, colour: availability >= 85 ? '#00B050' : '#E07A1F' },
+      { label: 'UTILISATION', value: `${utilisation.toFixed(0)}%`, colour: utilisation >= 70 ? '#00B050' : '#E07A1F' },
+      { label: 'BREAKDOWNS', value: `${breakdown}`, colour: breakdown === 0 ? '#00B050' : '#C00000' },
+    ]
+
+    const cardW = (width - 30) / cards.length
+    cards.forEach((card, i) => {
+      const x = i * (cardW + 6)
+      const g = this.container.append('g').attr('transform', `translate(${x}, -8)`)
+
+      g.append('rect').attr('width', cardW).attr('height', 38).attr('rx', 6).attr('fill', '#FFFFFF').attr('stroke', '#e0e0e0').attr('stroke-width', 0.5)
+      g.append('rect').attr('width', 3).attr('height', 38).attr('rx', 1.5).attr('fill', card.colour)
+      g.append('text').attr('x', 12).attr('y', 14).style('font-size', '8px').style('fill', '#5A6978').style('text-transform', 'uppercase').style('letter-spacing', '0.5px').style('font-weight', '600').text(card.label)
+      g.append('text').attr('x', 12).attr('y', 32).style('font-size', '16px').style('font-weight', '800').style('fill', card.colour).text(card.value)
+    })
   }
 
   private renderLegend(viewModel: VisualViewModel): void {

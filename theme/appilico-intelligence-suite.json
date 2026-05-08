@@ -1,0 +1,179 @@
+{
+  "name": "Appilico Intelligence Suite",
+  "description": "Power BI theme for Appilico Mining Intelligence Platform — Australian heavy industry focus",
+  "version": "2.0.0",
+  "dataColors": [
+    "#00D4FF", "#0A2540", "#E07A1F", "#00B050", "#C00000",
+    "#7B61FF", "#FF6B6B", "#4ECDC4", "#45B7D1", "#96CEB4",
+    "#FFEAA7", "#DDA0DD", "#20B2AA", "#FF7F50", "#87CEEB"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0A2540",
+  "tableAccent": "#00D4FF",
+  "maximum": "#C00000",
+  "center": "#E07A1F",
+  "minimum": "#00B050",
+  "good": "#00B050",
+  "neutral": "#E07A1F",
+  "bad": "#C00000",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Variable, Inter, sans-serif", "color": "#0A2540" },
+    "title": { "fontSize": 14, "fontFace": "Segoe UI Variable, Inter, sans-serif", "color": "#0A2540" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Variable, Inter, sans-serif", "color": "#0A2540" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI Variable, Inter, sans-serif", "color": "#5A6978" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "general": [{ "responsive": true }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "color": { "solid": { "color": "#E8ECF0" } }, "radius": 8 }],
+        "title": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#0A2540" } },
+          "fontSize": 13,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif",
+          "fontWeight": "Bold",
+          "alignment": "left"
+        }],
+        "subTitle": [{
+          "show": true,
+          "fontColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif"
+        }],
+        "padding": [{ "top": 8, "right": 12, "bottom": 8, "left": 12 }],
+        "dropShadow": [{
+          "show": true,
+          "color": { "solid": { "color": "#000000" } },
+          "position": "Outer",
+          "preset": "BottomRight",
+          "transparency": 92,
+          "offset": 2,
+          "spread": 0,
+          "blur": 8
+        }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F8" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#E8ECF0" } } }],
+        "outspacePane": [{ "color": { "solid": { "color": "#E8ECF0" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{
+          "color": { "solid": { "color": "#0A2540" } },
+          "fontSize": 28,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif",
+          "fontWeight": "Bold"
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#5A6978" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif"
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "general": [{
+          "outlineColor": { "solid": { "color": "#00D4FF" } },
+          "outlineWeight": 1
+        }],
+        "selection": [{
+          "selectAllCheckboxEnabled": true,
+          "singleSelect": false
+        }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#0A2540" } },
+          "background": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif"
+        }],
+        "header": [{
+          "fontColor": { "solid": { "color": "#0A2540" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif",
+          "fontWeight": "SemiBold"
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#00D4FF" } } }],
+        "lineStyles": [{ "strokeWidth": 2, "lineStyle": "solid" }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9,
+          "gridlineShow": false
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E8ECF0" } }
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#00D4FF" } } }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E8ECF0" } }
+        }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [{ "defaultColor": { "solid": { "color": "#00D4FF" } } }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#5A6978" } },
+          "fontSize": 9,
+          "gridlineShow": true,
+          "gridlineColor": { "solid": { "color": "#E8ECF0" } }
+        }]
+      }
+    },
+    "table": {
+      "*": {
+        "grid": [{
+          "gridVertical": false,
+          "gridHorizontal": true,
+          "gridHorizontalColor": { "solid": { "color": "#E8ECF0" } },
+          "gridHorizontalWeight": 1,
+          "rowPadding": 4
+        }],
+        "columnHeaders": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "backColor": { "solid": { "color": "#0A2540" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif",
+          "fontWeight": "SemiBold"
+        }],
+        "values": [{
+          "fontColorPrimary": { "solid": { "color": "#0A2540" } },
+          "backColorPrimary": { "solid": { "color": "#FFFFFF" } },
+          "fontColorSecondary": { "solid": { "color": "#0A2540" } },
+          "backColorSecondary": { "solid": { "color": "#F8FAFB" } },
+          "fontSize": 10,
+          "fontFamily": "Segoe UI Variable, Inter, sans-serif"
+        }]
+      }
+    }
+  }
+}

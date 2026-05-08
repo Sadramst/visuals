@@ -1,0 +1,6 @@
+id,name,bench_start,bench_end
+NP,North Pit,380,420
+SP,South Pit,340,390
+EP,East Pit,360,400
+WP,West Pit,350,380
+ROM,ROM Pad,0,0

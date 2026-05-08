@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings.js'
-import { CostDataPoint, VisualViewModel } from './types.js'
+import { VisualSettings } from './settings'
+import { CostDataPoint, VisualViewModel } from './types'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -167,35 +167,23 @@ export class CostTrackerVisual implements IVisual {
   }
 
   private renderHeader(width: number): void {
-    // Remove old header if exists
     this.svg.selectAll('.header').remove()
-
     const header = this.svg.append('g').classed('header', true)
 
-    // Background
-    header.append('rect')
-      .attr('width', width)
-      .attr('height', 50)
-      .attr('fill', '#0F2847')
+    const defs = this.svg.selectAll('defs').data([0]).join('defs')
+    const grad = defs.selectAll('#costHeaderGrad').data([0]).join('linearGradient').attr('id', 'costHeaderGrad').attr('x1', '0%').attr('x2', '100%')
+    grad.selectAll('stop').data([{ o: '0%', c: '#0A2540' }, { o: '100%', c: '#1a3a5c' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
 
-    // Logo - BOLD and PROMINENT
-    header.append('text')
-      .attr('x', 10)
-      .attr('y', 20)
-      .attr('font-size', '20px')
-      .attr('font-weight', '900')
-      .attr('letter-spacing', '2')
-      .attr('fill', '#00D4FF')
-      .text('$ APPILICO')
+    header.append('rect').attr('width', width).attr('height', 48).attr('fill', 'url(#costHeaderGrad)')
 
-    // Title
-    header.append('text')
-      .attr('x', 10)
-      .attr('y', 40)
-      .attr('font-size', '14px')
-      .attr('font-weight', '600')
-      .attr('fill', '#FFFFFF')
-      .text('Monthly Cost Analysis')
+    const iconGrad = defs.selectAll('#costIconGrad').data([0]).join('linearGradient').attr('id', 'costIconGrad').attr('x1', '0%').attr('y1', '0%').attr('x2', '100%').attr('y2', '100%')
+    iconGrad.selectAll('stop').data([{ o: '0%', c: '#00D4FF' }, { o: '100%', c: '#7B61FF' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
+
+    header.append('rect').attr('x', 12).attr('y', 8).attr('width', 32).attr('height', 32).attr('rx', 8).attr('fill', 'url(#costIconGrad)')
+    header.append('text').attr('x', 28).attr('y', 30).attr('text-anchor', 'middle').attr('font-size', '16px').attr('fill', '#fff').text('$')
+
+    header.append('text').attr('x', 52).attr('y', 22).attr('font-size', '14px').attr('font-weight', '800').attr('fill', '#FFFFFF').attr('letter-spacing', '0.5').text('APPILICO')
+    header.append('text').attr('x', 52).attr('y', 38).attr('font-size', '10px').attr('fill', '#00D4FF').attr('letter-spacing', '2').text('COST & BUDGET VARIANCE')
   }
 
   private render(viewModel: VisualViewModel, width: number, height: number): void {
@@ -295,8 +283,86 @@ export class CostTrackerVisual implements IVisual {
         .text('!')
     }
 
+    // Cost-per-tonne trend line on secondary Y axis
+    this.renderCostPerTonneLine(dataPoints, xScale, width, height)
+
+    // Variance indicators on bars
+    this.renderVarianceIndicators(dataPoints, xScale, yScale, height)
+
     // Legend
     this.renderLegend(viewModel, width)
+  }
+
+  private renderCostPerTonneLine(
+    dataPoints: CostDataPoint[],
+    xScale: d3.ScaleBand<string>,
+    width: number,
+    height: number
+  ): void {
+    const cptData = dataPoints.filter(d => d.costPerTonne > 0)
+    if (cptData.length < 2) return
+
+    const cptMax = Math.max(...cptData.map(d => d.costPerTonne)) * 1.2
+    const cptScale = d3.scaleLinear().domain([0, cptMax]).range([height, 0])
+
+    // Right Y axis
+    const rightAxis = this.container.append('g')
+      .attr('transform', `translate(${width}, 0)`)
+      .call(d3.axisRight(cptScale).ticks(4).tickFormat(d => `$${(d as number).toFixed(0)}/t`))
+    rightAxis.selectAll('text').style('font-size', '8px').style('fill', '#7B61FF')
+    rightAxis.select('.domain').attr('stroke', '#7B61FF').attr('opacity', 0.3)
+
+    // Trend line
+    const trendLine = d3.line<CostDataPoint>()
+      .x(d => xScale(d.month)! + xScale.bandwidth() / 2)
+      .y(d => cptScale(d.costPerTonne))
+      .curve(d3.curveMonotoneX)
+
+    this.container.append('path')
+      .datum(cptData)
+      .attr('fill', 'none')
+      .attr('stroke', '#7B61FF')
+      .attr('stroke-width', 2)
+      .attr('d', trendLine)
+
+    // Dots
+    cptData.forEach(d => {
+      this.container.append('circle')
+        .attr('cx', xScale(d.month)! + xScale.bandwidth() / 2)
+        .attr('cy', cptScale(d.costPerTonne))
+        .attr('r', 3).attr('fill', '#7B61FF').attr('stroke', '#fff').attr('stroke-width', 1.5)
+    })
+  }
+
+  private renderVarianceIndicators(
+    dataPoints: CostDataPoint[],
+    xScale: d3.ScaleBand<string>,
+    yScale: d3.ScaleLinear<number, number>,
+    height: number
+  ): void {
+    // Small variance bars below the x-axis
+    const varMax = Math.max(...dataPoints.filter(d => d.variancePercent !== undefined).map(d => Math.abs(d.variancePercent!)), 1)
+    const varScale = d3.scaleLinear().domain([0, varMax]).range([0, 20])
+
+    dataPoints.forEach(d => {
+      if (d.variancePercent === undefined) return
+      const barH = varScale(Math.abs(d.variancePercent))
+      const isOver = d.variancePercent > 0
+      const color = isOver ? '#C00000' : '#00B050'
+      const x = xScale(d.month)!
+
+      this.container.append('rect')
+        .attr('x', x).attr('y', height + 20)
+        .attr('width', xScale.bandwidth()).attr('height', barH)
+        .attr('fill', color).attr('opacity', 0.6).attr('rx', 2)
+
+      this.container.append('text')
+        .attr('x', x + xScale.bandwidth() / 2).attr('y', height + 20 + barH + 10)
+        .attr('text-anchor', 'middle')
+        .style('font-size', '7px').style('fill', color).style('font-weight', '600')
+        .text(`${isOver ? '+' : ''}${d.variancePercent.toFixed(0)}%`)
+    })
+  }
   }
 
   private renderSummary(viewModel: VisualViewModel, width: number): void {

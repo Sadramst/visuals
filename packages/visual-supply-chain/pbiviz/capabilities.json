@@ -1,0 +1,172 @@
+{
+    "dataRoles":  [
+                      {
+                          "name":  "date",
+                          "kind":  "Grouping",
+                          "displayName":  "Date"
+                      },
+                      {
+                          "name":  "routeName",
+                          "kind":  "Grouping",
+                          "displayName":  "Route"
+                      },
+                      {
+                          "name":  "truckId",
+                          "kind":  "Grouping",
+                          "displayName":  "Truck ID"
+                      },
+                      {
+                          "name":  "siteName",
+                          "kind":  "Grouping",
+                          "displayName":  "Site"
+                      },
+                      {
+                          "name":  "cycleTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Cycle Time (min)"
+                      },
+                      {
+                          "name":  "payloadT",
+                          "kind":  "Measure",
+                          "displayName":  "Payload (tonnes)"
+                      },
+                      {
+                          "name":  "targetPayload",
+                          "kind":  "Measure",
+                          "displayName":  "Target Payload"
+                      },
+                      {
+                          "name":  "queueTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Queue Time (min)"
+                      },
+                      {
+                          "name":  "loadTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Load Time (min)"
+                      },
+                      {
+                          "name":  "haulTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Haul Time (min)"
+                      },
+                      {
+                          "name":  "dumpTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Dump Time (min)"
+                      },
+                      {
+                          "name":  "returnTimeMin",
+                          "kind":  "Measure",
+                          "displayName":  "Return Time (min)"
+                      },
+                      {
+                          "name":  "trips",
+                          "kind":  "Measure",
+                          "displayName":  "Trip Count"
+                      }
+                  ],
+    "dataViewMappings":  [
+                             {
+                                 "categorical":  {
+                                                     "categories":  {
+                                                                        "select":  [
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "date"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "routeName"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "truckId"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "siteName"
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                        "dataReductionAlgorithm":  {
+                                                                                                       "top":  {
+                                                                                                                   "count":  5000
+                                                                                                               }
+                                                                                                   }
+                                                                    },
+                                                     "values":  {
+                                                                    "select":  [
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "cycleTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "payloadT"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "targetPayload"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "queueTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "loadTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "haulTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "dumpTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "returnTimeMin"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "trips"
+                                                                                               }
+                                                                                   }
+                                                                               ]
+                                                                }
+                                                 }
+                             }
+                         ],
+    "objects":  {
+                    "general":  {
+                                    "properties":  {
+                                                       "showCycleBreakdown":  {
+                                                                                  "type":  {
+                                                                                               "bool":  true
+                                                                                           }
+                                                                              },
+                                                       "showPayloadDist":  {
+                                                                               "type":  {
+                                                                                            "bool":  true
+                                                                                        }
+                                                                           }
+                                                   }
+                                }
+                },
+    "privileges":  [
+
+                   ]
+}

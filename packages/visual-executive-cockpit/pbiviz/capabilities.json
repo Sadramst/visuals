@@ -1,0 +1,137 @@
+{
+    "dataRoles":  [
+                      {
+                          "name":  "kpiName",
+                          "kind":  "Grouping",
+                          "displayName":  "KPI Name"
+                      },
+                      {
+                          "name":  "currentValue",
+                          "kind":  "Measure",
+                          "displayName":  "Current Value"
+                      },
+                      {
+                          "name":  "targetValue",
+                          "kind":  "Measure",
+                          "displayName":  "Target Value"
+                      },
+                      {
+                          "name":  "previousValue",
+                          "kind":  "Measure",
+                          "displayName":  "Previous / LY Value"
+                      },
+                      {
+                          "name":  "unit",
+                          "kind":  "Grouping",
+                          "displayName":  "Unit"
+                      },
+                      {
+                          "name":  "siteName",
+                          "kind":  "Grouping",
+                          "displayName":  "Site Name"
+                      },
+                      {
+                          "name":  "siteLatitude",
+                          "kind":  "Measure",
+                          "displayName":  "Latitude"
+                      },
+                      {
+                          "name":  "siteLongitude",
+                          "kind":  "Measure",
+                          "displayName":  "Longitude"
+                      },
+                      {
+                          "name":  "siteValue",
+                          "kind":  "Measure",
+                          "displayName":  "Site Production Value"
+                      }
+                  ],
+    "dataViewMappings":  [
+                             {
+                                 "categorical":  {
+                                                     "categories":  {
+                                                                        "select":  [
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "kpiName"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "unit"
+                                                                                                   }
+                                                                                       },
+                                                                                       {
+                                                                                           "for":  {
+                                                                                                       "in":  "siteName"
+                                                                                                   }
+                                                                                       }
+                                                                                   ],
+                                                                        "dataReductionAlgorithm":  {
+                                                                                                       "top":  {
+                                                                                                                   "count":  500
+                                                                                                               }
+                                                                                                   }
+                                                                    },
+                                                     "values":  {
+                                                                    "select":  [
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "currentValue"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "targetValue"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "previousValue"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "siteLatitude"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "siteLongitude"
+                                                                                               }
+                                                                                   },
+                                                                                   {
+                                                                                       "for":  {
+                                                                                                   "in":  "siteValue"
+                                                                                               }
+                                                                                   }
+                                                                               ]
+                                                                }
+                                                 }
+                             }
+                         ],
+    "objects":  {
+                    "general":  {
+                                    "properties":  {
+                                                       "showMap":  {
+                                                                       "type":  {
+                                                                                    "bool":  true
+                                                                                }
+                                                                   },
+                                                       "showRisks":  {
+                                                                         "type":  {
+                                                                                      "bool":  true
+                                                                                  }
+                                                                     },
+                                                       "showTrend":  {
+                                                                         "type":  {
+                                                                                      "bool":  true
+                                                                                  }
+                                                                     }
+                                                   }
+                                }
+                },
+    "privileges":  [
+
+                   ]
+}

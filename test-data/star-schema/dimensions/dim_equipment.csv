@@ -1,0 +1,20 @@
+id,name,type,make,model,capacity_t
+CAT793-001,CAT 793F #1,Haul Truck,Caterpillar,793F,227
+CAT793-002,CAT 793F #2,Haul Truck,Caterpillar,793F,227
+CAT793-003,CAT 793F #3,Haul Truck,Caterpillar,793F,227
+CAT793-004,CAT 793F #4,Haul Truck,Caterpillar,793F,227
+KOM930-001,Komatsu 930E #1,Haul Truck,Komatsu,930E-5,290
+KOM930-002,Komatsu 930E #2,Haul Truck,Komatsu,930E-5,290
+LIE996-001,Liebherr R996B #1,Excavator,Liebherr,R996B,36
+EX5600-001,Hitachi EX5600 #1,Excavator,Hitachi,EX5600-7,34
+EX5600-002,Hitachi EX5600 #2,Excavator,Hitachi,EX5600-7,34
+D11-001,CAT D11T #1,Dozer,Caterpillar,D11T,0
+D11-002,CAT D11T #2,Dozer,Caterpillar,D11T,0
+D11-003,CAT D11T #3,Dozer,Caterpillar,D11T,0
+DR24-001,Atlas DR24 #1,Drill,Epiroc,DM-M3,0
+DR24-002,Atlas DR24 #2,Drill,Epiroc,DM-M3,0
+GD16-001,CAT 16M3 #1,Grader,Caterpillar,16M3,0
+WT773-001,CAT 773G Water #1,Water Truck,Caterpillar,773G,0
+CRUSH-001,Metso HP800 #1,Crusher,Metso,HP800,0
+CRUSH-002,Sandvik CG820 #1,Crusher,Sandvik,CG820i,0
+SCRN-001,Metso CVB Screen,Screen,Metso,CVB2060,0

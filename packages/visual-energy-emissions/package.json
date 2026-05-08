@@ -1,0 +1,22 @@
+{
+  "name": "@appilico/visual-energy-emissions",
+  "version": "1.0.0",
+  "description": "Energy & Emissions Dashboard - Scope 1/2/3, intensity curves, NGER compliance",
+  "scripts": {
+    "build": "cd react && tsc",
+    "test": "exit 0",
+    "lint": "exit 0",
+    "build:pbiviz": "cd pbiviz && pbiviz package",
+    "build:react": "cd react && tsc"
+  },
+  "dependencies": {
+    "@appilico/shared-types": "*",
+    "@appilico/shared-ui": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

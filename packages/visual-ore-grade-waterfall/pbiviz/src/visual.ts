@@ -2,8 +2,8 @@
 
 import powerbi from 'powerbi-visuals-api'
 import * as d3 from 'd3'
-import { VisualSettings } from './settings.js'
-import { GradeStageData, VisualViewModel } from './types.js'
+import { VisualSettings } from './settings'
+import { GradeStageData, VisualViewModel } from './types'
 
 import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions
 import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions
@@ -120,35 +120,23 @@ export class OreGradeWaterfallVisual implements IVisual {
   }
 
   private renderHeader(width: number): void {
-    // Remove old header if exists
     this.svg.selectAll('.header').remove()
-
     const header = this.svg.append('g').classed('header', true)
 
-    // Background
-    header.append('rect')
-      .attr('width', width)
-      .attr('height', 32)
-      .attr('fill', '#0F2847')
+    const defs = this.svg.selectAll('defs').data([0]).join('defs')
+    const grad = defs.selectAll('#oreHeaderGrad').data([0]).join('linearGradient').attr('id', 'oreHeaderGrad').attr('x1', '0%').attr('x2', '100%')
+    grad.selectAll('stop').data([{ o: '0%', c: '#0A2540' }, { o: '100%', c: '#1a3a5c' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
 
-    // Logo - BOLD and PROMINENT
-    header.append('text')
-      .attr('x', 10)
-      .attr('y', 22)
-      .attr('font-size', '20px')
-      .attr('font-weight', '900')
-      .attr('letter-spacing', '2')
-      .attr('fill', '#00D4FF')
-      .text('◆ APPILICO')
+    header.append('rect').attr('width', width).attr('height', 48).attr('fill', 'url(#oreHeaderGrad)')
 
-    // Title
-    header.append('text')
-      .attr('x', 160)
-      .attr('y', 22)
-      .attr('font-size', '15px')
-      .attr('font-weight', '700')
-      .attr('fill', '#FFFFFF')
-      .text('Ore Grade Evolution')
+    const iconGrad = defs.selectAll('#oreIconGrad').data([0]).join('linearGradient').attr('id', 'oreIconGrad').attr('x1', '0%').attr('y1', '0%').attr('x2', '100%').attr('y2', '100%')
+    iconGrad.selectAll('stop').data([{ o: '0%', c: '#00D4FF' }, { o: '100%', c: '#7B61FF' }]).join('stop').attr('offset', d => d.o).attr('stop-color', d => d.c)
+
+    header.append('rect').attr('x', 12).attr('y', 8).attr('width', 32).attr('height', 32).attr('rx', 8).attr('fill', 'url(#oreIconGrad)')
+    header.append('text').attr('x', 28).attr('y', 30).attr('text-anchor', 'middle').attr('font-size', '16px').attr('fill', '#fff').text('◆')
+
+    header.append('text').attr('x', 52).attr('y', 22).attr('font-size', '14px').attr('font-weight', '800').attr('fill', '#FFFFFF').attr('letter-spacing', '0.5').text('APPILICO')
+    header.append('text').attr('x', 52).attr('y', 38).attr('font-size', '10px').attr('fill', '#00D4FF').attr('letter-spacing', '2').text('ORE GRADE & RECOVERY')
   }
 
   private render(viewModel: VisualViewModel, width: number, height: number): void {
@@ -253,6 +241,84 @@ export class OreGradeWaterfallVisual implements IVisual {
         .style('fill', d => ((d as GradeStageData).variance ?? 0) >= 0 ? viewModel.settings.colors.positive : viewModel.settings.colors.negative)
         .text(d => `${((d as GradeStageData).variance ?? 0) >= 0 ? '+' : ''}${((d as GradeStageData).variance ?? 0).toFixed(1)}%`)
     }
+
+    // Recovery flow connectors between stages
+    this.renderFlowConnectors(stages, xScale, yScale)
+
+    // Cumulative recovery line
+    this.renderRecoveryLine(stages, xScale, yScale, width, height)
+  }
+
+  private renderFlowConnectors(
+    stages: GradeStageData[],
+    xScale: d3.ScaleBand<string>,
+    yScale: d3.ScaleLinear<number, number>
+  ): void {
+    if (stages.length < 2) return
+
+    for (let i = 0; i < stages.length - 1; i++) {
+      const from = stages[i]
+      const to = stages[i + 1]
+      const x1 = xScale(from.name)! + xScale.bandwidth()
+      const x2 = xScale(to.name)!
+      const y1 = yScale(from.actualGrade)
+      const y2 = yScale(to.actualGrade)
+      const midX = (x1 + x2) / 2
+
+      // Curved connector
+      const path = `M ${x1} ${y1} C ${midX} ${y1}, ${midX} ${y2}, ${x2} ${y2}`
+
+      this.container.append('path')
+        .attr('d', path)
+        .attr('fill', 'none')
+        .attr('stroke', '#00D4FF')
+        .attr('stroke-width', 1.5)
+        .attr('stroke-dasharray', '4,3')
+        .attr('opacity', 0.6)
+
+      // Arrow head
+      this.container.append('polygon')
+        .attr('points', `${x2},${y2} ${x2 - 5},${y2 - 3} ${x2 - 5},${y2 + 3}`)
+        .attr('fill', '#00D4FF')
+        .attr('opacity', 0.6)
+
+      // Delta label on connector
+      if (from.actualGrade > 0) {
+        const delta = to.actualGrade - from.actualGrade
+        const deltaCol = delta >= 0 ? '#00B050' : '#C00000'
+        this.container.append('text')
+          .attr('x', midX).attr('y', (y1 + y2) / 2 - 6)
+          .attr('text-anchor', 'middle')
+          .style('font-size', '8px').style('font-weight', '600').style('fill', deltaCol)
+          .text(`${delta >= 0 ? '+' : ''}${delta.toFixed(2)}%`)
+      }
+    }
+  }
+
+  private renderRecoveryLine(
+    stages: GradeStageData[],
+    xScale: d3.ScaleBand<string>,
+    yScale: d3.ScaleLinear<number, number>,
+    width: number,
+    height: number
+  ): void {
+    if (stages.length < 2 || stages[0].actualGrade === 0) return
+
+    // Calculate cumulative recovery (grade retention from first stage)
+    const baseline = stages[0].actualGrade
+    const recoveryData = stages.map(s => ({
+      name: s.name,
+      recovery: (s.actualGrade / baseline) * 100,
+    }))
+
+    // Summary label
+    const finalRecovery = recoveryData[recoveryData.length - 1].recovery
+    this.container.append('text')
+      .attr('x', width - 10).attr('y', -4)
+      .attr('text-anchor', 'end')
+      .style('font-size', '10px').style('font-weight', '700')
+      .style('fill', finalRecovery >= 80 ? '#00B050' : finalRecovery >= 60 ? '#E07A1F' : '#C00000')
+      .text(`Overall Recovery: ${finalRecovery.toFixed(1)}%`)
   }
 
   public getFormattingModel(): powerbi.visuals.FormattingModel {

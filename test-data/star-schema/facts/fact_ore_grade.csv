@@ -1,0 +1,806 @@
+date_key,site_id,material,grade_unit,stage_order,stage_name,actual_grade,target_grade,grade_variance,recovery_pct,tonnes_processed
+2024-06-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.12,62.5,-0.38,100.0,307659.0
+2024-06-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.59,61.86,-0.27,99.2,346907.0
+2024-06-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.9,60.9,-0.0,95.7,304684.0
+2024-06-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.14,60.5,-0.36,96.8,335505.0
+2024-06-01,PIL-01,Iron Ore,Fe%,5,Screening,59.92,60.26,-0.34,97.0,289230.0
+2024-06-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.06,59.94,-0.88,93.5,286614.0
+2024-06-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.38,59.78,-0.4,95.4,280804.0
+2024-07-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.1,62.5,-0.4,99.4,341275.0
+2024-07-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.47,61.86,-0.39,100.0,241937.0
+2024-07-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.5,60.9,-0.4,97.8,227864.0
+2024-07-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.05,60.5,-0.45,94.2,302748.0
+2024-07-01,PIL-01,Iron Ore,Fe%,5,Screening,59.82,60.26,-0.44,97.0,277716.0
+2024-07-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.33,59.94,-0.61,96.4,291966.0
+2024-07-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.7,59.78,-1.08,93.1,327240.0
+2024-08-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.51,62.5,0.01,98.5,297591.0
+2024-08-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.32,61.86,-0.54,99.8,297757.0
+2024-08-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.66,60.9,-0.24,94.9,225784.0
+2024-08-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.67,60.5,-0.83,94.4,240794.0
+2024-08-01,PIL-01,Iron Ore,Fe%,5,Screening,59.42,60.26,-0.84,93.7,232002.0
+2024-08-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.61,59.94,-0.33,93.9,306934.0
+2024-08-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.66,59.78,-1.12,95.9,322323.0
+2024-09-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.28,62.5,-0.22,100.0,336095.0
+2024-09-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.33,61.86,-0.53,100.0,294371.0
+2024-09-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.49,60.9,-0.41,97.3,328524.0
+2024-09-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.75,60.5,-0.75,95.5,248455.0
+2024-09-01,PIL-01,Iron Ore,Fe%,5,Screening,59.41,60.26,-0.85,93.9,249449.0
+2024-09-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.2,59.94,-0.74,93.6,207829.0
+2024-09-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.56,59.78,-0.22,96.4,289066.0
+2024-10-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.53,62.5,0.03,99.4,228835.0
+2024-10-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,62.0,61.86,0.14,97.1,348240.0
+2024-10-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.14,60.9,-0.76,96.5,229924.0
+2024-10-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.68,60.5,-0.82,97.3,298548.0
+2024-10-01,PIL-01,Iron Ore,Fe%,5,Screening,60.01,60.26,-0.25,94.2,255647.0
+2024-10-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.21,59.94,-0.73,95.0,319906.0
+2024-10-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.4,59.78,-0.38,94.5,332036.0
+2024-11-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,63.0,62.5,0.5,100.0,250326.0
+2024-11-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.7,61.86,-0.16,97.4,220756.0
+2024-11-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.29,60.9,-0.61,94.9,275977.0
+2024-11-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.42,60.5,-0.08,97.2,241130.0
+2024-11-01,PIL-01,Iron Ore,Fe%,5,Screening,59.28,60.26,-0.98,95.5,256769.0
+2024-11-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.53,59.94,-0.41,96.0,244368.0
+2024-11-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.7,59.78,-1.08,95.9,226252.0
+2024-12-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.86,62.5,0.36,100.0,264724.0
+2024-12-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.45,61.86,-0.41,97.5,325796.0
+2024-12-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.6,60.9,-0.3,94.9,307337.0
+2024-12-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.52,60.5,-0.98,94.9,323282.0
+2024-12-01,PIL-01,Iron Ore,Fe%,5,Screening,59.92,60.26,-0.34,94.6,242116.0
+2024-12-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.27,59.94,-0.67,95.8,203532.0
+2024-12-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.87,59.78,-0.91,96.0,325779.0
+2025-01-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.63,62.5,0.13,98.6,212297.0
+2025-01-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.85,61.86,-0.01,99.0,308806.0
+2025-01-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.03,60.9,-0.87,98.0,234995.0
+2025-01-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.37,60.5,-0.13,96.9,250054.0
+2025-01-01,PIL-01,Iron Ore,Fe%,5,Screening,59.87,60.26,-0.39,94.8,299822.0
+2025-01-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,58.83,59.94,-1.11,96.0,287630.0
+2025-01-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.76,59.78,-1.02,94.8,239648.0
+2025-02-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.11,62.5,-0.39,99.9,251095.0
+2025-02-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.7,61.86,-0.16,98.5,346392.0
+2025-02-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.78,60.9,-0.12,96.9,233042.0
+2025-02-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.97,60.5,-0.53,97.0,215631.0
+2025-02-01,PIL-01,Iron Ore,Fe%,5,Screening,59.89,60.26,-0.37,96.3,268068.0
+2025-02-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.19,59.94,-0.75,95.3,336785.0
+2025-02-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.74,59.78,-1.04,94.7,328374.0
+2025-03-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.16,62.5,-0.34,100.0,252070.0
+2025-03-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.29,61.86,-0.57,100.0,322367.0
+2025-03-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.32,60.9,-0.58,98.1,212014.0
+2025-03-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.59,60.5,-0.91,97.9,307603.0
+2025-03-01,PIL-01,Iron Ore,Fe%,5,Screening,59.57,60.26,-0.69,97.3,303958.0
+2025-03-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.31,59.94,-0.63,93.4,264600.0
+2025-03-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.22,59.78,-0.56,93.5,229978.0
+2025-04-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.22,62.5,-0.28,100.0,231280.0
+2025-04-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,62.02,61.86,0.16,99.0,278327.0
+2025-04-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.7,60.9,-0.2,96.2,267175.0
+2025-04-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.23,60.5,-0.27,97.8,207951.0
+2025-04-01,PIL-01,Iron Ore,Fe%,5,Screening,59.51,60.26,-0.75,97.1,271962.0
+2025-04-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.1,59.94,-0.84,95.5,349039.0
+2025-04-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.93,59.78,-0.85,93.8,274189.0
+2025-05-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.41,62.5,-0.09,100.0,348644.0
+2025-05-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,62.06,61.86,0.2,98.8,291579.0
+2025-05-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.48,60.9,-0.42,98.4,265553.0
+2025-05-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.09,60.5,-0.41,97.7,209172.0
+2025-05-01,PIL-01,Iron Ore,Fe%,5,Screening,59.52,60.26,-0.74,95.9,314510.0
+2025-05-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,58.86,59.94,-1.08,96.6,289068.0
+2025-05-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.54,59.78,-0.24,93.8,307973.0
+2025-06-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.21,62.5,-0.29,100.0,233519.0
+2025-06-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.76,61.86,-0.1,98.6,310655.0
+2025-06-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.53,60.9,-0.37,98.3,341730.0
+2025-06-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.23,60.5,-0.27,94.3,227836.0
+2025-06-01,PIL-01,Iron Ore,Fe%,5,Screening,59.33,60.26,-0.93,96.5,329650.0
+2025-06-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.08,59.94,-0.86,93.4,322353.0
+2025-06-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.06,59.78,-0.72,94.0,328438.0
+2025-07-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.56,62.5,0.06,100.0,234800.0
+2025-07-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.85,61.86,-0.01,98.9,255243.0
+2025-07-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.86,60.9,-0.04,95.8,227582.0
+2025-07-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.23,60.5,-0.27,96.9,217720.0
+2025-07-01,PIL-01,Iron Ore,Fe%,5,Screening,59.57,60.26,-0.69,93.8,317974.0
+2025-07-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.2,59.94,-0.74,93.2,280273.0
+2025-07-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.87,59.78,-0.91,94.2,218493.0
+2025-08-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.23,62.5,-0.27,99.9,240073.0
+2025-08-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.64,61.86,-0.22,98.8,223069.0
+2025-08-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.3,60.9,-0.6,96.8,216925.0
+2025-08-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.7,60.5,-0.8,95.1,334532.0
+2025-08-01,PIL-01,Iron Ore,Fe%,5,Screening,59.67,60.26,-0.59,96.8,234301.0
+2025-08-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,58.85,59.94,-1.09,93.4,298802.0
+2025-08-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.44,59.78,-0.34,94.9,264748.0
+2025-09-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.98,62.5,0.48,99.8,234863.0
+2025-09-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.58,61.86,-0.28,100.0,314403.0
+2025-09-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.47,60.9,-0.43,96.2,210149.0
+2025-09-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.88,60.5,-0.62,97.9,308819.0
+2025-09-01,PIL-01,Iron Ore,Fe%,5,Screening,59.35,60.26,-0.91,93.8,251815.0
+2025-09-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.71,59.94,-0.23,96.1,306020.0
+2025-09-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.48,59.78,-0.3,95.1,265408.0
+2025-10-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.76,62.5,0.26,100.0,238164.0
+2025-10-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.71,61.86,-0.15,99.1,307571.0
+2025-10-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.22,60.9,-0.68,97.5,268821.0
+2025-10-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.53,60.5,-0.97,95.9,303630.0
+2025-10-01,PIL-01,Iron Ore,Fe%,5,Screening,60.05,60.26,-0.21,97.3,226529.0
+2025-10-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.23,59.94,-0.71,94.7,347933.0
+2025-10-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.57,59.78,-0.21,93.5,238083.0
+2025-11-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.16,62.5,-0.34,98.2,225237.0
+2025-11-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.47,61.86,-0.39,97.2,270463.0
+2025-11-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.46,60.9,-0.44,97.1,261592.0
+2025-11-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.3,60.5,-0.2,95.6,296470.0
+2025-11-01,PIL-01,Iron Ore,Fe%,5,Screening,59.57,60.26,-0.69,96.4,300899.0
+2025-11-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.5,59.94,-0.44,95.5,211486.0
+2025-11-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.98,59.78,-0.8,93.3,311218.0
+2025-12-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.63,62.5,0.13,99.7,312473.0
+2025-12-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,62.1,61.86,0.24,100.0,248843.0
+2025-12-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.62,60.9,-0.28,95.7,319918.0
+2025-12-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.76,60.5,-0.74,95.2,223711.0
+2025-12-01,PIL-01,Iron Ore,Fe%,5,Screening,60.17,60.26,-0.09,96.4,245434.0
+2025-12-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,58.86,59.94,-1.08,93.9,336493.0
+2025-12-01,PIL-01,Iron Ore,Fe%,7,Final Product,58.62,59.78,-1.16,93.4,327641.0
+2026-01-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.01,62.5,-0.49,98.9,246302.0
+2026-01-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.89,61.86,0.03,100.0,344198.0
+2026-01-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.24,60.9,-0.66,98.2,201440.0
+2026-01-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.17,60.5,-0.33,96.1,313904.0
+2026-01-01,PIL-01,Iron Ore,Fe%,5,Screening,59.87,60.26,-0.39,93.7,272083.0
+2026-01-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.29,59.94,-0.65,96.3,239212.0
+2026-01-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.59,59.78,-0.19,95.5,337206.0
+2026-02-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.36,62.5,-0.14,100.0,225388.0
+2026-02-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,62.1,61.86,0.24,97.4,276430.0
+2026-02-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.18,60.9,-0.72,96.5,258331.0
+2026-02-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,60.48,60.5,-0.02,95.1,277382.0
+2026-02-01,PIL-01,Iron Ore,Fe%,5,Screening,59.54,60.26,-0.72,97.4,335412.0
+2026-02-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.47,59.94,-0.47,93.6,285032.0
+2026-02-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.23,59.78,-0.55,95.5,301157.0
+2026-03-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.95,62.5,0.45,100.0,232350.0
+2026-03-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.61,61.86,-0.25,98.6,229649.0
+2026-03-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.19,60.9,-0.71,96.4,245702.0
+2026-03-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.82,60.5,-0.68,97.7,294387.0
+2026-03-01,PIL-01,Iron Ore,Fe%,5,Screening,59.62,60.26,-0.64,94.5,221979.0
+2026-03-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.59,59.94,-0.35,96.8,304078.0
+2026-03-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.38,59.78,-0.4,93.6,271816.0
+2026-04-01,PIL-01,Iron Ore,Fe%,1,In-Situ Resource,62.57,62.5,0.07,100.0,251742.0
+2026-04-01,PIL-01,Iron Ore,Fe%,2,ROM Stockpile,61.3,61.86,-0.56,97.9,233978.0
+2026-04-01,PIL-01,Iron Ore,Fe%,3,Primary Crush,60.47,60.9,-0.43,98.7,241171.0
+2026-04-01,PIL-01,Iron Ore,Fe%,4,Secondary Crush,59.64,60.5,-0.86,97.0,245294.0
+2026-04-01,PIL-01,Iron Ore,Fe%,5,Screening,59.32,60.26,-0.94,96.6,341384.0
+2026-04-01,PIL-01,Iron Ore,Fe%,6,Beneficiation,59.47,59.94,-0.47,93.6,261041.0
+2026-04-01,PIL-01,Iron Ore,Fe%,7,Final Product,59.19,59.78,-0.59,95.8,336574.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.41,28.5,-0.09,100.0,341271.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.59,28.26,0.33,98.8,214167.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.78,27.86,-0.08,98.4,200496.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.56,27.7,-0.14,96.5,312678.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.08,27.62,-0.54,98.0,233358.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.82,27.38,-0.56,94.7,224721.0
+2024-06-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.52,27.3,-0.78,95.4,328456.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.25,28.5,-0.25,100.0,210952.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.87,28.26,-0.39,98.9,239131.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.87,27.86,0.01,97.8,217024.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.52,27.7,-0.18,95.2,342765.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.17,27.62,-0.45,95.6,276016.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.98,27.38,-0.4,94.7,264182.0
+2024-07-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.76,27.3,-0.54,96.7,210766.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.14,28.5,-0.36,98.0,212174.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.63,28.26,0.37,99.5,210043.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.89,27.86,0.03,98.5,257492.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.85,27.7,0.15,96.5,250731.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.22,27.62,-0.4,94.2,290425.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.24,27.38,-0.14,96.2,255594.0
+2024-08-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.98,27.3,-0.32,94.8,229221.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.41,28.5,-0.09,98.3,331434.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.82,28.26,-0.44,99.0,270053.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.36,27.86,-0.5,96.5,297431.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.51,27.7,-0.19,95.1,315091.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.78,27.62,0.16,98.0,276432.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.42,27.38,0.04,97.0,204470.0
+2024-09-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.18,27.3,-0.12,94.9,284408.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.09,28.5,-0.41,99.2,201367.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.04,28.26,-0.22,98.9,298939.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.44,27.86,-0.42,98.0,314088.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.42,27.7,-0.28,98.2,234954.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.44,27.62,-0.18,96.0,256854.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.73,27.38,-0.65,95.4,331461.0
+2024-10-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.4,27.3,0.1,93.8,306743.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.44,28.5,-0.06,98.4,229305.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.98,28.26,-0.28,97.7,230389.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,28.12,27.86,0.26,97.2,216450.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.57,27.7,-0.13,95.8,340777.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.66,27.62,0.04,96.6,298222.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.13,27.38,-0.25,96.6,257995.0
+2024-11-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.44,27.3,0.14,93.2,214165.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.55,28.5,0.05,98.2,319160.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.67,28.26,0.41,100.0,333315.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.88,27.86,0.02,96.9,330055.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.63,27.7,-0.07,98.5,336140.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.31,27.62,-0.31,95.6,212342.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.11,27.38,-0.27,94.9,279615.0
+2024-12-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.12,27.3,-0.18,96.0,285057.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.18,28.5,-0.32,98.1,315477.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.99,28.26,-0.27,99.0,297174.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,28.16,27.86,0.3,96.2,325751.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.36,27.7,-0.34,97.2,200897.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.68,27.62,0.06,94.3,248581.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.89,27.38,-0.49,95.8,246358.0
+2025-01-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.31,27.3,0.01,94.5,268688.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.02,28.5,-0.48,99.8,320830.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.79,28.26,-0.47,99.9,326243.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,28.2,27.86,0.34,97.5,206386.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.4,27.7,-0.3,96.6,204434.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.48,27.62,-0.14,98.0,314634.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.96,27.38,-0.42,96.9,348034.0
+2025-02-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.55,27.3,-0.75,94.1,296343.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.03,28.5,-0.47,100.0,201587.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.95,28.26,-0.31,97.4,281848.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.34,27.86,-0.52,96.2,277726.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.36,27.7,-0.34,95.0,312071.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.29,27.62,-0.33,97.2,253763.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.59,27.38,0.21,96.1,251877.0
+2025-03-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.65,27.3,-0.65,94.1,229249.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.86,28.5,0.36,98.2,334577.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.73,28.26,-0.53,97.7,248163.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,28.03,27.86,0.17,96.1,331553.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.43,27.7,-0.27,97.2,202861.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.02,27.62,-0.6,95.9,205585.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.97,27.38,-0.41,96.9,337660.0
+2025-04-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.6,27.3,-0.7,96.6,322619.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.87,28.5,0.37,100.0,250055.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.35,28.26,0.09,99.1,299864.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.65,27.86,-0.21,98.8,315212.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.21,27.7,-0.49,95.2,244325.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.63,27.62,0.01,96.0,326974.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.48,27.38,0.1,94.0,331287.0
+2025-05-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.03,27.3,-0.27,94.7,335493.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.97,28.5,0.47,100.0,340837.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.11,28.26,-0.15,98.3,215487.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.41,27.86,-0.45,96.7,277223.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.33,27.7,-0.37,97.8,260895.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.62,27.62,0.0,94.7,251046.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.54,27.38,0.16,95.5,332932.0
+2025-06-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.24,27.3,-0.06,93.2,312127.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.21,28.5,-0.29,100.0,253002.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.12,28.26,-0.14,98.4,234066.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.78,27.86,-0.08,98.1,271343.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.96,27.7,0.26,96.4,291841.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.23,27.62,-0.39,97.9,223982.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.82,27.38,-0.56,95.9,227420.0
+2025-07-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.67,27.3,-0.63,93.0,252778.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.45,28.5,-0.05,98.9,277330.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.83,28.26,-0.43,100.0,259124.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.35,27.86,-0.51,96.4,206014.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.72,27.7,0.02,95.4,337986.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.51,27.62,-0.11,95.4,258186.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.63,27.38,-0.75,96.8,287359.0
+2025-08-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.54,27.3,-0.76,95.7,281511.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.49,28.5,-0.01,98.4,315055.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.79,28.26,-0.47,99.1,317928.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.53,27.86,-0.33,96.4,211815.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.65,27.7,-0.05,98.4,328425.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,5,Screening,26.91,27.62,-0.71,97.8,203652.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.81,27.38,-0.57,94.0,242299.0
+2025-09-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.44,27.3,0.14,94.4,328244.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.16,28.5,-0.34,100.0,332019.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.3,28.26,0.04,98.6,217683.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.94,27.86,0.08,97.8,252051.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.5,27.7,-0.2,97.0,227952.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.26,27.62,-0.36,96.2,205488.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.88,27.38,-0.5,96.2,209884.0
+2025-10-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.34,27.3,0.04,93.1,293587.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.27,28.5,-0.23,99.9,319787.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.43,28.26,0.17,98.0,273765.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.22,27.86,-0.64,96.0,313057.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.6,27.7,-0.1,98.4,222841.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.39,27.62,-0.23,94.7,302682.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.38,27.38,-0.0,94.2,292713.0
+2025-11-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.69,27.3,-0.61,94.6,324117.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.86,28.5,0.36,100.0,209783.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.19,28.26,-0.07,99.6,235825.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.24,27.86,-0.62,96.1,283903.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.61,27.7,-0.09,97.0,221801.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.67,27.62,0.05,97.2,284931.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.59,27.38,0.21,95.8,258353.0
+2025-12-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.41,27.3,0.11,95.7,343757.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.73,28.5,0.23,100.0,262305.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,27.96,28.26,-0.3,98.0,297998.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.66,27.86,-0.2,95.8,262176.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.75,27.7,0.05,97.5,209083.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,5,Screening,26.96,27.62,-0.66,96.8,212346.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,26.87,27.38,-0.51,94.4,295551.0
+2026-01-01,BOW-01,Coal,CV MJ/kg,7,Final Product,27.36,27.3,0.06,94.3,231902.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.53,28.5,0.03,99.4,315947.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.67,28.26,0.41,99.4,293664.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,28.07,27.86,0.21,98.9,325698.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.92,27.7,0.22,97.3,272906.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.11,27.62,-0.51,98.1,325865.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.34,27.38,-0.04,96.0,326079.0
+2026-02-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.58,27.3,-0.72,96.5,331886.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.03,28.5,-0.47,98.3,247155.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.1,28.26,-0.16,100.0,274868.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.33,27.86,-0.53,95.6,334528.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.03,27.7,-0.67,95.7,219279.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.6,27.62,-0.02,96.9,272817.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.46,27.38,0.08,96.6,244895.0
+2026-03-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.66,27.3,-0.64,94.9,223311.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,1,In-Situ Resource,28.96,28.5,0.46,100.0,306394.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,2,ROM Stockpile,28.3,28.26,0.04,98.1,222410.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,3,Primary Crush,27.38,27.86,-0.48,95.5,338040.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,4,Secondary Crush,27.08,27.7,-0.62,95.8,265865.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,5,Screening,27.53,27.62,-0.09,97.6,347130.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,6,Beneficiation,27.39,27.38,0.01,93.5,223191.0
+2026-04-01,BOW-01,Coal,CV MJ/kg,7,Final Product,26.61,27.3,-0.69,94.8,317141.0
+2024-06-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.73,4.8,-0.07,100.0,264730.0
+2024-06-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.33,4.64,-0.31,97.4,210883.0
+2024-06-01,KAL-01,Gold,Au g/t,3,Primary Crush,3.99,4.4,-0.41,88.2,310725.0
+2024-06-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.33,4.28,0.05,86.3,308394.0
+2024-06-01,KAL-01,Gold,Au g/t,5,Screening,3.66,4.2,-0.54,83.7,252683.0
+2024-06-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.46,4.04,-0.58,81.3,275895.0
+2024-06-01,KAL-01,Gold,Au g/t,7,Final Product,3.48,3.96,-0.48,77.4,202338.0
+2024-07-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.5,4.8,-0.3,100.0,268818.0
+2024-07-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.59,4.64,-0.05,97.3,246772.0
+2024-07-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.6,4.4,0.2,88.3,349969.0
+2024-07-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.85,4.28,-0.43,86.7,208035.0
+2024-07-01,KAL-01,Gold,Au g/t,5,Screening,4.06,4.2,-0.14,86.2,269241.0
+2024-07-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.25,4.04,0.21,78.5,210504.0
+2024-07-01,KAL-01,Gold,Au g/t,7,Final Product,3.91,3.96,-0.05,78.7,204619.0
+2024-08-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.82,4.8,0.02,100.0,264264.0
+2024-08-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,5.05,4.64,0.41,95.0,215871.0
+2024-08-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.79,4.4,0.39,91.6,311510.0
+2024-08-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.88,4.28,-0.4,85.6,223323.0
+2024-08-01,KAL-01,Gold,Au g/t,5,Screening,3.92,4.2,-0.28,85.1,343056.0
+2024-08-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.04,4.04,-0.0,79.4,303731.0
+2024-08-01,KAL-01,Gold,Au g/t,7,Final Product,3.61,3.96,-0.35,80.1,216640.0
+2024-09-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.92,4.8,0.12,100.0,248574.0
+2024-09-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.73,4.64,0.09,96.8,212951.0
+2024-09-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.2,4.4,-0.2,88.9,224651.0
+2024-09-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.8,4.28,-0.48,88.1,223321.0
+2024-09-01,KAL-01,Gold,Au g/t,5,Screening,4.3,4.2,0.1,84.8,297407.0
+2024-09-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.14,4.04,0.1,82.1,202751.0
+2024-09-01,KAL-01,Gold,Au g/t,7,Final Product,3.39,3.96,-0.57,76.2,221690.0
+2024-10-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.85,4.8,0.05,100.0,327245.0
+2024-10-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.93,4.64,0.29,96.9,315691.0
+2024-10-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.45,4.4,0.05,90.3,203909.0
+2024-10-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.37,4.28,0.09,84.5,319384.0
+2024-10-01,KAL-01,Gold,Au g/t,5,Screening,4.3,4.2,0.1,85.6,259716.0
+2024-10-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.15,4.04,0.11,82.1,332494.0
+2024-10-01,KAL-01,Gold,Au g/t,7,Final Product,4.01,3.96,0.05,78.8,200009.0
+2024-11-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.82,4.8,0.02,98.7,321369.0
+2024-11-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,5.08,4.64,0.44,94.6,273217.0
+2024-11-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.09,4.4,-0.31,88.1,326558.0
+2024-11-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.55,4.28,0.27,87.6,345647.0
+2024-11-01,KAL-01,Gold,Au g/t,5,Screening,4.16,4.2,-0.04,84.4,288930.0
+2024-11-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.66,4.04,-0.38,81.4,204247.0
+2024-11-01,KAL-01,Gold,Au g/t,7,Final Product,3.85,3.96,-0.11,79.2,213278.0
+2024-12-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.58,4.8,-0.22,98.3,201410.0
+2024-12-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.74,4.64,0.1,97.1,335390.0
+2024-12-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.36,4.4,-0.04,87.7,276094.0
+2024-12-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.01,4.28,-0.27,87.6,269417.0
+2024-12-01,KAL-01,Gold,Au g/t,5,Screening,3.95,4.2,-0.25,83.7,346849.0
+2024-12-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.92,4.04,-0.12,78.3,344016.0
+2024-12-01,KAL-01,Gold,Au g/t,7,Final Product,3.96,3.96,0.0,77.1,233409.0
+2025-01-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,5.17,4.8,0.37,99.0,209151.0
+2025-01-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.39,4.64,-0.25,93.8,311851.0
+2025-01-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.03,4.4,-0.37,87.7,317806.0
+2025-01-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.67,4.28,-0.61,87.3,236926.0
+2025-01-01,KAL-01,Gold,Au g/t,5,Screening,3.58,4.2,-0.62,85.5,311368.0
+2025-01-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.8,4.04,-0.24,79.3,300484.0
+2025-01-01,KAL-01,Gold,Au g/t,7,Final Product,3.84,3.96,-0.12,78.0,214260.0
+2025-02-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.87,4.8,0.07,100.0,339382.0
+2025-02-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.78,4.64,0.14,94.8,203695.0
+2025-02-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.12,4.4,-0.28,89.7,217364.0
+2025-02-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.62,4.28,0.34,85.2,221228.0
+2025-02-01,KAL-01,Gold,Au g/t,5,Screening,4.0,4.2,-0.2,85.5,339195.0
+2025-02-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.4,4.04,-0.64,78.6,299582.0
+2025-02-01,KAL-01,Gold,Au g/t,7,Final Product,3.98,3.96,0.02,76.2,217113.0
+2025-03-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,5.21,4.8,0.41,98.5,215740.0
+2025-03-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.36,4.64,-0.28,95.9,314560.0
+2025-03-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.43,4.4,0.03,87.9,343510.0
+2025-03-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.35,4.28,0.07,85.1,248274.0
+2025-03-01,KAL-01,Gold,Au g/t,5,Screening,4.17,4.2,-0.03,83.6,303504.0
+2025-03-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.98,4.04,-0.06,80.3,346250.0
+2025-03-01,KAL-01,Gold,Au g/t,7,Final Product,3.37,3.96,-0.59,77.8,218595.0
+2025-04-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.3,4.8,-0.5,98.8,220209.0
+2025-04-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,5.0,4.64,0.36,97.4,319221.0
+2025-04-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.13,4.4,-0.27,88.5,208944.0
+2025-04-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.03,4.28,-0.25,88.0,333130.0
+2025-04-01,KAL-01,Gold,Au g/t,5,Screening,3.97,4.2,-0.23,86.3,305999.0
+2025-04-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.04,4.04,0.0,79.0,232385.0
+2025-04-01,KAL-01,Gold,Au g/t,7,Final Product,4.22,3.96,0.26,79.3,205590.0
+2025-05-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.86,4.8,0.06,99.3,341269.0
+2025-05-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.13,4.64,-0.51,95.7,233987.0
+2025-05-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.71,4.4,0.31,88.0,237951.0
+2025-05-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.0,4.28,-0.28,86.2,265123.0
+2025-05-01,KAL-01,Gold,Au g/t,5,Screening,3.7,4.2,-0.5,83.3,297374.0
+2025-05-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.56,4.04,-0.48,80.0,300803.0
+2025-05-01,KAL-01,Gold,Au g/t,7,Final Product,3.97,3.96,0.01,76.2,343187.0
+2025-06-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.74,4.8,-0.06,98.2,260616.0
+2025-06-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.6,4.64,-0.04,97.2,238243.0
+2025-06-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.19,4.4,-0.21,88.7,220161.0
+2025-06-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.0,4.28,-0.28,87.6,240520.0
+2025-06-01,KAL-01,Gold,Au g/t,5,Screening,3.87,4.2,-0.33,85.3,254412.0
+2025-06-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.76,4.04,-0.28,79.0,339085.0
+2025-06-01,KAL-01,Gold,Au g/t,7,Final Product,4.1,3.96,0.14,79.8,272570.0
+2025-07-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.75,4.8,-0.05,100.0,221071.0
+2025-07-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.7,4.64,0.06,94.9,231709.0
+2025-07-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.14,4.4,-0.26,88.0,306254.0
+2025-07-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.9,4.28,-0.38,87.6,242221.0
+2025-07-01,KAL-01,Gold,Au g/t,5,Screening,4.36,4.2,0.16,82.6,312616.0
+2025-07-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.24,4.04,0.2,79.6,284427.0
+2025-07-01,KAL-01,Gold,Au g/t,7,Final Product,4.14,3.96,0.18,78.7,221799.0
+2025-08-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.57,4.8,-0.23,98.4,284508.0
+2025-08-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.32,4.64,-0.32,95.8,292379.0
+2025-08-01,KAL-01,Gold,Au g/t,3,Primary Crush,3.98,4.4,-0.42,89.1,251087.0
+2025-08-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.02,4.28,-0.26,85.5,299731.0
+2025-08-01,KAL-01,Gold,Au g/t,5,Screening,4.48,4.2,0.28,84.8,329418.0
+2025-08-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.71,4.04,-0.33,79.8,332886.0
+2025-08-01,KAL-01,Gold,Au g/t,7,Final Product,4.25,3.96,0.29,79.4,313979.0
+2025-09-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.41,4.8,-0.39,98.3,340291.0
+2025-09-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.14,4.64,-0.5,94.8,230311.0
+2025-09-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.2,4.4,-0.2,90.8,224184.0
+2025-09-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.45,4.28,0.17,88.2,321237.0
+2025-09-01,KAL-01,Gold,Au g/t,5,Screening,3.98,4.2,-0.22,84.2,300240.0
+2025-09-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.14,4.04,0.1,81.4,337295.0
+2025-09-01,KAL-01,Gold,Au g/t,7,Final Product,3.7,3.96,-0.26,77.5,272677.0
+2025-10-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.83,4.8,0.03,99.8,267862.0
+2025-10-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.39,4.64,-0.25,96.5,305216.0
+2025-10-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.33,4.4,-0.07,89.9,331342.0
+2025-10-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.4,4.28,0.12,85.1,303388.0
+2025-10-01,KAL-01,Gold,Au g/t,5,Screening,4.54,4.2,0.34,83.3,241340.0
+2025-10-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.89,4.04,-0.15,80.1,228652.0
+2025-10-01,KAL-01,Gold,Au g/t,7,Final Product,4.01,3.96,0.05,78.7,210327.0
+2025-11-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.5,4.8,-0.3,100.0,222546.0
+2025-11-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.75,4.64,0.11,96.7,250058.0
+2025-11-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.74,4.4,0.34,90.5,217489.0
+2025-11-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.66,4.28,-0.62,85.3,308199.0
+2025-11-01,KAL-01,Gold,Au g/t,5,Screening,3.73,4.2,-0.47,86.0,292981.0
+2025-11-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.63,4.04,-0.41,82.0,211320.0
+2025-11-01,KAL-01,Gold,Au g/t,7,Final Product,3.29,3.96,-0.67,78.6,346069.0
+2025-12-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.45,4.8,-0.35,99.4,301204.0
+2025-12-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.82,4.64,0.18,95.8,312774.0
+2025-12-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.24,4.4,-0.16,90.9,287198.0
+2025-12-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.24,4.28,-0.04,85.6,279980.0
+2025-12-01,KAL-01,Gold,Au g/t,5,Screening,3.91,4.2,-0.29,86.3,278856.0
+2025-12-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.86,4.04,-0.18,80.6,276853.0
+2025-12-01,KAL-01,Gold,Au g/t,7,Final Product,4.08,3.96,0.12,78.8,298903.0
+2026-01-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.36,4.8,-0.44,98.3,279529.0
+2026-01-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.68,4.64,0.04,96.2,310316.0
+2026-01-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.28,4.4,-0.12,88.0,239705.0
+2026-01-01,KAL-01,Gold,Au g/t,4,Secondary Crush,3.86,4.28,-0.42,84.8,344900.0
+2026-01-01,KAL-01,Gold,Au g/t,5,Screening,3.87,4.2,-0.33,84.0,234865.0
+2026-01-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.73,4.04,-0.31,80.5,266740.0
+2026-01-01,KAL-01,Gold,Au g/t,7,Final Product,3.44,3.96,-0.52,79.6,307897.0
+2026-02-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.67,4.8,-0.13,98.6,336540.0
+2026-02-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.21,4.64,-0.43,94.4,326787.0
+2026-02-01,KAL-01,Gold,Au g/t,3,Primary Crush,3.98,4.4,-0.42,87.9,233833.0
+2026-02-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.53,4.28,0.25,85.7,223677.0
+2026-02-01,KAL-01,Gold,Au g/t,5,Screening,3.93,4.2,-0.27,82.7,322608.0
+2026-02-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.62,4.04,-0.42,79.2,340610.0
+2026-02-01,KAL-01,Gold,Au g/t,7,Final Product,4.24,3.96,0.28,76.6,265554.0
+2026-03-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.71,4.8,-0.09,100.0,337419.0
+2026-03-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,4.4,4.64,-0.24,96.5,321733.0
+2026-03-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.6,4.4,0.2,88.1,315422.0
+2026-03-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.23,4.28,-0.05,85.1,247683.0
+2026-03-01,KAL-01,Gold,Au g/t,5,Screening,3.56,4.2,-0.64,83.7,308543.0
+2026-03-01,KAL-01,Gold,Au g/t,6,Beneficiation,3.88,4.04,-0.16,80.7,299513.0
+2026-03-01,KAL-01,Gold,Au g/t,7,Final Product,3.26,3.96,-0.7,79.6,253732.0
+2026-04-01,KAL-01,Gold,Au g/t,1,In-Situ Resource,4.57,4.8,-0.23,100.0,340156.0
+2026-04-01,KAL-01,Gold,Au g/t,2,ROM Stockpile,5.05,4.64,0.41,93.8,327110.0
+2026-04-01,KAL-01,Gold,Au g/t,3,Primary Crush,4.59,4.4,0.19,90.5,300248.0
+2026-04-01,KAL-01,Gold,Au g/t,4,Secondary Crush,4.04,4.28,-0.24,85.6,310273.0
+2026-04-01,KAL-01,Gold,Au g/t,5,Screening,4.3,4.2,0.1,84.3,271843.0
+2026-04-01,KAL-01,Gold,Au g/t,6,Beneficiation,4.19,4.04,0.15,80.3,274487.0
+2026-04-01,KAL-01,Gold,Au g/t,7,Final Product,3.66,3.96,-0.3,77.6,323282.0
+2024-06-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.03,2.8,0.23,98.2,257781.0
+2024-06-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.29,2.72,-0.43,96.5,281015.0
+2024-06-01,MIS-01,Copper,Cu%,3,Primary Crush,2.08,2.56,-0.48,91.1,254153.0
+2024-06-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.73,2.5,0.24,87.9,332049.0
+2024-06-01,MIS-01,Copper,Cu%,5,Screening,2.57,2.46,0.12,83.0,221051.0
+2024-06-01,MIS-01,Copper,Cu%,6,Beneficiation,2.72,2.36,0.36,79.8,277203.0
+2024-06-01,MIS-01,Copper,Cu%,7,Final Product,1.74,2.32,-0.58,78.9,282258.0
+2024-07-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.48,2.8,-0.32,100.0,241938.0
+2024-07-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.37,2.72,-0.35,96.1,255185.0
+2024-07-01,MIS-01,Copper,Cu%,3,Primary Crush,2.12,2.56,-0.44,87.9,279733.0
+2024-07-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.34,2.5,-0.16,86.5,309800.0
+2024-07-01,MIS-01,Copper,Cu%,5,Screening,2.25,2.46,-0.21,85.1,314228.0
+2024-07-01,MIS-01,Copper,Cu%,6,Beneficiation,1.95,2.36,-0.41,81.1,312415.0
+2024-07-01,MIS-01,Copper,Cu%,7,Final Product,2.24,2.32,-0.08,77.6,306178.0
+2024-08-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.46,2.8,-0.34,100.0,285030.0
+2024-08-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.57,2.72,-0.15,95.5,238775.0
+2024-08-01,MIS-01,Copper,Cu%,3,Primary Crush,2.08,2.56,-0.48,87.6,327593.0
+2024-08-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.2,2.5,-0.29,86.7,296905.0
+2024-08-01,MIS-01,Copper,Cu%,5,Screening,2.47,2.46,0.01,85.4,284777.0
+2024-08-01,MIS-01,Copper,Cu%,6,Beneficiation,2.4,2.36,0.04,81.7,337613.0
+2024-08-01,MIS-01,Copper,Cu%,7,Final Product,2.48,2.32,0.16,80.5,214347.0
+2024-09-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.57,2.8,-0.23,100.0,323175.0
+2024-09-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.44,2.72,-0.28,95.2,282259.0
+2024-09-01,MIS-01,Copper,Cu%,3,Primary Crush,2.95,2.56,0.39,90.4,225859.0
+2024-09-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.64,2.5,0.15,86.2,258165.0
+2024-09-01,MIS-01,Copper,Cu%,5,Screening,2.14,2.46,-0.31,84.0,287867.0
+2024-09-01,MIS-01,Copper,Cu%,6,Beneficiation,1.83,2.36,-0.53,81.3,302002.0
+2024-09-01,MIS-01,Copper,Cu%,7,Final Product,2.33,2.32,0.01,77.3,311708.0
+2024-10-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.85,2.8,0.05,100.0,246632.0
+2024-10-01,MIS-01,Copper,Cu%,2,ROM Stockpile,3.1,2.72,0.38,97.5,200893.0
+2024-10-01,MIS-01,Copper,Cu%,3,Primary Crush,2.27,2.56,-0.29,88.0,219141.0
+2024-10-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.58,2.5,0.08,87.3,314263.0
+2024-10-01,MIS-01,Copper,Cu%,5,Screening,1.92,2.46,-0.53,82.7,220378.0
+2024-10-01,MIS-01,Copper,Cu%,6,Beneficiation,2.67,2.36,0.31,81.1,240089.0
+2024-10-01,MIS-01,Copper,Cu%,7,Final Product,1.76,2.32,-0.56,76.7,301361.0
+2024-11-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.16,2.8,0.36,98.6,210368.0
+2024-11-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.99,2.72,0.27,97.6,240890.0
+2024-11-01,MIS-01,Copper,Cu%,3,Primary Crush,2.05,2.56,-0.51,88.8,245055.0
+2024-11-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.55,2.5,0.05,85.6,275116.0
+2024-11-01,MIS-01,Copper,Cu%,5,Screening,2.32,2.46,-0.14,85.2,215261.0
+2024-11-01,MIS-01,Copper,Cu%,6,Beneficiation,2.52,2.36,0.16,81.9,283593.0
+2024-11-01,MIS-01,Copper,Cu%,7,Final Product,1.89,2.32,-0.43,78.3,269813.0
+2024-12-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.12,2.8,0.32,100.0,310157.0
+2024-12-01,MIS-01,Copper,Cu%,2,ROM Stockpile,3.19,2.72,0.47,96.0,320997.0
+2024-12-01,MIS-01,Copper,Cu%,3,Primary Crush,2.97,2.56,0.41,89.2,269443.0
+2024-12-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.02,2.5,-0.47,85.2,312211.0
+2024-12-01,MIS-01,Copper,Cu%,5,Screening,2.52,2.46,0.06,84.8,319029.0
+2024-12-01,MIS-01,Copper,Cu%,6,Beneficiation,1.92,2.36,-0.44,82.2,278435.0
+2024-12-01,MIS-01,Copper,Cu%,7,Final Product,2.19,2.32,-0.13,79.1,281000.0
+2025-01-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.81,2.8,0.01,100.0,348269.0
+2025-01-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.67,2.72,-0.05,97.0,298075.0
+2025-01-01,MIS-01,Copper,Cu%,3,Primary Crush,2.52,2.56,-0.04,90.7,295835.0
+2025-01-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.13,2.5,-0.37,86.8,280959.0
+2025-01-01,MIS-01,Copper,Cu%,5,Screening,2.28,2.46,-0.18,86.4,297411.0
+2025-01-01,MIS-01,Copper,Cu%,6,Beneficiation,2.35,2.36,-0.01,79.7,220648.0
+2025-01-01,MIS-01,Copper,Cu%,7,Final Product,2.46,2.32,0.14,78.8,274505.0
+2025-02-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.71,2.8,-0.09,100.0,322141.0
+2025-02-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.82,2.72,0.1,95.7,292495.0
+2025-02-01,MIS-01,Copper,Cu%,3,Primary Crush,2.11,2.56,-0.45,89.6,206648.0
+2025-02-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.52,2.5,0.03,85.2,272355.0
+2025-02-01,MIS-01,Copper,Cu%,5,Screening,2.02,2.46,-0.44,86.2,237971.0
+2025-02-01,MIS-01,Copper,Cu%,6,Beneficiation,1.84,2.36,-0.52,79.9,268027.0
+2025-02-01,MIS-01,Copper,Cu%,7,Final Product,2.11,2.32,-0.21,79.7,328538.0
+2025-03-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.27,2.8,0.47,100.0,214654.0
+2025-03-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.41,2.72,-0.31,95.7,291447.0
+2025-03-01,MIS-01,Copper,Cu%,3,Primary Crush,2.91,2.56,0.35,89.6,309122.0
+2025-03-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.54,2.5,0.04,85.7,207854.0
+2025-03-01,MIS-01,Copper,Cu%,5,Screening,1.95,2.46,-0.51,82.9,203488.0
+2025-03-01,MIS-01,Copper,Cu%,6,Beneficiation,1.83,2.36,-0.53,80.4,243275.0
+2025-03-01,MIS-01,Copper,Cu%,7,Final Product,1.9,2.32,-0.42,79.1,232641.0
+2025-04-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.43,2.8,-0.37,100.0,306290.0
+2025-04-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.31,2.72,-0.41,95.8,347254.0
+2025-04-01,MIS-01,Copper,Cu%,3,Primary Crush,2.11,2.56,-0.45,90.9,230506.0
+2025-04-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.47,2.5,-0.02,86.1,333628.0
+2025-04-01,MIS-01,Copper,Cu%,5,Screening,1.89,2.46,-0.56,85.3,202456.0
+2025-04-01,MIS-01,Copper,Cu%,6,Beneficiation,2.27,2.36,-0.09,82.2,218301.0
+2025-04-01,MIS-01,Copper,Cu%,7,Final Product,2.67,2.32,0.35,78.0,233472.0
+2025-05-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.0,2.8,0.2,100.0,347202.0
+2025-05-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.33,2.72,-0.39,97.2,333754.0
+2025-05-01,MIS-01,Copper,Cu%,3,Primary Crush,2.6,2.56,0.04,90.5,255799.0
+2025-05-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.7,2.5,0.2,86.5,301453.0
+2025-05-01,MIS-01,Copper,Cu%,5,Screening,2.67,2.46,0.22,82.9,278738.0
+2025-05-01,MIS-01,Copper,Cu%,6,Beneficiation,2.29,2.36,-0.07,81.2,252559.0
+2025-05-01,MIS-01,Copper,Cu%,7,Final Product,2.3,2.32,-0.02,79.5,256507.0
+2025-06-01,MIS-01,Copper,Cu%,1,In-Situ Resource,3.04,2.8,0.24,98.7,266465.0
+2025-06-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.22,2.72,-0.5,95.8,222053.0
+2025-06-01,MIS-01,Copper,Cu%,3,Primary Crush,2.97,2.56,0.41,88.7,260821.0
+2025-06-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.11,2.5,-0.39,87.2,248784.0
+2025-06-01,MIS-01,Copper,Cu%,5,Screening,1.91,2.46,-0.55,84.4,302007.0
+2025-06-01,MIS-01,Copper,Cu%,6,Beneficiation,2.56,2.36,0.2,82.0,238183.0
+2025-06-01,MIS-01,Copper,Cu%,7,Final Product,2.24,2.32,-0.08,77.1,277752.0
+2025-07-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.98,2.8,0.18,100.0,309954.0
+2025-07-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.59,2.72,-0.13,96.8,328886.0
+2025-07-01,MIS-01,Copper,Cu%,3,Primary Crush,2.62,2.56,0.06,87.4,261403.0
+2025-07-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.53,2.5,0.03,86.6,234635.0
+2025-07-01,MIS-01,Copper,Cu%,5,Screening,2.85,2.46,0.39,83.4,238207.0
+2025-07-01,MIS-01,Copper,Cu%,6,Beneficiation,2.01,2.36,-0.35,81.7,277551.0
+2025-07-01,MIS-01,Copper,Cu%,7,Final Product,1.99,2.32,-0.33,79.8,255520.0
+2025-08-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.54,2.8,-0.26,99.3,269362.0
+2025-08-01,MIS-01,Copper,Cu%,2,ROM Stockpile,3.17,2.72,0.45,94.7,296468.0
+2025-08-01,MIS-01,Copper,Cu%,3,Primary Crush,2.25,2.56,-0.31,90.4,265719.0
+2025-08-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.77,2.5,0.27,86.6,330900.0
+2025-08-01,MIS-01,Copper,Cu%,5,Screening,2.6,2.46,0.14,85.3,309197.0
+2025-08-01,MIS-01,Copper,Cu%,6,Beneficiation,2.46,2.36,0.1,79.4,327192.0
+2025-08-01,MIS-01,Copper,Cu%,7,Final Product,2.26,2.32,-0.06,77.4,285311.0
+2025-09-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.93,2.8,0.13,100.0,241257.0
+2025-09-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.81,2.72,0.09,96.4,264496.0
+2025-09-01,MIS-01,Copper,Cu%,3,Primary Crush,2.08,2.56,-0.48,90.7,345678.0
+2025-09-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.37,2.5,-0.12,87.6,208871.0
+2025-09-01,MIS-01,Copper,Cu%,5,Screening,2.64,2.46,0.18,85.4,332278.0
+2025-09-01,MIS-01,Copper,Cu%,6,Beneficiation,2.04,2.36,-0.32,78.6,315618.0
+2025-09-01,MIS-01,Copper,Cu%,7,Final Product,1.93,2.32,-0.39,78.2,239725.0
+2025-10-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.45,2.8,-0.35,98.2,208805.0
+2025-10-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.46,2.72,-0.26,97.6,320157.0
+2025-10-01,MIS-01,Copper,Cu%,3,Primary Crush,2.22,2.56,-0.34,88.6,298509.0
+2025-10-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.67,2.5,0.18,87.1,315865.0
+2025-10-01,MIS-01,Copper,Cu%,5,Screening,2.78,2.46,0.32,86.3,263460.0
+2025-10-01,MIS-01,Copper,Cu%,6,Beneficiation,2.36,2.36,-0.0,79.4,200896.0
+2025-10-01,MIS-01,Copper,Cu%,7,Final Product,2.46,2.32,0.14,76.6,311576.0
+2025-11-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.56,2.8,-0.24,100.0,345436.0
+2025-11-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.89,2.72,0.17,96.4,337532.0
+2025-11-01,MIS-01,Copper,Cu%,3,Primary Crush,2.56,2.56,-0.0,89.8,211374.0
+2025-11-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.22,2.5,-0.27,87.8,298487.0
+2025-11-01,MIS-01,Copper,Cu%,5,Screening,2.81,2.46,0.35,83.4,276656.0
+2025-11-01,MIS-01,Copper,Cu%,6,Beneficiation,1.92,2.36,-0.44,80.7,325091.0
+2025-11-01,MIS-01,Copper,Cu%,7,Final Product,2.09,2.32,-0.23,77.2,343754.0
+2025-12-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.54,2.8,-0.26,100.0,241049.0
+2025-12-01,MIS-01,Copper,Cu%,2,ROM Stockpile,3.14,2.72,0.42,96.7,299897.0
+2025-12-01,MIS-01,Copper,Cu%,3,Primary Crush,2.28,2.56,-0.28,87.7,212577.0
+2025-12-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.51,2.5,0.02,86.7,297607.0
+2025-12-01,MIS-01,Copper,Cu%,5,Screening,2.82,2.46,0.36,83.5,330652.0
+2025-12-01,MIS-01,Copper,Cu%,6,Beneficiation,2.63,2.36,0.27,81.9,349896.0
+2025-12-01,MIS-01,Copper,Cu%,7,Final Product,2.46,2.32,0.14,78.3,287894.0
+2026-01-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.77,2.8,-0.03,99.3,260060.0
+2026-01-01,MIS-01,Copper,Cu%,2,ROM Stockpile,3.08,2.72,0.36,97.9,209460.0
+2026-01-01,MIS-01,Copper,Cu%,3,Primary Crush,2.55,2.56,-0.01,89.2,277277.0
+2026-01-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.52,2.5,0.02,86.6,228646.0
+2026-01-01,MIS-01,Copper,Cu%,5,Screening,2.77,2.46,0.31,85.3,242019.0
+2026-01-01,MIS-01,Copper,Cu%,6,Beneficiation,2.07,2.36,-0.29,81.2,310166.0
+2026-01-01,MIS-01,Copper,Cu%,7,Final Product,2.28,2.32,-0.04,79.7,294202.0
+2026-02-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.62,2.8,-0.18,100.0,331842.0
+2026-02-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.79,2.72,0.07,96.5,237331.0
+2026-02-01,MIS-01,Copper,Cu%,3,Primary Crush,2.46,2.56,-0.1,89.2,206539.0
+2026-02-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.26,2.5,-0.23,86.8,290218.0
+2026-02-01,MIS-01,Copper,Cu%,5,Screening,2.51,2.46,0.06,83.6,328594.0
+2026-02-01,MIS-01,Copper,Cu%,6,Beneficiation,2.0,2.36,-0.36,80.8,240419.0
+2026-02-01,MIS-01,Copper,Cu%,7,Final Product,2.11,2.32,-0.21,78.3,241083.0
+2026-03-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.42,2.8,-0.38,98.6,237667.0
+2026-03-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.4,2.72,-0.32,97.5,337866.0
+2026-03-01,MIS-01,Copper,Cu%,3,Primary Crush,2.67,2.56,0.11,89.5,254176.0
+2026-03-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.02,2.5,-0.48,87.5,219647.0
+2026-03-01,MIS-01,Copper,Cu%,5,Screening,2.3,2.46,-0.15,85.0,338179.0
+2026-03-01,MIS-01,Copper,Cu%,6,Beneficiation,2.09,2.36,-0.27,81.0,345744.0
+2026-03-01,MIS-01,Copper,Cu%,7,Final Product,2.04,2.32,-0.28,76.9,338970.0
+2026-04-01,MIS-01,Copper,Cu%,1,In-Situ Resource,2.48,2.8,-0.32,100.0,308527.0
+2026-04-01,MIS-01,Copper,Cu%,2,ROM Stockpile,2.94,2.72,0.22,96.7,316906.0
+2026-04-01,MIS-01,Copper,Cu%,3,Primary Crush,2.67,2.56,0.11,90.3,283059.0
+2026-04-01,MIS-01,Copper,Cu%,4,Secondary Crush,2.17,2.5,-0.33,86.0,310814.0
+2026-04-01,MIS-01,Copper,Cu%,5,Screening,2.19,2.46,-0.27,85.6,218974.0
+2026-04-01,MIS-01,Copper,Cu%,6,Beneficiation,1.98,2.36,-0.38,80.9,299677.0
+2026-04-01,MIS-01,Copper,Cu%,7,Final Product,2.46,2.32,0.14,76.6,316849.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.41,28.5,-0.09,100.0,349101.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.37,28.26,0.11,97.0,339156.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.23,27.86,-0.63,95.7,259876.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.57,27.7,-0.13,98.0,308362.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,5,Screening,26.98,27.62,-0.64,95.3,335289.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.46,27.38,0.08,94.6,295922.0
+2024-06-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.33,27.3,0.03,94.4,305099.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.04,28.5,-0.46,100.0,244775.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.58,28.26,0.32,98.9,211210.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.69,27.86,-0.17,99.0,210946.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.1,27.7,-0.6,96.7,267306.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.36,27.62,-0.26,95.4,265684.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.91,27.38,-0.47,94.2,242667.0
+2024-07-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.04,27.3,-0.26,93.4,239763.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.6,28.5,0.1,99.2,253840.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,27.84,28.26,-0.42,99.4,329787.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.31,27.86,-0.55,95.6,238385.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.69,27.7,-0.01,98.2,278069.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.61,27.62,-0.01,96.8,324837.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.47,27.38,0.09,96.3,343261.0
+2024-08-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.52,27.3,-0.78,96.0,333711.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.93,28.5,0.43,99.8,230079.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.06,28.26,-0.2,100.0,306846.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.0,27.86,0.14,97.9,221009.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.87,27.7,0.17,95.4,229572.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.84,27.62,0.22,95.7,222697.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.21,27.38,-0.17,96.6,348414.0
+2024-09-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.29,27.3,-0.01,95.0,212097.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.39,28.5,-0.11,98.3,313822.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,27.98,28.26,-0.28,99.0,207624.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.36,27.86,-0.5,98.8,250019.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.62,27.7,-0.08,95.3,232056.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.43,27.62,-0.19,95.5,248346.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.13,27.38,-0.25,95.6,227906.0
+2024-10-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.73,27.3,-0.57,94.1,202817.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.03,28.5,-0.47,100.0,255324.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,27.86,28.26,-0.4,100.0,212362.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.22,27.86,-0.64,97.6,261505.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.74,27.7,0.04,97.8,206529.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.22,27.62,-0.4,98.1,238720.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.18,27.38,-0.2,94.6,270576.0
+2024-11-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.06,27.3,-0.24,93.8,219025.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.05,28.5,-0.45,98.1,329290.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.48,28.26,0.22,98.6,251643.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.11,27.86,0.25,99.2,297424.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.61,27.7,-0.09,95.6,240439.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,5,Screening,26.95,27.62,-0.67,97.3,292810.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.56,27.38,0.18,96.9,269470.0
+2024-12-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.74,27.3,-0.56,95.8,262393.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.52,28.5,0.02,98.6,222313.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.4,28.26,0.14,99.2,248215.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.89,27.86,0.03,98.3,202599.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.4,27.7,-0.3,96.1,262848.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.01,27.62,-0.61,97.7,220267.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.45,27.38,0.07,96.1,206606.0
+2025-01-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.32,27.3,0.02,95.5,319480.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.34,28.5,-0.16,99.2,203770.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.69,28.26,0.43,99.8,310086.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.87,27.86,0.01,95.3,335523.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.09,27.7,-0.61,96.8,331351.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,5,Screening,26.91,27.62,-0.71,96.9,301282.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.7,27.38,-0.68,96.6,271466.0
+2025-02-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.74,27.3,-0.56,95.8,305820.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.02,28.5,-0.48,98.6,230552.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.67,28.26,0.41,97.1,231296.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.05,27.86,0.19,97.0,312088.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.22,27.7,-0.48,95.2,330331.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.32,27.62,-0.3,95.4,237390.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.94,27.38,-0.44,94.7,341820.0
+2025-03-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.08,27.3,-0.22,93.5,231433.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.94,28.5,0.44,99.5,324700.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,27.72,28.26,-0.54,97.6,259549.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.57,27.86,-0.29,98.2,343475.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.08,27.7,-0.62,97.5,248576.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.34,27.62,-0.28,97.7,317518.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.12,27.38,-0.26,95.3,200619.0
+2025-04-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.4,27.3,0.1,96.7,299229.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.84,28.5,0.34,100.0,317179.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.08,28.26,-0.18,99.5,309805.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.18,27.86,0.32,96.3,348263.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.84,27.7,0.14,96.3,201347.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.59,27.62,-0.03,95.3,222985.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.35,27.38,-0.03,95.9,249916.0
+2025-05-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.96,27.3,-0.34,94.1,320041.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.59,28.5,0.09,100.0,303255.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.27,28.26,0.01,100.0,311197.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.4,27.86,-0.46,99.0,263247.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.61,27.7,-0.09,98.3,276296.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.09,27.62,-0.53,96.3,347558.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.04,27.38,-0.34,93.4,236781.0
+2025-06-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.03,27.3,-0.27,92.9,246276.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.8,28.5,0.3,98.0,286420.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.34,28.26,0.08,99.1,209165.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.58,27.86,-0.28,97.8,251927.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.48,27.7,-0.22,94.7,305360.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,5,Screening,26.95,27.62,-0.67,97.4,271626.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.69,27.38,-0.69,93.3,209411.0
+2025-07-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.23,27.3,-0.07,94.3,258275.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.26,28.5,-0.24,99.2,303397.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.31,28.26,0.05,99.5,209169.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.68,27.86,-0.18,95.9,316788.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.98,27.7,0.28,98.3,291243.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.14,27.62,-0.48,95.5,207342.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.44,27.38,0.06,93.6,314240.0
+2025-08-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.17,27.3,-0.13,95.5,274036.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.75,28.5,0.25,99.5,317131.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.5,28.26,0.24,99.7,204950.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.28,27.86,-0.58,98.5,337199.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.58,27.7,-0.12,98.2,315111.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.33,27.62,-0.29,96.0,225660.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.65,27.38,-0.73,95.1,212303.0
+2025-09-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.57,27.3,-0.73,94.8,265779.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.44,28.5,-0.06,99.5,245629.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.32,28.26,0.06,98.5,334680.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.09,27.86,0.23,98.4,283058.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.53,27.7,-0.17,94.9,200993.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.47,27.62,-0.15,95.8,239454.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.48,27.38,0.1,93.3,300896.0
+2025-10-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.21,27.3,-0.09,96.5,297341.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.34,28.5,-0.16,100.0,216949.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.04,28.26,-0.22,99.2,232090.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.35,27.86,-0.51,96.5,213569.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.07,27.7,-0.63,98.1,292472.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.02,27.62,-0.6,95.6,345178.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.82,27.38,-0.56,94.2,204419.0
+2025-11-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.77,27.3,-0.53,96.0,306755.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.94,28.5,0.44,100.0,328490.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,27.87,28.26,-0.39,98.9,252140.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.84,27.86,-0.02,97.6,342814.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.92,27.7,0.22,97.0,309537.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.74,27.62,0.12,94.2,288237.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.33,27.38,-0.05,95.9,201242.0
+2025-12-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.81,27.3,-0.49,96.4,209474.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.03,28.5,-0.47,99.4,292625.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.29,28.26,0.03,98.6,327287.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.85,27.86,-0.01,98.6,234072.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.02,27.7,-0.68,95.6,259502.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.13,27.62,-0.49,97.4,340900.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.23,27.38,-0.15,95.0,328566.0
+2026-01-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.03,27.3,-0.27,96.2,210272.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.02,28.5,-0.48,100.0,302249.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.04,28.26,-0.22,99.9,219111.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.46,27.86,-0.4,96.0,254888.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.87,27.7,0.17,95.7,221733.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.06,27.62,-0.56,95.2,335200.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.49,27.38,0.11,93.3,209429.0
+2026-02-01,HUN-01,Coal,CV MJ/kg,7,Final Product,27.17,27.3,-0.13,96.6,218790.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.63,28.5,0.13,100.0,248970.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.16,28.26,-0.1,100.0,338955.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,28.12,27.86,0.26,97.0,322121.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.67,27.7,-0.03,96.9,302693.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.52,27.62,-0.1,98.1,323367.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,27.46,27.38,0.08,94.7,247547.0
+2026-03-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.63,27.3,-0.67,93.8,290318.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,1,In-Situ Resource,28.12,28.5,-0.38,100.0,288944.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,2,ROM Stockpile,28.24,28.26,-0.02,97.7,257328.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,3,Primary Crush,27.46,27.86,-0.4,97.5,234401.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,4,Secondary Crush,27.93,27.7,0.23,95.8,346784.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,5,Screening,27.04,27.62,-0.58,96.2,260717.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,6,Beneficiation,26.91,27.38,-0.47,93.3,269490.0
+2026-04-01,HUN-01,Coal,CV MJ/kg,7,Final Product,26.66,27.3,-0.64,95.1,349589.0

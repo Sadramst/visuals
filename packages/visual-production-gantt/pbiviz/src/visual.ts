@@ -15,8 +15,8 @@ import DataViewCategorical = powerbi.DataViewCategorical
 import VisualTooltipDataItem = powerbi.extensibility.VisualTooltipDataItem
 import ITooltipService = powerbi.extensibility.ITooltipService
 
-import { VisualSettings } from './settings.js'
-import { ParsedData, ParsedShiftDataPoint, Margins, BarColourType } from './types.js'
+import { VisualSettings } from './settings'
+import { ParsedData, ParsedShiftDataPoint, Margins, BarColourType } from './types'
 
 export class MineProductionGanttVisual implements IVisual {
   private host: IVisualHost
@@ -230,6 +230,8 @@ export class MineProductionGanttVisual implements IVisual {
     this.renderXAxis(xScale, height)
     this.renderYAxis(yScale)
 
+    this.renderCumulativeLine(xScale, yScale, width, height)
+
     if (this.settings.general.showLegend) {
       this.renderLegend(width)
     }
@@ -239,31 +241,115 @@ export class MineProductionGanttVisual implements IVisual {
   }
 
   private renderHeader(width: number): void {
+    // Remove old header
+    this.svg.selectAll('.header').remove()
     const header = this.svg.append('g').classed('header', true)
 
-    // Background
     header.append('rect')
-      .attr('width', width)
-      .attr('height', 28)
-      .attr('fill', '#1F3864')
+      .attr('width', width).attr('height', 48)
+      .attr('fill', 'url(#headerGrad)')
 
-    // Appilico branding
-    header.append('text')
-      .attr('x', 12)
-      .attr('y', 18)
-      .attr('font-size', '16px')
-      .attr('font-weight', '700')
-      .attr('fill', '#00D4FF')
-      .text('▥ Appilico')
+    // Gradient definition
+    const defs = this.svg.append('defs')
+    const grad = defs.append('linearGradient').attr('id', 'headerGrad').attr('x1', '0%').attr('x2', '100%')
+    grad.append('stop').attr('offset', '0%').attr('stop-color', '#0A2540')
+    grad.append('stop').attr('offset', '100%').attr('stop-color', '#1a3a5c')
 
-    // Title
-    header.append('text')
-      .attr('x', 120)
-      .attr('y', 18)
-      .attr('font-size', '13px')
-      .attr('font-weight', '600')
-      .attr('fill', '#FFFFFF')
-      .text('Mine Production Schedule')
+    // Logo icon
+    header.append('rect')
+      .attr('x', 12).attr('y', 8).attr('width', 32).attr('height', 32)
+      .attr('rx', 8).attr('fill', 'url(#iconGrad)')
+    const iconGrad = defs.append('linearGradient').attr('id', 'iconGrad').attr('x1', '0%').attr('y1', '0%').attr('x2', '100%').attr('y2', '100%')
+    iconGrad.append('stop').attr('offset', '0%').attr('stop-color', '#00D4FF')
+    iconGrad.append('stop').attr('offset', '100%').attr('stop-color', '#7B61FF')
+    header.append('text').attr('x', 28).attr('y', 30).attr('text-anchor', 'middle')
+      .attr('font-size', '16px').attr('fill', '#fff').text('▥')
+
+    header.append('text').attr('x', 52).attr('y', 22)
+      .attr('font-size', '14px').attr('font-weight', '800').attr('fill', '#FFFFFF').attr('letter-spacing', '0.5')
+      .text('APPILICO')
+    header.append('text').attr('x', 52).attr('y', 38)
+      .attr('font-size', '10px').attr('fill', '#00D4FF').attr('letter-spacing', '2')
+      .text('MINE PRODUCTION')
+
+    // Summary KPIs in header
+    if (this.data && this.data.points.length > 0) {
+      const totalActual = this.data.points.reduce((s, p) => s + p.actualTonnes, 0)
+      const aboveCount = this.data.points.filter(p => p.variance !== undefined && p.variance >= 0).length
+      const pctOnTarget = this.data.points.length > 0 ? (aboveCount / this.data.points.length * 100) : 0
+
+      header.append('text').attr('x', width - 16).attr('y', 18).attr('text-anchor', 'end')
+        .attr('font-size', '10px').attr('fill', 'rgba(255,255,255,0.6)')
+        .text('Total Production')
+      header.append('text').attr('x', width - 16).attr('y', 34).attr('text-anchor', 'end')
+        .attr('font-size', '15px').attr('font-weight', '800').attr('fill', '#FFFFFF')
+        .text(`${(totalActual / 1000).toFixed(1)}kt`)
+
+      header.append('text').attr('x', width - 110).attr('y', 18).attr('text-anchor', 'end')
+        .attr('font-size', '10px').attr('fill', 'rgba(255,255,255,0.6)')
+        .text('On Target')
+      header.append('text').attr('x', width - 110).attr('y', 34).attr('text-anchor', 'end')
+        .attr('font-size', '15px').attr('font-weight', '800').attr('fill', pctOnTarget >= 80 ? '#00B050' : pctOnTarget >= 60 ? '#E07A1F' : '#C00000')
+        .text(`${pctOnTarget.toFixed(0)}%`)
+    }
+  }
+
+  private renderCumulativeLine(
+    xScale: d3.ScaleBand<string>,
+    yScale: d3.ScaleLinear<number, number>,
+    width: number,
+    height: number
+  ): void {
+    if (!this.data || this.data.points.length < 2) return
+
+    // Calculate cumulative tonnage
+    let cumulative = 0
+    const cumData = this.data.points.map(p => {
+      cumulative += p.actualTonnes
+      return { label: p.shiftLabel, cumulative }
+    })
+
+    // Secondary Y-axis for cumulative
+    const cumMax = cumData[cumData.length - 1].cumulative * 1.1
+    const cumYScale = d3.scaleLinear().domain([0, cumMax]).range([height, 0])
+
+    // Right axis
+    const rightAxis = this.mainGroup.append('g')
+      .attr('transform', `translate(${width}, 0)`)
+      .call(d3.axisRight(cumYScale).ticks(4).tickFormat(d => `${((d as number) / 1000).toFixed(0)}kt`))
+    rightAxis.selectAll('text').style('font-size', '8px').style('fill', '#7B61FF')
+    rightAxis.select('.domain').attr('stroke', '#7B61FF').attr('opacity', 0.3)
+    rightAxis.selectAll('.tick line').attr('stroke', '#7B61FF').attr('opacity', 0.2)
+
+    // Cumulative line
+    const lineGen = d3.line<{ label: string; cumulative: number }>()
+      .x(d => (xScale(d.label) || 0) + xScale.bandwidth() / 2)
+      .y(d => cumYScale(d.cumulative))
+      .curve(d3.curveMonotoneX)
+
+    this.mainGroup.append('path')
+      .datum(cumData)
+      .attr('fill', 'none')
+      .attr('stroke', '#7B61FF')
+      .attr('stroke-width', 2)
+      .attr('stroke-dasharray', '6,3')
+      .attr('d', lineGen as any)
+
+    // Dots
+    cumData.forEach(d => {
+      this.mainGroup.append('circle')
+        .attr('cx', (xScale(d.label) || 0) + xScale.bandwidth() / 2)
+        .attr('cy', cumYScale(d.cumulative))
+        .attr('r', 3).attr('fill', '#7B61FF').attr('stroke', '#fff').attr('stroke-width', 1.5)
+    })
+
+    // End label
+    const last = cumData[cumData.length - 1]
+    this.mainGroup.append('text')
+      .attr('x', (xScale(last.label) || 0) + xScale.bandwidth() / 2 + 8)
+      .attr('y', cumYScale(last.cumulative) + 3)
+      .style('font-size', '9px').style('font-weight', '700').style('fill', '#7B61FF')
+      .text(`${(last.cumulative / 1000).toFixed(1)}kt`)
   }
 
   private renderGridLines(

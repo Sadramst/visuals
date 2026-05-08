@@ -1,0 +1,26 @@
+{
+    "visual":  {
+                   "name":  "executiveCockpit",
+                   "displayName":  "Executive Cockpit",
+                   "guid":  "appilicoExecutiveCockpit",
+                   "visualClassName":  "ExecutiveCockpitVisual",
+                   "version":  "1.0.0.0",
+                   "description":  "Single-pane CEO/COO view — 6 hero KPIs, site map, risk alerts, AI Q\u0026A",
+                   "supportUrl":  "https://www.appilico.com/support",
+                   "gitHubUrl":  "https://github.com/appilico/appilico-visuals"
+               },
+    "apiVersion":  "5.8.0",
+    "author":  {
+                   "name":  "Appilico",
+                   "email":  "support@appilico.com"
+               },
+    "assets":  {
+                   "icon":  "assets/icon.png"
+               },
+    "style":  "style/visual.less",
+    "capabilities":  "capabilities.json",
+    "dependencies":  null,
+    "stringResources":  [
+
+                        ]
+}

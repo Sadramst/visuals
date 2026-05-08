@@ -1,0 +1,6 @@
+material_id,material_name,site_id,site_name,state,latitude,longitude,grade_unit
+MAT-PIL-01,Iron Ore,PIL-01,Pilbara Iron Hub,WA,-22.3,118.82,Fe%
+MAT-BOW-01,Coal,BOW-01,Bowen Basin Coal,QLD,-22.08,148.05,CV MJ/kg
+MAT-KAL-01,Gold,KAL-01,Kalgoorlie Gold,WA,-30.75,121.47,Au g/t
+MAT-MIS-01,Copper,MIS-01,Mt Isa Copper,QLD,-20.73,139.49,Cu%
+MAT-HUN-01,Coal,HUN-01,Hunter Valley Coal,NSW,-32.28,150.89,CV MJ/kg

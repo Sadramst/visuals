@@ -1,0 +1,26 @@
+{
+    "visual":  {
+                   "name":  "energyEmissions",
+                   "displayName":  "Energy \u0026 Emissions",
+                   "guid":  "appilicoEnergyEmissions",
+                   "visualClassName":  "EnergyEmissionsVisual",
+                   "version":  "1.0.0.0",
+                   "description":  "Scope 1/2/3 breakdown, intensity curves, NGER compliance tracker",
+                   "supportUrl":  "https://www.appilico.com/support",
+                   "gitHubUrl":  "https://github.com/appilico/appilico-visuals"
+               },
+    "apiVersion":  "5.8.0",
+    "author":  {
+                   "name":  "Appilico",
+                   "email":  "support@appilico.com"
+               },
+    "assets":  {
+                   "icon":  "assets/icon.png"
+               },
+    "style":  "style/visual.less",
+    "capabilities":  "capabilities.json",
+    "dependencies":  null,
+    "stringResources":  [
+
+                        ]
+}
