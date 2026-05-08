@@ -17,7 +17,7 @@ export class EquipmentHeatmapVisual implements IVisual {
   private container: d3.Selection<SVGGElement, unknown, null, undefined>
   private settings: VisualSettings
 
-  private readonly margin = { top: 40, right: 20, bottom: 30, left: 100 }
+  private readonly margin = { top: 68, right: 20, bottom: 30, left: 100 }
 
   constructor(options: VisualConstructorOptions) {
     this.host = options.host
@@ -29,7 +29,6 @@ export class EquipmentHeatmapVisual implements IVisual {
 
     this.container = this.svg.append('g')
       .classed('container', true)
-      .attr('transform', `translate(${this.margin.left},${this.margin.top})`)
   }
 
   public update(options: VisualUpdateOptions): void {
@@ -47,6 +46,9 @@ export class EquipmentHeatmapVisual implements IVisual {
     this.svg
       .attr('width', viewWidth)
       .attr('height', height)
+
+    // Render header
+    this.renderHeader(viewWidth)
 
     this.render(viewModel, viewWidth - this.margin.left - this.margin.right, height - this.margin.top - this.margin.bottom)
   }
@@ -167,6 +169,9 @@ export class EquipmentHeatmapVisual implements IVisual {
       height / viewModel.equipment.length
     )
 
+    // Set container position
+    this.container.attr('transform', `translate(${this.margin.left},${this.margin.top})`)
+
     // Clear existing content
     this.container.selectAll('*').remove()
 
@@ -230,6 +235,37 @@ export class EquipmentHeatmapVisual implements IVisual {
     if (viewModel.settings.general.showLegend) {
       this.renderLegend(viewModel)
     }
+  }
+
+  private renderHeader(width: number): void {
+    // Remove old header if exists
+    this.svg.selectAll('.header').remove()
+
+    const header = this.svg.append('g').classed('header', true)
+
+    // Background
+    header.append('rect')
+      .attr('width', width)
+      .attr('height', 28)
+      .attr('fill', '#1F3864')
+
+    // Appilico branding
+    header.append('text')
+      .attr('x', 12)
+      .attr('y', 18)
+      .attr('font-size', '14px')
+      .attr('font-weight', '700')
+      .attr('fill', '#00D4FF')
+      .text('♦ Appilico')
+
+    // Title
+    header.append('text')
+      .attr('x', 120)
+      .attr('y', 18)
+      .attr('font-size', '13px')
+      .attr('font-weight', '600')
+      .attr('fill', '#FFFFFF')
+      .text('Equipment Status Monitor')
   }
 
   private renderLegend(viewModel: VisualViewModel): void {

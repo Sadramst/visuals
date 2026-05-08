@@ -28,7 +28,7 @@ export class MineProductionGanttVisual implements IVisual {
   private data: ParsedData | null = null
   private isFirstRender: boolean = true
 
-  private readonly MARGINS: Margins = { top: 40, right: 24, bottom: 70, left: 75 }
+  private readonly MARGINS: Margins = { top: 68, right: 24, bottom: 70, left: 75 }
 
   constructor(options: VisualConstructorOptions) {
     this.host = options.host
@@ -198,6 +198,9 @@ export class MineProductionGanttVisual implements IVisual {
       .attr('width', viewport.width)
       .attr('height', viewport.height)
 
+    // Render header with branding
+    this.renderHeader(viewport.width)
+
     this.mainGroup
       .attr('transform', `translate(${this.MARGINS.left},${this.MARGINS.top})`)
 
@@ -233,6 +236,34 @@ export class MineProductionGanttVisual implements IVisual {
 
     this.attachTooltips()
     this.applyTransitions()
+  }
+
+  private renderHeader(width: number): void {
+    const header = this.svg.append('g').classed('header', true)
+
+    // Background
+    header.append('rect')
+      .attr('width', width)
+      .attr('height', 28)
+      .attr('fill', '#1F3864')
+
+    // Appilico branding
+    header.append('text')
+      .attr('x', 12)
+      .attr('y', 18)
+      .attr('font-size', '14px')
+      .attr('font-weight', '700')
+      .attr('fill', '#00D4FF')
+      .text('◆ Appilico')
+
+    // Title
+    header.append('text')
+      .attr('x', 120)
+      .attr('y', 18)
+      .attr('font-size', '13px')
+      .attr('font-weight', '600')
+      .attr('fill', '#FFFFFF')
+      .text('Mine Production Schedule')
   }
 
   private renderGridLines(
@@ -347,7 +378,7 @@ export class MineProductionGanttVisual implements IVisual {
 
     const labelsGroup = this.mainGroup.append('g').classed('data-labels', true)
     const barWidth = xScale.bandwidth()
-    const minBarWidthForLabels = 35
+    const minBarWidthForLabels = 50  // Increased threshold to reduce clutter
 
     this.data.points.forEach(d => {
       const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
@@ -356,28 +387,16 @@ export class MineProductionGanttVisual implements IVisual {
       // Only show labels if bars are wide enough
       if (barWidth < minBarWidthForLabels) return
 
-      // Main value label
+      // Main value label - show above bar
+      const labelFontSize = Math.min(11, barWidth / 5)
       labelsGroup.append('text')
         .attr('x', x)
-        .attr('y', y - 5)
+        .attr('y', y - 12)  // Increased spacing from bar
         .attr('text-anchor', 'middle')
-        .attr('font-size', `${Math.min(this.settings.labels.fontSize, barWidth / 5)}px`)
-        .attr('fill', '#333')
+        .attr('font-size', `${labelFontSize}px`)
+        .attr('font-weight', '600')
+        .attr('fill', '#1F3864')
         .text(`${(d.actualTonnes / 1000).toFixed(1)}kt`)
-
-      // Variance label — only if enough space
-      if (this.settings.labels.showVariance && d.variance !== undefined && this.data?.hasTarget && barWidth >= 50) {
-        const varianceColour = d.variance >= 0 ? '#00B050' : '#C00000'
-        const varianceText = `${d.variance >= 0 ? '+' : ''}${d.variance.toFixed(1)}%`
-
-        labelsGroup.append('text')
-          .attr('x', x)
-          .attr('y', y - 18)
-          .attr('text-anchor', 'middle')
-          .attr('font-size', `${Math.min(this.settings.labels.fontSize - 1, barWidth / 6)}px`)
-          .attr('fill', varianceColour)
-          .text(varianceText)
-      }
     })
   }
 

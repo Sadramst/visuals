@@ -20,11 +20,25 @@ export class SafetyKPIVisual implements IVisual {
     this.host = options.host
     this.settings = new VisualSettings()
 
+    // Add header
+    d3.select(options.element)
+      .append('div')
+      .classed('safety-kpi-header', true)
+      .style('display', 'flex')
+      .style('align-items', 'center')
+      .style('padding', '8px 12px')
+      .style('background-color', '#1F3864')
+      .style('color', '#FFFFFF')
+      .style('font-weight', '600')
+      .style('font-size', '13px')
+      .style('gap', '10px')
+      .html('<span style="color: #00D4FF; font-size: 14px; font-weight: 700;">♦ Appilico</span><span>Safety Performance Dashboard</span>')
+
     this.container = d3.select(options.element)
       .append('div')
       .classed('safety-kpi-container', true)
       .style('width', '100%')
-      .style('height', '100%')
+      .style('height', 'calc(100% - 32px)')
       .style('overflow', 'auto')
       .style('font-family', 'Segoe UI, sans-serif')
   }

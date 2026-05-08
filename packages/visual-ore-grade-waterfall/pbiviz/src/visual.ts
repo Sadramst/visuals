@@ -17,7 +17,7 @@ export class OreGradeWaterfallVisual implements IVisual {
   private container: d3.Selection<SVGGElement, unknown, null, undefined>
   private settings: VisualSettings
 
-  private readonly margin = { top: 40, right: 30, bottom: 50, left: 60 }
+  private readonly margin = { top: 68, right: 30, bottom: 50, left: 60 }
 
   constructor(options: VisualConstructorOptions) {
     this.host = options.host
@@ -46,6 +46,9 @@ export class OreGradeWaterfallVisual implements IVisual {
     this.svg
       .attr('width', width)
       .attr('height', height)
+
+    // Render header
+    this.renderHeader(width)
 
     this.container.attr('transform', `translate(${this.margin.left},${this.margin.top})`)
 
@@ -114,6 +117,37 @@ export class OreGradeWaterfallVisual implements IVisual {
     }
 
     return { ...defaultModel, stages, isValid: stages.length > 0 }
+  }
+
+  private renderHeader(width: number): void {
+    // Remove old header if exists
+    this.svg.selectAll('.header').remove()
+
+    const header = this.svg.append('g').classed('header', true)
+
+    // Background
+    header.append('rect')
+      .attr('width', width)
+      .attr('height', 28)
+      .attr('fill', '#1F3864')
+
+    // Appilico branding
+    header.append('text')
+      .attr('x', 12)
+      .attr('y', 18)
+      .attr('font-size', '14px')
+      .attr('font-weight', '700')
+      .attr('fill', '#00D4FF')
+      .text('♦ Appilico')
+
+    // Title
+    header.append('text')
+      .attr('x', 120)
+      .attr('y', 18)
+      .attr('font-size', '13px')
+      .attr('font-weight', '600')
+      .attr('fill', '#FFFFFF')
+      .text('Ore Grade Evolution')
   }
 
   private render(viewModel: VisualViewModel, width: number, height: number): void {
