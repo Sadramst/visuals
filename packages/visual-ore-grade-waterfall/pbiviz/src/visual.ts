@@ -135,11 +135,11 @@ export class OreGradeWaterfallVisual implements IVisual {
     header.append('text')
       .attr('x', 10)
       .attr('y', 22)
-      .attr('font-size', '18px')
+      .attr('font-size', '20px')
       .attr('font-weight', '900')
       .attr('letter-spacing', '2')
       .attr('fill', '#00D4FF')
-      .text('★ APPILICO')
+      .text('◆ APPILICO')
 
     // Title
     header.append('text')

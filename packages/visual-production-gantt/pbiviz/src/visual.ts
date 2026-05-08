@@ -251,10 +251,10 @@ export class MineProductionGanttVisual implements IVisual {
     header.append('text')
       .attr('x', 12)
       .attr('y', 18)
-      .attr('font-size', '14px')
+      .attr('font-size', '16px')
       .attr('font-weight', '700')
       .attr('fill', '#00D4FF')
-      .text('◆ Appilico')
+      .text('▥ Appilico')
 
     // Title
     header.append('text')

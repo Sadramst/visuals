@@ -32,7 +32,7 @@ export class SafetyKPIVisual implements IVisual {
       .style('font-weight', '900')
       .style('font-size', '14px')
       .style('gap', '20px')
-      .html('<span style="color: #00D4FF; font-size: 18px; font-weight: 900; letter-spacing: 2px;">★ APPILICO</span><span style="font-weight: 700;">Safety Performance Dashboard</span>')
+      .html('<span style="color: #00D4FF; font-size: 20px; font-weight: 900; letter-spacing: 2px;">⚠ APPILICO</span><span style="font-weight: 700;">Safety Performance Dashboard</span>')
 
     this.container = d3.select(options.element)
       .append('div')

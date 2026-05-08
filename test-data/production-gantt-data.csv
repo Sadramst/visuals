@@ -20,3 +20,15 @@ Date,Shift,ActualTonnes,TargetTonnes,CrewName,EquipmentCount,Location
 2026-05-03,AM,14200,12000,Alpha,9,South Pit
 2026-05-03,PM,13100,12000,Bravo,8,South Pit
 2026-05-03,Night,11800,11000,Charlie,7,South Pit
+2026-05-04,AM,9500,12000,Alpha,6,East Pit
+2026-05-04,PM,8800,12000,Bravo,5,East Pit
+2026-05-04,Night,9300,11000,Charlie,5,South Pit
+2026-05-05,AM,13400,12000,Alpha,9,North Pit
+2026-05-05,PM,12800,12000,Bravo,8,North Pit
+2026-05-05,Night,11100,11000,Charlie,7,North Pit
+2026-05-06,AM,11200,12000,Alpha,7,South Pit
+2026-05-06,PM,10900,12000,Bravo,7,South Pit
+2026-05-06,Night,10700,11000,Charlie,6,East Pit
+2026-05-07,AM,13900,12000,Alpha,9,North Pit
+2026-05-07,PM,13300,12000,Bravo,8,North Pit
+2026-05-07,Night,11900,11000,Charlie,7,North Pit

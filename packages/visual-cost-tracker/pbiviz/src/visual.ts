@@ -17,7 +17,7 @@ export class CostTrackerVisual implements IVisual {
   private container: d3.Selection<SVGGElement, unknown, null, undefined>
   private settings: VisualSettings
 
-  private readonly margin = { top: 68, right: 60, bottom: 50, left: 70 }
+  private readonly margin = { top: 75, right: 60, bottom: 50, left: 70 }
 
   constructor(options: VisualConstructorOptions) {
     this.host = options.host
@@ -175,25 +175,25 @@ export class CostTrackerVisual implements IVisual {
     // Background
     header.append('rect')
       .attr('width', width)
-      .attr('height', 32)
+      .attr('height', 50)
       .attr('fill', '#0F2847')
 
     // Logo - BOLD and PROMINENT
     header.append('text')
       .attr('x', 10)
-      .attr('y', 22)
-      .attr('font-size', '18px')
+      .attr('y', 20)
+      .attr('font-size', '20px')
       .attr('font-weight', '900')
       .attr('letter-spacing', '2')
       .attr('fill', '#00D4FF')
-      .text('★ APPILICO')
+      .text('$ APPILICO')
 
     // Title
     header.append('text')
-      .attr('x', 160)
-      .attr('y', 22)
-      .attr('font-size', '15px')
-      .attr('font-weight', '700')
+      .attr('x', 10)
+      .attr('y', 40)
+      .attr('font-size', '14px')
+      .attr('font-weight', '600')
       .attr('fill', '#FFFFFF')
       .text('Monthly Cost Analysis')
   }
