@@ -383,7 +383,7 @@ export class MineProductionGanttVisual implements IVisual {
 
     this.data.points.forEach(d => {
       const x = (xScale(d.shiftLabel) || 0) + barWidth / 2
-      const y = yScale(d.actualTonnes) - 18  // Fixed distance above bar
+      const y = yScale(d.actualTonnes) - 40  // Position well above bar
 
       // Only show labels if bars are wide enough
       if (barWidth < minBarWidthForLabels) return
@@ -393,7 +393,8 @@ export class MineProductionGanttVisual implements IVisual {
         .attr('x', x)
         .attr('y', y)
         .attr('text-anchor', 'middle')
-        .attr('font-size', '12px')
+        .attr('dy', '-0.5em')
+        .attr('font-size', '13px')
         .attr('font-weight', '700')
         .attr('fill', '#00B050')
         .attr('pointer-events', 'none')
